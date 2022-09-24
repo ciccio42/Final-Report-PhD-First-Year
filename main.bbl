@@ -261,6 +261,52 @@ N.~Das, S.~Bechtle, T.~Davchev, D.~Jayaraman, A.~Rai, and F.~Meier,
 J.~Ho and S.~Ermon, ``Generative adversarial imitation learning,'' {\em
   Advances in neural information processing systems}, vol.~29, 2016.
 
+\bibitem{kostrikov2018discriminator}
+I.~Kostrikov, K.~K. Agrawal, D.~Dwibedi, S.~Levine, and J.~Tompson,
+  ``Discriminator-actor-critic: Addressing sample inefficiency and reward bias
+  in adversarial imitation learning,'' in {\em International Conference on
+  Learning Representations}, 2018.
+
+\bibitem{fu2018airl}
+J.~Fu, K.~Luo, and S.~Levine, ``Learning robust rewards with adverserial
+  inverse reinforcement learning,'' in {\em International Conference on
+  Learning Representations}, 2018.
+
+\bibitem{ghasemipour2020divergence_minimization_perspective}
+S.~K.~S. Ghasemipour, R.~Zemel, and S.~Gu, ``A divergence minimization
+  perspective on imitation learning methods,'' in {\em Conference on Robot
+  Learning}, pp.~1259--1277, PMLR, 2020.
+
+\bibitem{schulman2015trpo}
+J.~Schulman, S.~Levine, P.~Abbeel, M.~Jordan, and P.~Moritz, ``Trust region
+  policy optimization,'' in {\em International conference on machine learning},
+  pp.~1889--1897, PMLR, 2015.
+
+\bibitem{brockman2016openai}
+G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and
+  W.~Zaremba, ``Openai gym,'' {\em arXiv preprint arXiv:1606.01540}, 2016.
+
+\bibitem{liu2018imitation_from_observation}
+Y.~Liu, A.~Gupta, P.~Abbeel, and S.~Levine, ``Imitation from observation:
+  Learning to imitate behaviors from raw video via context translation,'' in
+  {\em 2018 IEEE International Conference on Robotics and Automation (ICRA)},
+  pp.~1118--1125, IEEE, 2018.
+
+\bibitem{reddy2019sqil}
+S.~Reddy, A.~D. Dragan, and S.~Levine, ``Sqil: Imitation learning via
+  reinforcement learning with sparse rewards,'' in {\em International
+  Conference on Learning Representations}, 2019.
+
+\bibitem{zolna2021task_relevant_ail}
+K.~Zolna, S.~Reed, A.~Novikov, S.~G. Colmenarejo, D.~Budden, S.~Cabi, M.~Denil,
+  N.~de~Freitas, and Z.~Wang, ``Task-relevant adversarial imitation learning,''
+  in {\em Conference on Robot Learning}, pp.~247--263, PMLR, 2021.
+
+\bibitem{rafailov2021visual_ail}
+R.~Rafailov, T.~Yu, A.~Rajeswaran, and C.~Finn, ``Visual adversarial imitation
+  learning using variational models,'' {\em Advances in Neural Information
+  Processing Systems}, vol.~34, pp.~3016--3028, 2021.
+
 \bibitem{smith2019avid}
 L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
   multi-stage tasks via pixel-level translation of human videos,'' {\em arXiv
@@ -304,12 +350,6 @@ P.~Sermanet, C.~Lynch, Y.~Chebotar, J.~Hsu, E.~Jang, S.~Schaal, S.~Levine, and
   in {\em 2018 IEEE international conference on robotics and automation
   (ICRA)}, pp.~1134--1141, IEEE, 2018.
 
-\bibitem{liu2018imitation_from_observation}
-Y.~Liu, A.~Gupta, P.~Abbeel, and S.~Levine, ``Imitation from observation:
-  Learning to imitate behaviors from raw video via context translation,'' in
-  {\em 2018 IEEE International Conference on Robotics and Automation (ICRA)},
-  pp.~1118--1125, IEEE, 2018.
-
 \bibitem{schroff2015triplet_loss}
 F.~Schroff, D.~Kalenichenko, and J.~Philbin, ``Facenet: A unified embedding for
   face recognition and clustering,'' in {\em Proceedings of the IEEE conference
@@ -324,19 +364,10 @@ J.~Merel, Y.~Tassa, D.~TB, S.~Srinivasan, J.~Lemmon, Z.~Wang, G.~Wayne, and
 F.~Torabi, G.~Warnell, and P.~Stone, ``Generative adversarial imitation from
   observation,'' {\em arXiv preprint arXiv:1807.06158}, 2018.
 
-\bibitem{brockman2016openai}
-G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and
-  W.~Zaremba, ``Openai gym,'' {\em arXiv preprint arXiv:1606.01540}, 2016.
-
 \bibitem{torabi2018bco}
 F.~Torabi, G.~Warnell, and P.~Stone, ``Behavioral cloning from observation,''
   in {\em Proceedings of the 27th International Joint Conference on Artificial
   Intelligence}, pp.~4950--4957, 2018.
-
-\bibitem{schulman2015trpo}
-J.~Schulman, S.~Levine, P.~Abbeel, M.~Jordan, and P.~Moritz, ``Trust region
-  policy optimization,'' in {\em International conference on machine learning},
-  pp.~1889--1897, PMLR, 2015.
 
 \bibitem{torabi2021dealio}
 F.~Torabi, G.~Warnell, and P.~Stone, ``Dealio: Data-efficient adversarial
