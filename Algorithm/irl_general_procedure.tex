@@ -1,0 +1,15 @@
+\begin{algorithm}
+\caption{Classic feature matching IRL algorithm}
+\label{alg:irl}
+\begin{algorithmic}
+\label{alg:irl_algorithm}
+\Require Dataset of expert trajectories $D = \left \{ \boldsymbol{\tau}^{E}_{i} \right \}^{N}_{i=1}$ 
+\Require Reward function $R_{\omega}$, policy $\pi^{L}_{\theta}$ 
+\While {policy improves}
+    \State Evaluate the state-action visitation frequency $\mu$ of the current policy $\pi^{L}_{\theta}$
+    \State Evaluate the objective function $\mathcal{L}$, w.r.t. $\mu$ and the dataset $D$
+    \State Update the reward-function parameters $\omega$ based on $\mathcal{L}$
+    \State Update the policy $\pi^{L}_{\theta}$ through a RL algorithm, using the updated $r_{\omega}$
+\EndWhile
+\end{algorithmic}
+\end{algorithm}

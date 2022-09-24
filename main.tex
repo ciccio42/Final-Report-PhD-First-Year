@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University Assignment Title Page 
+% LaTeX Template
+% Version 1.0 (27/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+% Instructions for using this template:
+% This title page is capable of being compiled as is. This is not useful for 
+% including it in another document. To do this, you have two options: 
+%
+% 1) Copy/paste everything between \begin{document} and \end{document} 
+% starting at \begin{titlepage} and paste this into another LaTeX file where you 
+% want your title page.
+% OR
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Title page with logo}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, a4paper]{report}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage[version=4]{mhchem}
+\graphicspath{{Figures/}}
+\setcounter{secnumdepth}{2} % set dept of numeration in section (1.1.1)
+\setcounter{tocdepth}{2} % set dept of section to show in table of contents
+\usepackage{indentfirst}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{tabu}
+\usepackage{subfiles}
+\usepackage{blindtext}
+\usepackage{float}
+\usepackage{dirtree}
+\usepackage[left=3cm,right=3cm,top=3cm]{geometry} % set the margin
+\usepackage{changepage}
+\usepackage{fancyhdr}
+\usepackage{dirtytalk}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage[absolute,overlay]{textpos}
+\captionsetup[figure]{labelfont=it,textfont={it}}
+% \usepackage{enumitem}
+\usepackage[inline]{enumitem}
+\usepackage{array}
+\usepackage{comment}
+\usepackage{diagbox}
+\usepackage{multirow}
+%\renewcommand{\baselinestretch}{1.5} % set interline
+\pagestyle{fancy}
+\fancyhf{}
+%\rhead{\rightmark}
+\chead{\leftmark}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\usepackage{color,soul}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amssymb}
+\usepackage{colortbl}
+\usepackage{titlesec}
+\usepackage{algorithmicx}
+\usepackage{algorithm} % http://ctan.org/pkg/algorithms
+\usepackage{amsthm, amssymb}
+\newtheorem{prop}{Proposition}
+\titleformat
+{\chapter} % command
+[display] % shape
+{\scshape\huge} % format
+{Chapter \ \thechapter} % label
+{0.5ex} % sep
+{
+    \rule{\textwidth}{2pt}
+    \vspace{-0.5ex}
+    \centering
+} % before-code
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.7pt}
+] % after-code
+\setlength{\headheight}{15pt}
+\begin{document}
+
+\bibliographystyle{ieeetr}
+
+\input{Chapters/title_page/title_page}
+
+\input{Chapters/0_overview/0_overview}
+
+\input{Chapters/1_background/1_background}
+
+\input{Chapters/2_research_plan/2_research_plan}
+
+\input{Chapters/4_other_activities/4_Other_activities}
+\clearpage
+
+\bibliography{bibliography.bib}
+\addcontentsline{toc}{chapter}{Bibliography}
+
+\clearpage
+
+\end{document}

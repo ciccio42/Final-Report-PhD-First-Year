@@ -1,0 +1,27 @@
+\subsection{Problem Definition}
+\label{sec:problem_formulation}
+Imitation Learning aims to obtain an agent that can replicate the behavior demonstrated by an expert agent. The behavior is described by a \textbf{policy}, where $\pi^{L}$ defines the learned policy, while $\pi^{E}$ defines the expert policy.
+\newline The policy $\pi^{L}$ is obtained starting from a dataset $D=\left \{ \left ( \boldsymbol{\tau}_{i}, \boldsymbol{c}_{i}\right ) \right \}_{i}^{N}$, where:
+\begin{itemize}
+    \item $\boldsymbol{\tau}_{i}$ is the $i^{th}$ demonstrated trajectory, which can be described as:
+        \begin{itemize}
+            \item A state-action sequence, i.e. $\boldsymbol{\tau}_{i} = [s_{0}, a_{0}, \dots, s_{T}, a_{T}]$.
+            \item A state sequence, i.e. $\boldsymbol{\tau}_{i} = [s_{0}, \dots, s_{T}]$.
+        \end{itemize}    
+    \item $\boldsymbol{c}_{i}$ is the \textit{context-vector}, it contains task-related information, e.g. the initial state of the system $s_{0}$, or the position of the target position.
+\end{itemize}
+The policy $\pi^{L}$ can be defined with respect to different abstraction levels \cite{fang2019survey,osa2018algorithmic}:   
+\begin{enumerate*}[label=(\textbf{\alph*})]
+    \item \textit{Symbolic Characterization}, used in \cite{}, the policy maps states, and context to a sequence of options, i.e. $\pi: \textbf{s}_{t}, \textbf{c} \rightarrow [o_1, \dots, o_T]$, where each option is a sequence of actions. With this representation, complex tasks can be decomposed into a sequence of simple movements. However, it is hard to achieve an accurate task segmentation and motion ordering.
+    \item \textit{Trajectory Characterization}, used in \cite{}, the policy maps contexts to trajectory, i.e. $\pi: \mathbf{c} \rightarrow \boldsymbol{\tau}$. Since it allows to map initial state to a complete sequence of actions, this representation can be used to obtain the options in the Symbolic Representation. However, they need as many dynamic features as possible, that can be difficult to obtain.
+    \item \textit{State-Action Characterization}, used in \cite{}, the policy maps states(-context) to actions, i.e. $\pi: \textbf{s}_{t}, \textbf{c} \rightarrow a_{t}$. This representation allows a direct mapping between current state and the corresponding action. However, it is easy to accumulate errors in long-term process.
+\end{enumerate*} 
+The agent, by means of its policy $\pi$, acts on a system, which is modeled as a \textit{Markov Decision Process} (MDP) \cite{kroemer2021review_robot_learning}. A MDP is defined as a tuple $(S,A,R,T,\gamma)$, where:
+\begin{itemize}
+    \item $S \subseteq \mathbb{R}^{n}$, is a set of states (e.g. joints position \cite{} and/or image \cite{}).
+    \item $A \subseteq \mathbb{R}^{n}$, is a set of actions, (e.g. desired end-effector position \cite{}, desired joints torque \cite{}).
+    \item $R(s,a,s')$, is a \textit{reward function}, which expresses the immediate reward for executing action $a$ in state $s$, and transitioning to state $s'$.
+    \item $T(s'|s,a)$ is a \textit{transition function}, which defines the probability to reach the state $s'$, after the execution of action $a$ in state $s$. This distribution, which describe the \textit{system dynamic}, that can be given a priori or learned (Model-Based \cite{}), or do not taken into account (Model-Free \cite{}).
+    \item $\gamma \in [0,1]$, is a discount factor expressing the agent's preference for immediate over future rewards.
+\end{itemize}
+With respect to the MDP definition, in BC methods the reward function is not implicitly used, but a surrogate loss-function is used. In IRL the reward function is learned, assuming that the expert acts (near-)optimal w.r.t. some unknown reward function that has to be learned. In GAIL and LfO, the rule played by the reward function is different based on the specific method, as will be explained in Section \ref{sec:methods}.

@@ -1,0 +1,393 @@
+\begin{thebibliography}{10}
+
+\bibitem{pepper}
+{Softbank Robotics}, ``Pepper robot.''
+
+\bibitem{panda}
+{Franka Emika}, ``Franka emika panda robot.''
+
+\bibitem{kalashnikov2018qt_opt}
+D.~Kalashnikov, A.~Irpan, P.~Pastor, J.~Ibarz, A.~Herzog, E.~Jang, D.~Quillen,
+  E.~Holly, M.~Kalakrishnan, V.~Vanhoucke, {\em et~al.}, ``Scalable deep
+  reinforcement learning for vision-based robotic manipulation,'' in {\em
+  Conference on Robot Learning}, pp.~651--673, PMLR, 2018.
+
+\bibitem{anne2021meta_learning_fast_adaptive}
+T.~Anne, J.~Wilkinson, and Z.~Li, ``Meta-learning for fast adaptive locomotion
+  with uncertainties in environments and robot dynamics,'' in {\em 2021
+  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pp.~4568--4575, IEEE, 2021.
+
+\bibitem{jang2022bc_z}
+E.~Jang, A.~Irpan, M.~Khansari, D.~Kappler, F.~Ebert, C.~Lynch, S.~Levine, and
+  C.~Finn, ``Bc-z: Zero-shot task generalization with robotic imitation
+  learning,'' in {\em Conference on Robot Learning}, pp.~991--1002, PMLR, 2022.
+
+\bibitem{hafner2011reinforcement_in_feedback_controll}
+R.~Hafner and M.~Riedmiller, ``Reinforcement learning in feedback control,''
+  {\em Machine learning}, vol.~84, no.~1, pp.~137--169, 2011.
+
+\bibitem{sutton2018reinforcement}
+R.~S. Sutton and A.~G. Barto, {\em Reinforcement learning: An introduction}.
+\newblock MIT press, 2018.
+
+\bibitem{argall2009robot_learning_from_demonstration}
+B.~D. Argall, S.~Chernova, M.~Veloso, and B.~Browning, ``A survey of robot
+  learning from demonstration,'' {\em Robotics and autonomous systems},
+  vol.~57, no.~5, pp.~469--483, 2009.
+
+\bibitem{kaelbling1996reinforcement_survey}
+L.~P. Kaelbling, M.~L. Littman, and A.~W. Moore, ``Reinforcement learning: A
+  survey,'' {\em Journal of artificial intelligence research}, vol.~4,
+  pp.~237--285, 1996.
+
+\bibitem{osa2018algorithmic}
+T.~Osa, J.~Pajarinen, G.~Neumann, J.~A. Bagnell, P.~Abbeel, J.~Peters, {\em
+  et~al.}, ``An algorithmic perspective on imitation learning,'' {\em
+  Foundations and Trends{\textregistered} in Robotics}, vol.~7, no.~1-2,
+  pp.~1--179, 2018.
+
+\bibitem{james2013introduction_to_sl}
+G.~James, D.~Witten, T.~Hastie, and R.~Tibshirani, {\em An introduction to
+  statistical learning}, vol.~112.
+\newblock Springer, 2013.
+
+\bibitem{cortes1995support}
+C.~Cortes and V.~Vapnik, ``Support-vector networks,'' {\em Machine learning},
+  vol.~20, no.~3, pp.~273--297, 1995.
+
+\bibitem{kullback1951information}
+S.~Kullback and R.~A. Leibler, ``On information and sufficiency,'' {\em The
+  annals of mathematical statistics}, vol.~22, no.~1, pp.~79--86, 1951.
+
+\bibitem{levine202rl_tutorial}
+S.~Levine, A.~Kumar, G.~Tucker, and J.~Fu, ``Offline reinforcement learning:
+  Tutorial, review, and perspectives on open problems,'' {\em arXiv preprint
+  arXiv:2005.01643}, 2020.
+
+\bibitem{hussein2017imitation_learning_survey}
+A.~Hussein, M.~M. Gaber, E.~Elyan, and C.~Jayne, ``Imitation learning: A survey
+  of learning methods,'' {\em ACM Computing Surveys (CSUR)}, vol.~50, no.~2,
+  pp.~1--35, 2017.
+
+\bibitem{torabi2019recent_advances_lfo}
+F.~Torabi, G.~Warnell, and P.~Stone, ``Recent advances in imitation learning
+  from observation,'' in {\em Proceedings of the Twenty-Eighth International
+  Joint Conference on Artificial Intelligence, {IJCAI-19}}, pp.~6325--6331,
+  International Joint Conferences on Artificial Intelligence Organization, 7
+  2019.
+
+\bibitem{codevilla2018end_to_end}
+F.~Codevilla, M.~M{\"u}ller, A.~L{\'o}pez, V.~Koltun, and A.~Dosovitskiy,
+  ``End-to-end driving via conditional imitation learning,'' in {\em 2018 IEEE
+  international conference on robotics and automation (ICRA)}, pp.~4693--4700,
+  IEEE, 2018.
+
+\bibitem{zhang2018deep}
+T.~Zhang, Z.~McCarthy, O.~Jow, D.~Lee, X.~Chen, K.~Goldberg, and P.~Abbeel,
+  ``Deep imitation learning for complex manipulation tasks from virtual reality
+  teleoperation,'' in {\em 2018 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pp.~5628--5635, IEEE, 2018.
+
+\bibitem{maeda2017probabilistic}
+G.~J. Maeda, G.~Neumann, M.~Ewerton, R.~Lioutikov, O.~Kroemer, and J.~Peters,
+  ``Probabilistic movement primitives for coordination of multiple human--robot
+  collaborative tasks,'' {\em Autonomous Robots}, vol.~41, no.~3, pp.~593--612,
+  2017.
+
+\bibitem{fang2019survey}
+B.~Fang, S.~Jia, D.~Guo, M.~Xu, S.~Wen, and F.~Sun, ``Survey of imitation
+  learning for robotic manipulation,'' {\em International Journal of
+  Intelligent Robotics and Applications}, vol.~3, no.~4, pp.~362--369, 2019.
+
+\bibitem{kroemer2021review_robot_learning}
+O.~Kroemer, S.~Niekum, and G.~Konidaris, ``A review of robot learning for
+  manipulation: Challenges, representations, and algorithms,'' {\em The Journal
+  of Machine Learning Research}, vol.~22, no.~1, pp.~1395--1476, 2021.
+
+\bibitem{mandlekar2018roboturk}
+A.~Mandlekar, Y.~Zhu, A.~Garg, J.~Booher, M.~Spero, A.~Tung, J.~Gao, J.~Emmons,
+  A.~Gupta, E.~Orbay, {\em et~al.}, ``Roboturk: A crowdsourcing platform for
+  robotic skill learning through imitation,'' in {\em Conference on Robot
+  Learning}, pp.~879--893, PMLR, 2018.
+
+\bibitem{mandlekar2019scaling}
+A.~Mandlekar, J.~Booher, M.~Spero, A.~Tung, A.~Gupta, Y.~Zhu, A.~Garg,
+  S.~Savarese, and L.~Fei-Fei, ``Scaling robot supervision to hundreds of hours
+  with roboturk: Robotic manipulation dataset through human reasoning and
+  dexterity,'' in {\em 2019 IEEE/RSJ International Conference on Intelligent
+  Robots and Systems (IROS)}, pp.~1048--1055, IEEE, 2019.
+
+\bibitem{mandlekar2022matters}
+A.~Mandlekar, D.~Xu, J.~Wong, S.~Nasiriany, C.~Wang, R.~Kulkarni, L.~Fei-Fei,
+  S.~Savarese, Y.~Zhu, and R.~Mart{\'\i}n-Mart{\'\i}n, ``What matters in
+  learning from offline human demonstrations for robot manipulation,'' in {\em
+  Conference on Robot Learning}, pp.~1678--1690, PMLR, 2022.
+
+\bibitem{johns2021coarse_to_fine}
+E.~Johns, ``Coarse-to-fine imitation learning: Robot manipulation from a single
+  demonstration,'' in {\em 2021 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pp.~4613--4619, IEEE, 2021.
+
+\bibitem{zhang2018deep_vr_teleoperation}
+T.~Zhang, Z.~McCarthy, O.~Jow, D.~Lee, X.~Chen, K.~Goldberg, and P.~Abbeel,
+  ``Deep imitation learning for complex manipulation tasks from virtual reality
+  teleoperation,'' in {\em 2018 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pp.~5628--5635, IEEE, 2018.
+
+\bibitem{zheng2021imitation_progress_taxonomies_opportunities}
+B.~Zheng, S.~Verma, J.~Zhou, I.~Tsang, and F.~Chen, ``Imitation learning:
+  Progress, taxonomies and opportunities,'' {\em arXiv preprint
+  arXiv:2106.12177}, 2021.
+
+\bibitem{ijspeert2002learning}
+A.~Ijspeert, J.~Nakanishi, and S.~Schaal, ``Learning attractor landscapes for
+  learning motor primitives,'' {\em Advances in neural information processing
+  systems}, vol.~15, 2002.
+
+\bibitem{ijspeert2013dynamical}
+A.~J. Ijspeert, J.~Nakanishi, H.~Hoffmann, P.~Pastor, and S.~Schaal,
+  ``Dynamical movement primitives: learning attractor models for motor
+  behaviors,'' {\em Neural computation}, vol.~25, no.~2, pp.~328--373, 2013.
+
+\bibitem{pomerleau1988alvinn}
+D.~A. Pomerleau, ``Alvinn: An autonomous land vehicle in a neural network,''
+  {\em Advances in neural information processing systems}, vol.~1, 1988.
+
+\bibitem{ross2010efficient_reductions}
+S.~Ross and D.~Bagnell, ``Efficient reductions for imitation learning,'' in
+  {\em Proceedings of the thirteenth international conference on artificial
+  intelligence and statistics}, pp.~661--668, JMLR Workshop and Conference
+  Proceedings, 2010.
+
+\bibitem{ross2011dagger}
+S.~Ross, G.~Gordon, and D.~Bagnell, ``A reduction of imitation learning and
+  structured prediction to no-regret online learning,'' in {\em Proceedings of
+  the fourteenth international conference on artificial intelligence and
+  statistics}, pp.~627--635, JMLR Workshop and Conference Proceedings, 2011.
+
+\bibitem{laskey2017comparing_hc_rc}
+M.~Laskey, C.~Chuck, J.~Lee, J.~Mahler, S.~Krishnan, K.~Jamieson, A.~Dragan,
+  and K.~Goldberg, ``Comparing human-centric and robot-centric sampling for
+  robot deep learning from demonstrations,'' in {\em 2017 IEEE International
+  Conference on Robotics and Automation (ICRA)}, pp.~358--365, IEEE, 2017.
+
+\bibitem{kelly2019hg_dagger}
+M.~Kelly, C.~Sidrane, K.~Driggs-Campbell, and M.~J. Kochenderfer, ``Hg-dagger:
+  Interactive imitation learning with human experts,'' in {\em 2019
+  International Conference on Robotics and Automation (ICRA)}, pp.~8077--8083,
+  IEEE, 2019.
+
+\bibitem{mandlekar2020human_in_the_loop}
+A.~Mandlekar, D.~Xu, R.~Mart{\'\i}n-Mart{\'\i}n, Y.~Zhu, L.~Fei-Fei, and
+  S.~Savarese, ``Human-in-the-loop imitation learning using remote
+  teleoperation,'' {\em arXiv preprint arXiv:2012.06733}, 2020.
+
+\bibitem{chisari2022correct}
+E.~Chisari, T.~Welschehold, J.~Boedecker, W.~Burgard, and A.~Valada, ``Correct
+  me if i am wrong: Interactive learning for robotic manipulation,'' {\em IEEE
+  Robotics and Automation Letters}, vol.~7, no.~2, pp.~3695--3702, 2022.
+
+\bibitem{finn2017maml}
+C.~Finn, P.~Abbeel, and S.~Levine, ``Model-agnostic meta-learning for fast
+  adaptation of deep networks,'' in {\em International conference on machine
+  learning}, pp.~1126--1135, PMLR, 2017.
+
+\bibitem{finn2017one_shot_visual_il}
+C.~Finn, T.~Yu, T.~Zhang, P.~Abbeel, and S.~Levine, ``One-shot visual imitation
+  learning via meta-learning,'' in {\em Conference on robot learning},
+  pp.~357--368, PMLR, 2017.
+
+\bibitem{yu2018daml}
+T.~Yu, C.~Finn, A.~Xie, S.~Dasari, T.~Zhang, P.~Abbeel, and S.~Levine,
+  ``One-shot imitation from observing humans via domain-adaptive
+  meta-learning,'' {\em arXiv preprint arXiv:1802.01557}, 2018.
+
+\bibitem{yu2018one_shot_hil}
+T.~Yu, P.~Abbeel, S.~Levine, and C.~Finn, ``One-shot hierarchical imitation
+  learning of compound visuomotor tasks,'' {\em arXiv preprint
+  arXiv:1810.11043}, 2018.
+
+\bibitem{duan2017one_shot_il}
+Y.~Duan, M.~Andrychowicz, B.~Stadie, O.~Jonathan~Ho, J.~Schneider,
+  I.~Sutskever, P.~Abbeel, and W.~Zaremba, ``One-shot imitation learning,''
+  {\em Advances in neural information processing systems}, vol.~30, 2017.
+
+\bibitem{mandi2022towards_more_generalizable_one_shot}
+Z.~Mandi, F.~Liu, K.~Lee, and P.~Abbeel, ``Towards more generalizable one-shot
+  visual imitation learning,'' in {\em 2022 International Conference on
+  Robotics and Automation (ICRA)}, pp.~2434--2444, IEEE, 2022.
+
+\bibitem{abbeel2004apprenticeship}
+P.~Abbeel and A.~Y. Ng, ``Apprenticeship learning via inverse reinforcement
+  learning,'' in {\em Proceedings of the twenty-first international conference
+  on Machine learning}, p.~1, 2004.
+
+\bibitem{ratliff2006maximum_margin}
+N.~D. Ratliff, J.~A. Bagnell, and M.~A. Zinkevich, ``Maximum margin planning,''
+  in {\em Proceedings of the 23rd international conference on Machine
+  learning}, pp.~729--736, 2006.
+
+\bibitem{ziebart2008maximum_entropy}
+B.~D. Ziebart, A.~L. Maas, J.~A. Bagnell, A.~K. Dey, {\em et~al.}, ``Maximum
+  entropy inverse reinforcement learning.,'' in {\em Aaai}, vol.~8,
+  pp.~1433--1438, Chicago, IL, USA, 2008.
+
+\bibitem{ratliff2009learning_to_search}
+N.~D. Ratliff, D.~Silver, and J.~A. Bagnell, ``Learning to search: Functional
+  gradient techniques for imitation learning,'' {\em Autonomous Robots},
+  vol.~27, no.~1, pp.~25--53, 2009.
+
+\bibitem{wulfmeier2015deep_inverse_rl}
+M.~Wulfmeier, P.~Ondruska, and I.~Posner, ``Maximum entropy deep inverse
+  reinforcement learning,'' {\em arXiv preprint arXiv:1507.04888}, 2015.
+
+\bibitem{finn2016guided_cost_learning}
+C.~Finn, S.~Levine, and P.~Abbeel, ``Guided cost learning: Deep inverse optimal
+  control via policy optimization,'' in {\em International conference on
+  machine learning}, pp.~49--58, PMLR, 2016.
+
+\bibitem{levine2014lqr_flm}
+S.~Levine and P.~Abbeel, ``Learning neural network policies with guided policy
+  search under unknown dynamics,'' {\em Advances in neural information
+  processing systems}, vol.~27, 2014.
+
+\bibitem{das2021model_based_irl_from_vd}
+N.~Das, S.~Bechtle, T.~Davchev, D.~Jayaraman, A.~Rai, and F.~Meier,
+  ``Model-based inverse reinforcement learning from visual demonstrations,'' in
+  {\em Conference on Robot Learning}, pp.~1930--1942, PMLR, 2021.
+
+\bibitem{smith2019avid}
+L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
+  multi-stage tasks via pixel-level translation of human videos,'' {\em arXiv
+  preprint arXiv:1912.04443}, 2019.
+
+\bibitem{xiong2021learning_by_watching}
+H.~Xiong, Q.~Li, Y.-C. Chen, H.~Bharadhwaj, S.~Sinha, and A.~Garg, ``Learning
+  by watching: Physical imitation of manipulation skills from human videos,''
+  in {\em 2021 IEEE/RSJ International Conference on Intelligent Robots and
+  Systems (IROS)}, pp.~7827--7834, IEEE, 2021.
+
+\bibitem{li2021meta_watching_video_demonstration}
+J.~Li, T.~Lu, X.~Cao, Y.~Cai, and S.~Wang, ``Meta-imitation learning by
+  watching video demonstrations,'' in {\em International Conference on Learning
+  Representations}, 2021.
+
+\bibitem{zakka2022xirl}
+K.~Zakka, A.~Zeng, P.~Florence, J.~Tompson, J.~Bohg, and D.~Dwibedi, ``Xirl:
+  Cross-embodiment inverse reinforcement learning,'' in {\em Conference on
+  Robot Learning}, pp.~537--546, PMLR, 2022.
+
+\bibitem{dwibedi2019tcc}
+D.~Dwibedi, Y.~Aytar, J.~Tompson, P.~Sermanet, and A.~Zisserman, ``Temporal
+  cycle-consistency learning,'' in {\em Proceedings of the IEEE/CVF conference
+  on computer vision and pattern recognition}, pp.~1801--1810, 2019.
+
+\bibitem{zhu2017cycle_gan}
+J.-Y. Zhu, T.~Park, P.~Isola, and A.~A. Efros, ``Unpaired image-to-image
+  translation using cycle-consistent adversarial networks,'' in {\em
+  Proceedings of the IEEE international conference on computer vision},
+  pp.~2223--2232, 2017.
+
+\bibitem{huang2018munit}
+X.~Huang, M.-Y. Liu, S.~Belongie, and J.~Kautz, ``Multimodal unsupervised
+  image-to-image translation,'' in {\em Proceedings of the European conference
+  on computer vision (ECCV)}, pp.~172--189, 2018.
+
+\bibitem{sermanet2018time_contrastive}
+P.~Sermanet, C.~Lynch, Y.~Chebotar, J.~Hsu, E.~Jang, S.~Schaal, S.~Levine, and
+  G.~Brain, ``Time-contrastive networks: Self-supervised learning from video,''
+  in {\em 2018 IEEE international conference on robotics and automation
+  (ICRA)}, pp.~1134--1141, IEEE, 2018.
+
+\bibitem{liu2018imitation_from_observation}
+Y.~Liu, A.~Gupta, P.~Abbeel, and S.~Levine, ``Imitation from observation:
+  Learning to imitate behaviors from raw video via context translation,'' in
+  {\em 2018 IEEE International Conference on Robotics and Automation (ICRA)},
+  pp.~1118--1125, IEEE, 2018.
+
+\bibitem{schroff2015triplet_loss}
+F.~Schroff, D.~Kalenichenko, and J.~Philbin, ``Facenet: A unified embedding for
+  face recognition and clustering,'' in {\em Proceedings of the IEEE conference
+  on computer vision and pattern recognition}, pp.~815--823, 2015.
+
+\bibitem{merel2017learning}
+J.~Merel, Y.~Tassa, D.~TB, S.~Srinivasan, J.~Lemmon, Z.~Wang, G.~Wayne, and
+  N.~Heess, ``Learning human behaviors from motion capture by adversarial
+  imitation,'' {\em arXiv preprint arXiv:1707.02201}, 2017.
+
+\bibitem{torabi2018gaifo}
+F.~Torabi, G.~Warnell, and P.~Stone, ``Generative adversarial imitation from
+  observation,'' {\em arXiv preprint arXiv:1807.06158}, 2018.
+
+\bibitem{ho2016gail}
+J.~Ho and S.~Ermon, ``Generative adversarial imitation learning,'' {\em
+  Advances in neural information processing systems}, vol.~29, 2016.
+
+\bibitem{brockman2016openai}
+G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and
+  W.~Zaremba, ``Openai gym,'' {\em arXiv preprint arXiv:1606.01540}, 2016.
+
+\bibitem{torabi2018bco}
+F.~Torabi, G.~Warnell, and P.~Stone, ``Behavioral cloning from observation,''
+  in {\em Proceedings of the 27th International Joint Conference on Artificial
+  Intelligence}, pp.~4950--4957, 2018.
+
+\bibitem{schulman2015trpo}
+J.~Schulman, S.~Levine, P.~Abbeel, M.~Jordan, and P.~Moritz, ``Trust region
+  policy optimization,'' in {\em International conference on machine learning},
+  pp.~1889--1897, PMLR, 2015.
+
+\bibitem{torabi2021dealio}
+F.~Torabi, G.~Warnell, and P.~Stone, ``Dealio: Data-efficient adversarial
+  learning for imitation from observation,'' in {\em 2021 IEEE/RSJ
+  International Conference on Intelligent Robots and Systems (IROS)},
+  pp.~2391--2397, IEEE, 2021.
+
+\bibitem{chebotar2017pilqr}
+Y.~Chebotar, K.~Hausman, M.~Zhang, G.~Sukhatme, S.~Schaal, and S.~Levine,
+  ``Combining model-based and model-free updates for trajectory-centric
+  reinforcement learning,'' in {\em International conference on machine
+  learning}, pp.~703--711, PMLR, 2017.
+
+\bibitem{nair2017combining}
+A.~Nair, D.~Chen, P.~Agrawal, P.~Isola, P.~Abbeel, J.~Malik, and S.~Levine,
+  ``Combining self-supervised learning and imitation for vision-based rope
+  manipulation,'' in {\em 2017 IEEE international conference on robotics and
+  automation (ICRA)}, pp.~2146--2153, IEEE, 2017.
+
+\bibitem{guo2019hybrid_rl}
+X.~Guo, S.~Chang, M.~Yu, G.~Tesauro, and M.~Campbell, ``Hybrid reinforcement
+  learning with expert state sequences,'' in {\em Proceedings of the AAAI
+  Conference on Artificial Intelligence}, vol.~33, pp.~3739--3746, 2019.
+
+\bibitem{radosavovic2021state_only_demo}
+I.~Radosavovic, X.~Wang, L.~Pinto, and J.~Malik, ``State-only imitation
+  learning for dexterous manipulation,'' in {\em 2021 IEEE/RSJ International
+  Conference on Intelligent Robots and Systems (IROS)}, pp.~7865--7871, IEEE,
+  2021.
+
+\bibitem{mnih2016a2c}
+V.~Mnih, A.~P. Badia, M.~Mirza, A.~Graves, T.~Lillicrap, T.~Harley, D.~Silver,
+  and K.~Kavukcuoglu, ``Asynchronous methods for deep reinforcement learning,''
+  in {\em International conference on machine learning}, pp.~1928--1937, PMLR,
+  2016.
+
+\bibitem{Rajeswaran18_learning_complex_dexterous}
+A.~Rajeswaran, V.~Kumar, A.~Gupta, G.~Vezzani, J.~Schulman, E.~Todorov, and
+  S.~Levine, ``Learning complex dexterous manipulation with deep reinforcement
+  learning and demonstrations,'' in {\em Proceedings of Robotics: Science and
+  Systems}, (Pittsburgh, Pennsylvania), June 2018.
+
+\bibitem{zhang2019solar}
+M.~Zhang, S.~Vikram, L.~Smith, P.~Abbeel, M.~Johnson, and S.~Levine, ``Solar:
+  Deep structured representations for model-based reinforcement learning,'' in
+  {\em International Conference on Machine Learning}, pp.~7444--7453, PMLR,
+  2019.
+
+\bibitem{Kingma2014_vae}
+D.~P. Kingma and M.~Welling, ``{Auto-Encoding Variational Bayes},'' in {\em 2nd
+  International Conference on Learning Representations, {ICLR} 2014, Banff, AB,
+  Canada, April 14-16, 2014, Conference Track Proceedings}, 2014.
+
+\end{thebibliography}
