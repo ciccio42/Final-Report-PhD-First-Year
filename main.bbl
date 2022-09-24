@@ -257,6 +257,10 @@ N.~Das, S.~Bechtle, T.~Davchev, D.~Jayaraman, A.~Rai, and F.~Meier,
   ``Model-based inverse reinforcement learning from visual demonstrations,'' in
   {\em Conference on Robot Learning}, pp.~1930--1942, PMLR, 2021.
 
+\bibitem{ho2016gail}
+J.~Ho and S.~Ermon, ``Generative adversarial imitation learning,'' {\em
+  Advances in neural information processing systems}, vol.~29, 2016.
+
 \bibitem{smith2019avid}
 L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
   multi-stage tasks via pixel-level translation of human videos,'' {\em arXiv
@@ -319,10 +323,6 @@ J.~Merel, Y.~Tassa, D.~TB, S.~Srinivasan, J.~Lemmon, Z.~Wang, G.~Wayne, and
 \bibitem{torabi2018gaifo}
 F.~Torabi, G.~Warnell, and P.~Stone, ``Generative adversarial imitation from
   observation,'' {\em arXiv preprint arXiv:1807.06158}, 2018.
-
-\bibitem{ho2016gail}
-J.~Ho and S.~Ermon, ``Generative adversarial imitation learning,'' {\em
-  Advances in neural information processing systems}, vol.~29, 2016.
 
 \bibitem{brockman2016openai}
 G.~Brockman, V.~Cheung, L.~Pettersson, J.~Schneider, J.~Schulman, J.~Tang, and

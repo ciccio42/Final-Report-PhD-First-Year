@@ -1,5 +1,3 @@
-\newpage
-\paragraph{Generative Adversarial Imitation Learning (GAIL) [MAX 5]}
-Note: GAIL e varianti;
-
-\label{para:gail}
+\paragraph{Generative Adversarial Imitation Learning (GAIL) [MAX 5]} \mbox{} \\
+Generative Adversarial Imitation Learning was proposed for the first time in \cite{ho2016gail}, with the idea to improve the IRL setting, which is expensive to run, because of the double-nested optimization procedure. The authors in \cite{ho2016gail}, starting from a general Max-Ent formulation (Formula \ref{formula:regularized_max_ent}), obtained a characterization of the learned policy (Formula \ref{formula:policy_characterization}), where $\psi(c)$ is a cost-regularizer, $\psi^{*}(c)$ is its conjugate, and $\rho_{\pi}$ is the \textit{occupancy measure}, i.e. the distribution of state-action pairs that the agent encounters when navigating the environment with policy $\pi$. The interpretation of Formula \ref{formula:policy_characterization} is that the $\psi-regularized$ IRL finds a policy whose occupancy measure is similar to the expert's one, measured by $\psi^{*}$. The next-step was to choose an appropriate regularization function. In particular, by choosing the regularizer in Formula \ref{formula:ga_regularization}, the conjugate in Formula \ref{formula:ga_regularizer_conjugate} can be obtained, which is the classic Adversarial-Learning Loss, where the current policy $\pi^{L}$ plays the role of GAN generator, and $D$ is the GAN discriminator, which has to distinguish between state-action pairs generated either by the expert-policy or by the current policy. 
+\input{Formula/gail.tex}

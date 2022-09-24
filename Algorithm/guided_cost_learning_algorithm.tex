@@ -5,9 +5,9 @@
 \Require Initial controller $q_{k}(\tau)$ 
 \For {i = 1, \dots, N}
     \State Generate $D_{traj}$ from $q_{k}(\tau)$
-    \State $D_{samp} \leftarrow D_{samp} \bigcup D_{traj}$
-    \State Update the reward-function parameters, using $D_{samp}$ and $\nabla_{\theta}\mathcal{L(\theta)}$
-    \State Update the LQR-FLM \cite{levine2014lqr_flm} controller $q_{k+1}(\tau) \leftarrow q_{k}(\tau)$, using $D_{traj}$
+    \State $\mathcal{D}_{samp} \leftarrow \mathcal{D}_{samp} \bigcup \mathcal{D}_{traj}$
+    \State Update the reward-function parameters, using $\mathcal{D}_{samp}$ and $\nabla_{\theta}\mathcal{L(\theta)}$
+    \State Update the LQR-FLM \cite{levine2014lqr_flm} controller $q_{k+1}(\tau) \leftarrow q_{k}(\tau)$, using $\mathcal{D}_{traj}$
 \EndFor
 \end{algorithmic}
 \end{algorithm}
