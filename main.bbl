@@ -307,6 +307,12 @@ R.~Rafailov, T.~Yu, A.~Rajeswaran, and C.~Finn, ``Visual adversarial imitation
   learning using variational models,'' {\em Advances in Neural Information
   Processing Systems}, vol.~34, pp.~3016--3028, 2021.
 
+\bibitem{barth2018d4pg}
+G.~Barth-Maron, M.~W. Hoffman, D.~Budden, W.~Dabney, D.~Horgan, D.~Tb,
+  A.~Muldal, N.~Heess, and T.~Lillicrap, ``Distributed distributional
+  deterministic policy gradients,'' {\em arXiv preprint arXiv:1804.08617},
+  2018.
+
 \bibitem{smith2019avid}
 L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
   multi-stage tasks via pixel-level translation of human videos,'' {\em arXiv

@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: ieeetr.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for ""
-You've used 81 entries,
+You've used 82 entries,
             1876 wiz_defined-function locations,
-            876 strings with 20438 characters,
-and the built_in function-call counts, 26813 in all, are:
-= -- 2480
-> -- 1295
+            880 strings with 20711 characters,
+and the built_in function-call counts, 27053 in all, are:
+= -- 2492
+> -- 1324
 < -- 0
-+ -- 460
-- -- 379
-* -- 1976
-:= -- 3699
-add.period$ -- 81
-call.type$ -- 81
-change.case$ -- 79
++ -- 470
+- -- 388
+* -- 2000
+:= -- 3745
+add.period$ -- 82
+call.type$ -- 82
+change.case$ -- 80
 chr.to.int$ -- 0
-cite$ -- 81
-duplicate$ -- 1396
-empty$ -- 2512
-format.name$ -- 379
-if$ -- 6456
+cite$ -- 82
+duplicate$ -- 1405
+empty$ -- 2529
+format.name$ -- 388
+if$ -- 6505
 int.to.chr$ -- 0
-int.to.str$ -- 81
-missing$ -- 81
-newline$ -- 248
-num.names$ -- 81
-pop$ -- 398
+int.to.str$ -- 82
+missing$ -- 82
+newline$ -- 251
+num.names$ -- 82
+pop$ -- 402
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 941
+skip$ -- 942
 stack$ -- 0
 substring$ -- 1958
-swap$ -- 567
+swap$ -- 568
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 247
-width$ -- 83
-write$ -- 773
+while$ -- 248
+width$ -- 84
+write$ -- 781
 (There was 1 warning)
