@@ -105,6 +105,17 @@ O.~Kroemer, S.~Niekum, and G.~Konidaris, ``A review of robot learning for
   manipulation: Challenges, representations, and algorithms,'' {\em The Journal
   of Machine Learning Research}, vol.~22, no.~1, pp.~1395--1476, 2021.
 
+\bibitem{johns2021coarse_to_fine}
+E.~Johns, ``Coarse-to-fine imitation learning: Robot manipulation from a single
+  demonstration,'' in {\em 2021 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pp.~4613--4619, IEEE, 2021.
+
+\bibitem{zhang2018deep_vr_teleoperation}
+T.~Zhang, Z.~McCarthy, O.~Jow, D.~Lee, X.~Chen, K.~Goldberg, and P.~Abbeel,
+  ``Deep imitation learning for complex manipulation tasks from virtual reality
+  teleoperation,'' in {\em 2018 IEEE International Conference on Robotics and
+  Automation (ICRA)}, pp.~5628--5635, IEEE, 2018.
+
 \bibitem{mandlekar2018roboturk}
 A.~Mandlekar, Y.~Zhu, A.~Garg, J.~Booher, M.~Spero, A.~Tung, J.~Gao, J.~Emmons,
   A.~Gupta, E.~Orbay, {\em et~al.}, ``Roboturk: A crowdsourcing platform for
@@ -124,16 +135,35 @@ A.~Mandlekar, D.~Xu, J.~Wong, S.~Nasiriany, C.~Wang, R.~Kulkarni, L.~Fei-Fei,
   learning from offline human demonstrations for robot manipulation,'' in {\em
   Conference on Robot Learning}, pp.~1678--1690, PMLR, 2022.
 
-\bibitem{johns2021coarse_to_fine}
-E.~Johns, ``Coarse-to-fine imitation learning: Robot manipulation from a single
-  demonstration,'' in {\em 2021 IEEE International Conference on Robotics and
-  Automation (ICRA)}, pp.~4613--4619, IEEE, 2021.
+\bibitem{cyberglove}
+C.~Systems, ``Cyberforce.''
 
-\bibitem{zhang2018deep_vr_teleoperation}
-T.~Zhang, Z.~McCarthy, O.~Jow, D.~Lee, X.~Chen, K.~Goldberg, and P.~Abbeel,
-  ``Deep imitation learning for complex manipulation tasks from virtual reality
-  teleoperation,'' in {\em 2018 IEEE International Conference on Robotics and
-  Automation (ICRA)}, pp.~5628--5635, IEEE, 2018.
+\bibitem{touch}
+D.~Systems, ``Touch,'' Jun 2020.
+
+\bibitem{smith2019avid}
+L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
+  multi-stage tasks via pixel-level translation of human videos,'' {\em arXiv
+  preprint arXiv:1912.04443}, 2019.
+
+\bibitem{sermanet2018time_contrastive}
+P.~Sermanet, C.~Lynch, Y.~Chebotar, J.~Hsu, E.~Jang, S.~Schaal, S.~Levine, and
+  G.~Brain, ``Time-contrastive networks: Self-supervised learning from video,''
+  in {\em 2018 IEEE international conference on robotics and automation
+  (ICRA)}, pp.~1134--1141, IEEE, 2018.
+
+\bibitem{liu2019_mirroring_without_overimitation}
+H.~Liu, C.~Zhang, Y.~Zhu, C.~Jiang, and S.-C. Zhu, ``Mirroring without
+  overimitation: Learning functionally equivalent manipulation actions,'' {\em
+  Proceedings of the AAAI Conference on Artificial Intelligence}, vol.~33,
+  pp.~8025--8033, Jul. 2019.
+
+\bibitem{liu2017glove_force}
+H.~Liu, X.~Xie, M.~Millar, M.~Edmonds, F.~Gao, Y.~Zhu, V.~J. Santos,
+  B.~Rothrock, and S.-C. Zhu, ``A glove-based system for studying hand-object
+  manipulation via joint pose and force sensing,'' in {\em 2017 IEEE/RSJ
+  International Conference on Intelligent Robots and Systems (IROS)},
+  pp.~6617--6624, IEEE, 2017.
 
 \bibitem{zheng2021imitation_progress_taxonomies_opportunities}
 B.~Zheng, S.~Verma, J.~Zhou, I.~Tsang, and F.~Chen, ``Imitation learning:
@@ -313,11 +343,6 @@ G.~Barth-Maron, M.~W. Hoffman, D.~Budden, W.~Dabney, D.~Horgan, D.~Tb,
   deterministic policy gradients,'' {\em arXiv preprint arXiv:1804.08617},
   2018.
 
-\bibitem{smith2019avid}
-L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
-  multi-stage tasks via pixel-level translation of human videos,'' {\em arXiv
-  preprint arXiv:1912.04443}, 2019.
-
 \bibitem{xiong2021learning_by_watching}
 H.~Xiong, Q.~Li, Y.-C. Chen, H.~Bharadhwaj, S.~Sinha, and A.~Garg, ``Learning
   by watching: Physical imitation of manipulation skills from human videos,''
@@ -349,12 +374,6 @@ J.-Y. Zhu, T.~Park, P.~Isola, and A.~A. Efros, ``Unpaired image-to-image
 X.~Huang, M.-Y. Liu, S.~Belongie, and J.~Kautz, ``Multimodal unsupervised
   image-to-image translation,'' in {\em Proceedings of the European conference
   on computer vision (ECCV)}, pp.~172--189, 2018.
-
-\bibitem{sermanet2018time_contrastive}
-P.~Sermanet, C.~Lynch, Y.~Chebotar, J.~Hsu, E.~Jang, S.~Schaal, S.~Levine, and
-  G.~Brain, ``Time-contrastive networks: Self-supervised learning from video,''
-  in {\em 2018 IEEE international conference on robotics and automation
-  (ICRA)}, pp.~1134--1141, IEEE, 2018.
 
 \bibitem{schroff2015triplet_loss}
 F.~Schroff, D.~Kalenichenko, and J.~Philbin, ``Facenet: A unified embedding for
