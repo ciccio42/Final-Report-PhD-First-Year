@@ -83,7 +83,7 @@ F.~Codevilla, M.~M{\"u}ller, A.~L{\'o}pez, V.~Koltun, and A.~Dosovitskiy,
   international conference on robotics and automation (ICRA)}, pp.~4693--4700,
   IEEE, 2018.
 
-\bibitem{zhang2018deep}
+\bibitem{zhang2018deep_vr_teleoperation}
 T.~Zhang, Z.~McCarthy, O.~Jow, D.~Lee, X.~Chen, K.~Goldberg, and P.~Abbeel,
   ``Deep imitation learning for complex manipulation tasks from virtual reality
   teleoperation,'' in {\em 2018 IEEE International Conference on Robotics and
@@ -109,12 +109,6 @@ O.~Kroemer, S.~Niekum, and G.~Konidaris, ``A review of robot learning for
 E.~Johns, ``Coarse-to-fine imitation learning: Robot manipulation from a single
   demonstration,'' in {\em 2021 IEEE International Conference on Robotics and
   Automation (ICRA)}, pp.~4613--4619, IEEE, 2021.
-
-\bibitem{zhang2018deep_vr_teleoperation}
-T.~Zhang, Z.~McCarthy, O.~Jow, D.~Lee, X.~Chen, K.~Goldberg, and P.~Abbeel,
-  ``Deep imitation learning for complex manipulation tasks from virtual reality
-  teleoperation,'' in {\em 2018 IEEE International Conference on Robotics and
-  Automation (ICRA)}, pp.~5628--5635, IEEE, 2018.
 
 \bibitem{mandlekar2018roboturk}
 A.~Mandlekar, Y.~Zhu, A.~Garg, J.~Booher, M.~Spero, A.~Tung, J.~Gao, J.~Emmons,
@@ -179,6 +173,27 @@ A.~Ijspeert, J.~Nakanishi, and S.~Schaal, ``Learning attractor landscapes for
 A.~J. Ijspeert, J.~Nakanishi, H.~Hoffmann, P.~Pastor, and S.~Schaal,
   ``Dynamical movement primitives: learning attractor models for motor
   behaviors,'' {\em Neural computation}, vol.~25, no.~2, pp.~328--373, 2013.
+
+\bibitem{caccavale2019kinesthetic}
+R.~Caccavale, M.~Saveriano, A.~Finzi, and D.~Lee, ``Kinesthetic teaching and
+  attentional supervision of structured tasks in human--robot interaction,''
+  {\em Autonomous Robots}, vol.~43, no.~6, pp.~1291--1307, 2019.
+
+\bibitem{eiband2019learning}
+T.~Eiband, M.~Saveriano, and D.~Lee, ``Learning haptic exploration schemes for
+  adaptive task execution,'' in {\em 2019 International Conference on Robotics
+  and Automation (ICRA)}, pp.~7048--7054, IEEE, 2019.
+
+\bibitem{agostini2020manipulation}
+A.~Agostini, M.~Saveriano, D.~Lee, and J.~Piater, ``Manipulation planning using
+  object-centered predicates and hierarchical decomposition of contextual
+  actions,'' {\em IEEE Robotics and Automation Letters}, vol.~5, no.~4,
+  pp.~5629--5636, 2020.
+
+\bibitem{paraschos2013ProMPs}
+A.~Paraschos, C.~Daniel, J.~R. Peters, and G.~Neumann, ``Probabilistic movement
+  primitives,'' {\em Advances in neural information processing systems},
+  vol.~26, 2013.
 
 \bibitem{pomerleau1988alvinn}
 D.~A. Pomerleau, ``Alvinn: An autonomous land vehicle in a neural network,''
@@ -247,6 +262,25 @@ Y.~Duan, M.~Andrychowicz, B.~Stadie, O.~Jonathan~Ho, J.~Schneider,
 Z.~Mandi, F.~Liu, K.~Lee, and P.~Abbeel, ``Towards more generalizable one-shot
   visual imitation learning,'' in {\em 2022 International Conference on
   Robotics and Automation (ICRA)}, pp.~2434--2444, IEEE, 2022.
+
+\bibitem{dasari2021transformers_one_shot}
+S.~Dasari and A.~Gupta, ``Transformers for one-shot visual imitation,'' in {\em
+  Conference on Robot Learning}, pp.~2071--2084, PMLR, 2021.
+
+\bibitem{grimes2009learning_actions_through_imitation}
+D.~B. Grimes and R.~P. Rao, ``Learning actions through imitation and
+  exploration: Towards humanoid robots that learn from humans,'' in {\em
+  Creating Brain-Like Intelligence}, pp.~103--138, Springer, 2009.
+
+\bibitem{englert2013probabilistic}
+P.~Englert, A.~Paraschos, M.~P. Deisenroth, and J.~Peters, ``Probabilistic
+  model-based imitation learning,'' {\em Adaptive Behavior}, vol.~21, no.~5,
+  pp.~388--403, 2013.
+
+\bibitem{deisenroth2014multi_task}
+M.~P. Deisenroth, P.~Englert, J.~Peters, and D.~Fox, ``Multi-task policy search
+  for robotics,'' in {\em 2014 IEEE international conference on robotics and
+  automation (ICRA)}, pp.~3876--3881, IEEE, 2014.
 
 \bibitem{abbeel2004apprenticeship}
 P.~Abbeel and A.~Y. Ng, ``Apprenticeship learning via inverse reinforcement

@@ -57,11 +57,11 @@ found \cite{levine202rl_tutorial}:
 \begin{itemize*}
     \item \textbf{\textit{On-policy}} Reinforcement Learning (Figure \ref{fig:onpolicy}), the trained policy is the same
     policy used to collect data, so, the only used past experience is related to the last policy rollout. These methods
-    require a considerable amount of interactions to be trained \cite{}.
+    require a considerable amount of interactions to be trained \cite{};
     \item \textbf{\textit{Off-policy}} Reinforcement Learning (Figure \ref{fig:offpolicy}), there are two policies, the
     behavior policy used to get experience, and the target policy, the policy to evaluate and improve. The target policy
     can exploit past experience during training. These methods are known to be more data-efficient \cite{}, although
-    they still require interaction with the environment. 
+    they still require interaction with the environment;
     \item \textbf{\textit{Offline}} Reinforcement Learning (Figure \ref{fig:offline}), this setting is similar to the
     classic \textit{supervised learning approach}, where the target policy is trained via a \textit{static dataset} $D$,
     collected by an unknown policy $\pi_{\beta}$.  
@@ -75,24 +75,24 @@ robot \cite{}, video of human pouring a liquid \cite{}). Based on the approach, 
 is used in different way:
 \begin{itemize*}
     \item \textbf{\textit{Behavioral Cloning}} (BC), the information contained in the dataset is used as \textit{ground
-    truth}, i.e. the final learned policy mimics the same actions in the dataset \cite{}.
+    truth}, i.e. the final learned policy mimics the same actions in the dataset \cite{};
     \item \textbf{\textit{Inverse Reinforcement Learning}} (IRL), the demonstrations are used to learn a \textit{cost
-    function}, that is subsequently used by an RL algorithm \cite{},
+    function}, that is subsequently used by an RL algorithm \cite{};
     \item \textbf{\textit{Generative Adversarial Imitation Learning}} (GAIL), combination of GAN \cite{} and IL, in this
     setting the agent, which acts as the Generator in GAIL, must produce a sequence of state transitions, such that
-    Discriminator is not able to distinguish between generated transitions and demonstrated ones \cite{},
+    Discriminator is not able to distinguish between generated transitions and demonstrated ones \cite{};
     \item \textbf{\textit{Learning from Observation}} (LfO), inspired by the fact that humans and animals are able to
     learn by just watching a demonstration, without knowing the underlaying performed actions (e.g. the joint position),
     then the aim of the artificial agent is to reproduce the observed behavior, starting from state-only demonstrations
-    \cite{torabi2019recent_advances_lfo}.   
+    \cite{torabi2019recent_advances_lfo}.  
 \end{itemize*}
 \input{Figures/il_taxonomy_and_main_components}
 From Figure \ref{fig:il_methods}, it can be noted as IL and RL are strictly related, indeed, RL algorithms are used in
 the training procedure of some methods, such as IRL, GAIL, and LfO. However, with respect to classic RL, IL allows to:
 \begin{enumerate*}[label=\textbf{(\arabic*)}]
-    \item bypass, or at least attenuate, the time-consuming exploration that would be required in a RL setting, 
-    \item communicate, through demonstrations, a ``preference" for how a task should be performed.
-    \item describe concepts that may be difficult to define formally or programmatically. \end{enumerate*}. As will be
+    \item bypass, or at least attenuate, the time-consuming exploration that would be required in a RL setting;
+    \item communicate, through demonstrations, a ``preference" for how a task should be performed;
+    \item describe concepts that may be difficult to define formally or programmatically. \end{enumerate*} As will be
 explained in detail in Section \ref{sec:sota}, BC methods suffers of the \textit{compounding error} problem, since the
 i.i.d. assumption that lays behind Supervised Learning is violated \cite{}. IRL was proposed to combine both the
 data-efficiency of IL, to learn a reward function given the samples, and the exploration capability of RL, to attenuate
@@ -105,7 +105,7 @@ there is not any information about the true action,a way to measure the quality 
 \textit{correspondence problem}, i.e. how to map demonstration in human-space into the corresponding action in the robot
 space, must be solved.     
 \newline Despite all the open-challenges presented, IL was successfully applied for solving complex tasks, such as
-driving a toy car \cite{codevilla2018end_to_end}, pick-and-place \cite{zhang2018deep}, and collaborative toolbox
+driving a toy car \cite{codevilla2018end_to_end}, pick-and-place \cite{zhang2018deep_vr_teleoperation}, and collaborative toolbox
 assembly \cite{maeda2017probabilistic}, highlighting the high potential of such methods, which may justify an effort in
 an attempt to resolve the gaps presented. A detailed description of the mentioned approaches will be given in
 \textit{Section} \ref{sec:sota}, with an exhaustive comparison and description of the most recent and relevant methods.
