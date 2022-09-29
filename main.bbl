@@ -159,11 +159,6 @@ H.~Liu, X.~Xie, M.~Millar, M.~Edmonds, F.~Gao, Y.~Zhu, V.~J. Santos,
   International Conference on Intelligent Robots and Systems (IROS)},
   pp.~6617--6624, IEEE, 2017.
 
-\bibitem{zheng2021imitation_progress_taxonomies_opportunities}
-B.~Zheng, S.~Verma, J.~Zhou, I.~Tsang, and F.~Chen, ``Imitation learning:
-  Progress, taxonomies and opportunities,'' {\em arXiv preprint
-  arXiv:2106.12177}, 2021.
-
 \bibitem{ijspeert2002learning}
 A.~Ijspeert, J.~Nakanishi, and S.~Schaal, ``Learning attractor landscapes for
   learning motor primitives,'' {\em Advances in neural information processing
@@ -174,15 +169,15 @@ A.~J. Ijspeert, J.~Nakanishi, H.~Hoffmann, P.~Pastor, and S.~Schaal,
   ``Dynamical movement primitives: learning attractor models for motor
   behaviors,'' {\em Neural computation}, vol.~25, no.~2, pp.~328--373, 2013.
 
+\bibitem{meier2011movement_primitive}
+F.~Meier, E.~Theodorou, F.~Stulp, and S.~Schaal, ``Movement segmentation using
+  a primitive library,'' in {\em 2011 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems}, pp.~3407--3412, IEEE, 2011.
+
 \bibitem{caccavale2019kinesthetic}
 R.~Caccavale, M.~Saveriano, A.~Finzi, and D.~Lee, ``Kinesthetic teaching and
   attentional supervision of structured tasks in human--robot interaction,''
   {\em Autonomous Robots}, vol.~43, no.~6, pp.~1291--1307, 2019.
-
-\bibitem{eiband2019learning}
-T.~Eiband, M.~Saveriano, and D.~Lee, ``Learning haptic exploration schemes for
-  adaptive task execution,'' in {\em 2019 International Conference on Robotics
-  and Automation (ICRA)}, pp.~7048--7054, IEEE, 2019.
 
 \bibitem{agostini2020manipulation}
 A.~Agostini, M.~Saveriano, D.~Lee, and J.~Piater, ``Manipulation planning using
@@ -266,6 +261,24 @@ Z.~Mandi, F.~Liu, K.~Lee, and P.~Abbeel, ``Towards more generalizable one-shot
 \bibitem{dasari2021transformers_one_shot}
 S.~Dasari and A.~Gupta, ``Transformers for one-shot visual imitation,'' in {\em
   Conference on Robot Learning}, pp.~2071--2084, PMLR, 2021.
+
+\bibitem{xu2018neural_task_programming}
+D.~Xu, S.~Nair, Y.~Zhu, J.~Gao, A.~Garg, L.~Fei-Fei, and S.~Savarese, ``Neural
+  task programming: Learning to generalize across hierarchical tasks,'' in {\em
+  2018 IEEE International Conference on Robotics and Automation (ICRA)},
+  pp.~3795--3802, IEEE, 2018.
+
+\bibitem{yang2015robot}
+Y.~Yang, Y.~Li, C.~Fermuller, and Y.~Aloimonos, ``Robot learning manipulation
+  action plans by" watching" unconstrained videos from the world wide web,'' in
+  {\em Proceedings of the AAAI Conference on Artificial Intelligence}, vol.~29,
+  2015.
+
+\bibitem{Mandlekar2020GTI}
+A.~Mandlekar, D.~Xu, R.~Martín-Martín, S.~Savarese, and L.~Fei-Fei, ``Gti:
+  Learning to generalize across long-horizon tasks from human demonstrations,''
+  in {\em Proceedings of Robotics: Science and Systems}, (Corvalis, Oregon,
+  USA), July 2020.
 
 \bibitem{grimes2009learning_actions_through_imitation}
 D.~B. Grimes and R.~P. Rao, ``Learning actions through imitation and

@@ -1,0 +1,21 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Overview}{2}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Background}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}State-of-the-Art}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problem Definition}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Source of Demonstration}{8}{subsection.1.2.2}%
+\contentsline {paragraph}{Direct Demonstration}{8}{figure.caption.7}%
+\contentsline {paragraph}{Indirect Demonstration}{9}{figure.caption.8}%
+\contentsline {subsection}{\numberline {1.2.3}Methods}{10}{subsection.1.2.3}%
+\contentsline {paragraph}{Behavioral Cloning (BC).}{10}{subsection.1.2.3}%
+\contentsline {paragraph}{Inverse Reinforcement Learning (IRL)}{17}{Item.25}%
+\contentsline {paragraph}{Generative Adversarial Imitation Learning (GAIL)}{19}{figure.caption.12}%
+\contentsline {paragraph}{Learning from Observation (LfO)}{22}{figure.caption.14}%
+\contentsline {subsection}{\numberline {1.2.4}Summary}{28}{subsection.1.2.4}%
+\contentsline {chapter}{\numberline {2}Research Plan}{29}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Other Activities}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Attended Courses}{30}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Compulsary courses}{30}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Additional courses}{30}{subsection.3.1.2}%
+\contentsline {chapter}{Bibliography}{40}{chapter*.21}%

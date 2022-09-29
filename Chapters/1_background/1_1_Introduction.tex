@@ -48,7 +48,7 @@ quite different. The main differences between RL and IL are related to presence/
 presence/absence of expert demonstrations. \newline Indeed, in RL formalism \cite{kaelbling1996reinforcement_survey},
 the learning procedure is based on a \textit{hand-designed reward function}, i.e. a measure of the quality of the
 performed action with respect to the task to be executed (e.g. the distance between the current position and the target
-one in a reaching task \cite{}), which drives the agent to produce a sequence of actions which maximize the reward.
+one in a reaching task), which drives the agent to produce a sequence of actions which maximize the reward.
 While in IL formalism \cite{osa2018algorithmic}, the learning procedure is based on the minimization of a
 \textit{loss-function} (e.g. Mean-Squared Error \cite{james2013introduction_to_sl}, Hinge-loss \cite{cortes1995support},
 Kullback-Leibler divergence \cite{kullback1951information}), which guides the agent to reproduce/mimic the same actions
@@ -57,10 +57,10 @@ found \cite{levine202rl_tutorial}:
 \begin{itemize*}
     \item \textbf{\textit{On-policy}} Reinforcement Learning (Figure \ref{fig:onpolicy}), the trained policy is the same
     policy used to collect data, so, the only used past experience is related to the last policy rollout. These methods
-    require a considerable amount of interactions to be trained \cite{};
+    require a considerable amount of interactions to be trained;
     \item \textbf{\textit{Off-policy}} Reinforcement Learning (Figure \ref{fig:offpolicy}), there are two policies, the
     behavior policy used to get experience, and the target policy, the policy to evaluate and improve. The target policy
-    can exploit past experience during training. These methods are known to be more data-efficient \cite{}, although
+    can exploit past experience during training. These methods are known to be more data-efficient, although
     they still require interaction with the environment;
     \item \textbf{\textit{Offline}} Reinforcement Learning (Figure \ref{fig:offline}), this setting is similar to the
     classic \textit{supervised learning approach}, where the target policy is trained via a \textit{static dataset} $D$,
@@ -71,16 +71,16 @@ found \cite{levine202rl_tutorial}:
 procedures, are the main difficulties in applying such methods for real-world application
 \cite{hussein2017imitation_learning_survey}. \newline As opposed to RL, in IL, the starting point for all the methods
 (Figure \ref{fig:il_methods}), is a dataset $D$ containing expert demonstrations (e.g. trajectories of teleoperated
-robot \cite{}, video of human pouring a liquid \cite{}). Based on the approach, the information contained in the dataset
+robot, video of human pouring a liquid). Based on the approach, the information contained in the dataset
 is used in different way:
 \begin{itemize*}
     \item \textbf{\textit{Behavioral Cloning}} (BC), the information contained in the dataset is used as \textit{ground
-    truth}, i.e. the final learned policy mimics the same actions in the dataset \cite{};
+    truth}, i.e. the final learned policy mimics the same actions in the dataset;
     \item \textbf{\textit{Inverse Reinforcement Learning}} (IRL), the demonstrations are used to learn a \textit{cost
-    function}, that is subsequently used by an RL algorithm \cite{};
-    \item \textbf{\textit{Generative Adversarial Imitation Learning}} (GAIL), combination of GAN \cite{} and IL, in this
+    function}, that is subsequently used by an RL algorithm;
+    \item \textbf{\textit{Generative Adversarial Imitation Learning}} (GAIL), combination of GAN and IL, in this
     setting the agent, which acts as the Generator in GAIL, must produce a sequence of state transitions, such that
-    Discriminator is not able to distinguish between generated transitions and demonstrated ones \cite{};
+    Discriminator is not able to distinguish between generated transitions and demonstrated ones;
     \item \textbf{\textit{Learning from Observation}} (LfO), inspired by the fact that humans and animals are able to
     learn by just watching a demonstration, without knowing the underlaying performed actions (e.g. the joint position),
     then the aim of the artificial agent is to reproduce the observed behavior, starting from state-only demonstrations
@@ -94,12 +94,12 @@ the training procedure of some methods, such as IRL, GAIL, and LfO. However, wit
     \item communicate, through demonstrations, a ``preference" for how a task should be performed;
     \item describe concepts that may be difficult to define formally or programmatically. \end{enumerate*} As will be
 explained in detail in Section \ref{sec:sota}, BC methods suffers of the \textit{compounding error} problem, since the
-i.i.d. assumption that lays behind Supervised Learning is violated \cite{}. IRL was proposed to combine both the
+i.i.d. assumption that lays behind Supervised Learning is violated. IRL was proposed to combine both the
 data-efficiency of IL, to learn a reward function given the samples, and the exploration capability of RL, to attenuate
 the \textit{compounding error} problem. However such methods have proved difficult to train. GAIL was proposed to reduce
 the training complexity related to IRL, by framing the IRL problem as an Adversarial Learning problem, while the methods
 improved both the performance and the efficiency of w.r.t. IRL methods, they showed poor performance when applied in
-high-dimensional data, mainly due to the \textit{casual-confusion} problem \cite{}. LfO \cite{} was mainly proposed with
+high-dimensional data, mainly due to the \textit{casual-confusion} problem. LfO was mainly proposed with
 the aim to find a way to exploit state-only demonstrations, that are easy to obtain, and to collect. However, since
 there is not any information about the true action,a way to measure the quality of prediction is needed. Moreover, the
 \textit{correspondence problem}, i.e. how to map demonstration in human-space into the corresponding action in the robot
