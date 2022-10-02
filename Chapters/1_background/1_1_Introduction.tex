@@ -46,7 +46,7 @@ as \textit{Imitation Learning} (IL) or \textit{Learning from Demonstration} (LfD
 perform correctly a task or a set of tasks by following a learned policy, however the way how this goal is achieved is
 quite different. The main differences between RL and IL are related to presence/absence of a reward function, and the
 presence/absence of expert demonstrations. \newline Indeed, in RL formalism \cite{kaelbling1996reinforcement_survey},
-the learning procedure is based on a \textit{hand-designed reward function}, i.e. a measure of the quality of the
+the learning procedure is based on a \textit{hand-designed reward function}, i.e., a measure of the quality of the
 performed action with respect to the task to be executed (e.g. the distance between the current position and the target
 one in a reaching task), which drives the agent to produce a sequence of actions which maximize the reward.
 While in IL formalism \cite{osa2018algorithmic}, the learning procedure is based on the minimization of a
@@ -75,7 +75,7 @@ robot, video of human pouring a liquid). Based on the approach, the information 
 is used in different way:
 \begin{itemize*}
     \item \textbf{\textit{Behavioral Cloning}} (BC), the information contained in the dataset is used as \textit{ground
-    truth}, i.e. the final learned policy mimics the same actions in the dataset;
+    truth}, i.e., the final learned policy mimics the same actions in the dataset;
     \item \textbf{\textit{Inverse Reinforcement Learning}} (IRL), the demonstrations are used to learn a \textit{cost
     function}, that is subsequently used by an RL algorithm;
     \item \textbf{\textit{Generative Adversarial Imitation Learning}} (GAIL), combination of GAN and IL, in this
@@ -102,7 +102,7 @@ improved both the performance and the efficiency of w.r.t. IRL methods, they sho
 high-dimensional data, mainly due to the \textit{casual-confusion} problem. LfO was mainly proposed with
 the aim to find a way to exploit state-only demonstrations, that are easy to obtain, and to collect. However, since
 there is not any information about the true action,a way to measure the quality of prediction is needed. Moreover, the
-\textit{correspondence problem}, i.e. how to map demonstration in human-space into the corresponding action in the robot
+\textit{correspondence problem}, i.e., how to map demonstration in human-space into the corresponding action in the robot
 space, must be solved.     
 \newline Despite all the open-challenges presented, IL was successfully applied for solving complex tasks, such as
 driving a toy car \cite{codevilla2018end_to_end}, pick-and-place \cite{zhang2018deep_vr_teleoperation}, and collaborative toolbox

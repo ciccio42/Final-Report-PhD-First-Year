@@ -14,8 +14,9 @@
 \contentsline {paragraph}{Learning from Observation (LfO)}{22}{figure.caption.14}%
 \contentsline {subsection}{\numberline {1.2.4}Summary}{28}{subsection.1.2.4}%
 \contentsline {chapter}{\numberline {2}Research Plan}{29}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Research topic}{29}{section.2.1}%
 \contentsline {chapter}{\numberline {3}Other Activities}{30}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Attended Courses}{30}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Compulsary courses}{30}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Additional courses}{30}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.2}Additional courses}{31}{subsection.3.1.2}%
 \contentsline {chapter}{Bibliography}{40}{chapter*.21}%
