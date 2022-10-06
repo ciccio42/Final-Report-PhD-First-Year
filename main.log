@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.23)  4 OCT 2022 08:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.23)  4 OCT 2022 18:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,18 +1131,33 @@ Package pdftex.def Info: Figures/images/dealio/dealio_performance.jpg  used on i
 Chapter 2.
 (./Chapters/2_research_plan/2_1_research_topic.tex [27
 
-]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex [28])) (./Chapters/4_other_activities/4_Other_activities.tex [29]
+] [28]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex [29]
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--20
+
+ []
+
+))
+Underfull \hbox (badness 10000) in paragraph at lines 20--123
+
+ []
+
+(./Chapters/4_other_activities/4_Other_activities.tex [30]
 Chapter 3.
-(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex [30
+(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex [31
 
-]))) [31] (./main.bbl [32
+]))) [32] (./main.bbl [33
 
 
-] [33] [34] [35] [36] [37] [38]) [39] (./main.aux) ) 
+] [34] [35] [36] [37] [38] [39]) [40] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 30348 strings out of 475075
- 565399 string characters out of 5783001
- 937505 words of memory out of 5000000
+ 30347 strings out of 475075
+ 565391 string characters out of 5783001
+ 937504 words of memory out of 5000000
  50763 multiletter control sequences out of 15000+600000
  485457 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1151,10 +1166,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (40 pages, 3262224 bytes).
+Output written on main.pdf (41 pages, 3265101 bytes).
 PDF statistics:
- 947 PDF objects out of 1000 (max. 8388607)
- 793 compressed objects within 8 object streams
- 236 named destinations out of 1000 (max. 500000)
+ 950 PDF objects out of 1000 (max. 8388607)
+ 795 compressed objects within 8 object streams
+ 235 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
