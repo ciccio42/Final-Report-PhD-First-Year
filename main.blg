@@ -5,34 +5,34 @@ The style file: ieeetr.bst
 Database file #1: bibliography.bib
 You've used 95 entries,
             1876 wiz_defined-function locations,
-            947 strings with 23338 characters,
-and the built_in function-call counts, 31296 in all, are:
-= -- 2905
+            946 strings with 23300 characters,
+and the built_in function-call counts, 31328 in all, are:
+= -- 2906
 > -- 1492
 < -- 0
 + -- 531
 - -- 436
-* -- 2306
-:= -- 4304
+* -- 2312
+:= -- 4305
 add.period$ -- 94
 call.type$ -- 95
 change.case$ -- 93
 chr.to.int$ -- 0
 cite$ -- 95
-duplicate$ -- 1623
-empty$ -- 2939
+duplicate$ -- 1627
+empty$ -- 2946
 format.name$ -- 436
-if$ -- 7546
+if$ -- 7554
 int.to.chr$ -- 0
 int.to.str$ -- 95
 missing$ -- 93
 newline$ -- 290
 num.names$ -- 95
-pop$ -- 460
+pop$ -- 463
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1114
+skip$ -- 1115
 stack$ -- 0
 substring$ -- 2298
 swap$ -- 665
@@ -43,4 +43,4 @@ type$ -- 0
 warning$ -- 0
 while$ -- 287
 width$ -- 97
-write$ -- 906
+write$ -- 907

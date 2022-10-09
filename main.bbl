@@ -239,9 +239,10 @@ C.~Finn, T.~Yu, T.~Zhang, P.~Abbeel, and S.~Levine, ``One-shot visual imitation
   pp.~357--368, PMLR, 2017.
 
 \bibitem{yu2018daml}
-T.~Yu, C.~Finn, A.~Xie, S.~Dasari, T.~Zhang, P.~Abbeel, and S.~Levine,
+T.~Yu, C.~Finn, S.~Dasari, A.~Xie, T.~Zhang, P.~Abbeel, and S.~Levine,
   ``One-shot imitation from observing humans via domain-adaptive
-  meta-learning,'' {\em arXiv preprint arXiv:1802.01557}, 2018.
+  meta-learning,'' in {\em Proceedings of Robotics: Science and Systems},
+  (Pittsburgh, Pennsylvania), June 2018.
 
 \bibitem{yu2018one_shot_hil}
 T.~Yu, P.~Abbeel, S.~Levine, and C.~Finn, ``One-shot hierarchical imitation
