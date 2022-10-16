@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.23)  14 OCT 2022 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.23)  16 OCT 2022 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -143,8 +143,8 @@ Package: babel 2022/09/17 3.80 The Babel package
  (c:/texlive/2022/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count272
- (c:/texlive/2022/texmf-dist/tex/generic/babel-english/british.ldf
-Language: british 2017/06/06 v3.3r English support from the babel system
+ (c:/texlive/2022/texmf-dist/tex/generic/babel-english/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
  (c:/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -153,9 +153,9 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language21). Reported on input line 108.
-))) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-british.tex
-Package babel Info: Importing font and identification data for british
-(babel)             from babel-en-GB.ini. Reported on input line 11.
+))) (c:/texlive/2022/texmf-dist/tex/generic/babel/locale/en/babel-american.tex
+Package babel Info: Importing font and identification data for american
+(babel)             from babel-en-US.ini. Reported on input line 11.
 ) (c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
@@ -1051,32 +1051,36 @@ File: Figures/images/daml/tasks.jpg Graphic file (type jpg)
 <use Figures/images/daml/tasks.jpg>
 Package pdftex.def Info: Figures/images/daml/tasks.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 69.98785pt.
-) (./Figures/bc-z.tex
+)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(./Figures/bc-z.tex
 <Figures/images/bc_z/bc-z-network.jpg, id=341, 1206.75844pt x 375.65344pt>
 File: Figures/images/bc_z/bc-z-network.jpg Graphic file (type jpg)
 <use Figures/images/bc_z/bc-z-network.jpg>
 Package pdftex.def Info: Figures/images/bc_z/bc-z-network.jpg  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 119.56956pt.
-) (./Table/mosaic_results.tex) [13 <./Figures/images/daml/tasks.jpg>] [14 <./Figures/images/bc_z/bc-z-network.jpg>] [15]) (./Chapters/1_background/sota_sections/irl.tex (./Algorithm/irl_general_procedure.tex) (./Algorithm/guided_cost_learning_algorithm.tex) (./Figures/model-based-irl.tex
+) (./Table/mosaic_results.tex) [13] [14 <./Figures/images/daml/tasks.jpg> <./Figures/images/bc_z/bc-z-network.jpg>] [15]) (./Chapters/1_background/sota_sections/irl.tex (./Algorithm/irl_general_procedure.tex) (./Algorithm/guided_cost_learning_algorithm.tex) (./Figures/model-based-irl.tex
 <Figures/images/model_based_irl/model_based_irl.jpg, id=412, 1220.30907pt x 264.23718pt>
 File: Figures/images/model_based_irl/model_based_irl.jpg Graphic file (type jpg)
 <use Figures/images/model_based_irl/model_based_irl.jpg>
 Package pdftex.def Info: Figures/images/model_based_irl/model_based_irl.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 92.41585pt.
 )) (./Chapters/1_background/sota_sections/gail.tex [16] [17] (./Formula/gail.tex [18 <./Figures/images/model_based_irl/model_based_irl.jpg>]) (./Algorithm/algorithm_gail.tex) (./Figures/trail_results.tex
-<Figures/images/trail/trail_results.jpg, id=487, 1097.60063pt x 140.77594pt>
+<Figures/images/trail/trail_results.jpg, id=485, 1097.60063pt x 140.77594pt>
 File: Figures/images/trail/trail_results.jpg Graphic file (type jpg)
 <use Figures/images/trail/trail_results.jpg>
 Package pdftex.def Info: Figures/images/trail/trail_results.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 54.73912pt.
  [19]) (./Formula/vmail.tex) (./Figures/vmail.tex
-<Figures/images/vmail/control-tasks.jpg, id=515, 808.52063pt x 156.585pt>
+<Figures/images/vmail/control-tasks.jpg, id=513, 808.52063pt x 156.585pt>
 File: Figures/images/vmail/control-tasks.jpg Graphic file (type jpg)
 <use Figures/images/vmail/control-tasks.jpg>
 Package pdftex.def Info: Figures/images/vmail/control-tasks.jpg  used on input line 3.
 (pdftex.def)             Requested size: 320.0935pt x 61.99255pt.
 )) (./Chapters/1_background/sota_sections/lfo.tex (./Figures/embodiment_mismatch.tex
-<Figures/images/embodiment_mismatch/embo.png, id=518, 1225.57875pt x 219.82124pt>
+<Figures/images/embodiment_mismatch/embo.png, id=516, 1225.57875pt x 219.82124pt>
 File: Figures/images/embodiment_mismatch/embo.png Graphic file (type png)
 <use Figures/images/embodiment_mismatch/embo.png>
 Package pdftex.def Info: Figures/images/embodiment_mismatch/embo.png  used on input line 3.
@@ -1088,29 +1092,29 @@ File: Figures/images/xirl/xirl.jpg Graphic file (type jpg)
 Package pdftex.def Info: Figures/images/xirl/xirl.jpg  used on input line 3.
 (pdftex.def)             Requested size: 213.39568pt x 129.45613pt.
 ) (./Figures/different_viewpoint.tex
-<Figures/images/view_point_mismatch/time-contrastive-network.jpg, id=553, 674.52pt x 524.71031pt>
+<Figures/images/view_point_mismatch/time-contrastive-network.jpg, id=554, 674.52pt x 524.71031pt>
 File: Figures/images/view_point_mismatch/time-contrastive-network.jpg Graphic file (type jpg)
 <use Figures/images/view_point_mismatch/time-contrastive-network.jpg>
 Package pdftex.def Info: Figures/images/view_point_mismatch/time-contrastive-network.jpg  used on input line 5.
 (pdftex.def)             Requested size: 213.39568pt x 165.9972pt.
-<Figures/images/view_point_mismatch/context-translation-model.jpg, id=556, 458.46281pt x 316.18124pt>
+<Figures/images/view_point_mismatch/context-translation-model.jpg, id=557, 458.46281pt x 316.18124pt>
 File: Figures/images/view_point_mismatch/context-translation-model.jpg Graphic file (type jpg)
 <use Figures/images/view_point_mismatch/context-translation-model.jpg>
 Package pdftex.def Info: Figures/images/view_point_mismatch/context-translation-model.jpg  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 132.45267pt.
 ) [21 <./Figures/images/vmail/control-tasks.jpg> <./Figures/images/embodiment_mismatch/embo.png>] (./Algorithm/gaifo.tex) (./Figures/gaifo_results.tex
-<Figures/images/gaifo_results/gaifo_results.jpg, id=600, 916.92563pt x 233.37187pt>
+<Figures/images/gaifo_results/gaifo_results.jpg, id=601, 916.92563pt x 233.37187pt>
 File: Figures/images/gaifo_results/gaifo_results.jpg Graphic file (type jpg)
 <use Figures/images/gaifo_results/gaifo_results.jpg>
 Package pdftex.def Info: Figures/images/gaifo_results/gaifo_results.jpg  used on input line 5.
 (pdftex.def)             Requested size: 298.75264pt x 76.03725pt.
-<Figures/images/gaifo_results/gaifo_results_visual.jpg, id=601, 916.92563pt x 233.37187pt>
+<Figures/images/gaifo_results/gaifo_results_visual.jpg, id=602, 916.92563pt x 233.37187pt>
 File: Figures/images/gaifo_results/gaifo_results_visual.jpg Graphic file (type jpg)
 <use Figures/images/gaifo_results/gaifo_results_visual.jpg>
 Package pdftex.def Info: Figures/images/gaifo_results/gaifo_results_visual.jpg  used on input line 12.
 (pdftex.def)             Requested size: 298.75264pt x 76.03725pt.
- [22 <./Figures/images/xirl/xirl.jpg> <./Figures/images/view_point_mismatch/time-contrastive-network.jpg> <./Figures/images/view_point_mismatch/context-translation-model.jpg>] [23]) (./Figures/bco.tex
-<Figures/images/bco/bco.jpg, id=631, 509.65407pt x 251.43938pt>
+ [22 <./Figures/images/xirl/xirl.jpg>] [23 <./Figures/images/view_point_mismatch/time-contrastive-network.jpg> <./Figures/images/view_point_mismatch/context-translation-model.jpg>]) (./Figures/bco.tex
+<Figures/images/bco/bco.jpg, id=635, 509.65407pt x 251.43938pt>
 File: Figures/images/bco/bco.jpg Graphic file (type jpg)
 <use Figures/images/bco/bco.jpg>
 Package pdftex.def Info: Figures/images/bco/bco.jpg  used on input line 3.
@@ -1126,7 +1130,12 @@ File: Figures/images/dealio/dealio_performance.jpg Graphic file (type jpg)
 <use Figures/images/dealio/dealio_performance.jpg>
 Package pdftex.def Info: Figures/images/dealio/dealio_performance.jpg  used on input line 12.
 (pdftex.def)             Requested size: 341.43437pt x 81.2235pt.
-))) (./Chapters/1_background/sota_sections/1_2_4_summary.tex))) [26 <./Figures/images/dealio/dealio_performed_task.jpg> <./Figures/images/dealio/dealio_performance.jpg>] (./Chapters/2_research_plan/2_research_plan.tex [27]
+)
+Overfull \hbox (1.26286pt too wide) in paragraph at lines 18--42
+ \OT1/cmr/m/n/10.95 Ex-per-i-ments per-formed in sim-u-la-tion with low-dimensional state space have shown promis-
+ []
+
+)) (./Chapters/1_background/sota_sections/1_2_4_summary.tex [26 <./Figures/images/dealio/dealio_performed_task.jpg> <./Figures/images/dealio/dealio_performance.jpg>]))) (./Chapters/2_research_plan/2_research_plan.tex [27]
 Chapter 2.
 (./Chapters/2_research_plan/2_1_research_topic.tex [28
 
@@ -1140,20 +1149,20 @@ Chapter 3.
 ] [36] [37] [38] [39] [40] [41]) [42] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  30374 strings out of 475075
- 565823 string characters out of 5783001
- 941843 words of memory out of 5000000
+ 565868 string characters out of 5783001
+ 942728 words of memory out of 5000000
  50772 multiletter control sequences out of 15000+600000
  485457 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,94p,3647b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,94p,3688b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (43 pages, 3269240 bytes).
+Output written on main.pdf (43 pages, 3270106 bytes).
 PDF statistics:
- 987 PDF objects out of 1000 (max. 8388607)
- 831 compressed objects within 9 object streams
+ 989 PDF objects out of 1000 (max. 8388607)
+ 833 compressed objects within 9 object streams
  250 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

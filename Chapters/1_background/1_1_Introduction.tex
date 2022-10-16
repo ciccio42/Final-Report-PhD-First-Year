@@ -27,27 +27,27 @@ applications may be found in factors such as:
     production phases, contributing to increase the demand.
 \end{enumerate}
 In this scenario, the desired characteristics of such robotic systems are: \begin{enumerate*}[label=\textbf{(\alph*)}]
-    \item \textit{Adaptability to new conditions}, i.e., the system must be able to easly adapt to dynamc change in system and environmental conditions (e.g, motor failure or a different ground's coefficient of friction for a quadruped robot \cite{anne2021meta_learning_fast_adaptive}), performing \textit{``intelligent" behaviors} to handle these new scenarios and solve the desired task;  
-    \item \textit{Adaptability to new tasks}, i.e., the system must be able to easly adapt to both new variations of a known task (e.g., new objects and different initial conditions \cite{mandi2022towards_more_generalizable_one_shot}), and completely new tasks \cite{jang2022bc_z} by exploiting the learned representation to infer actions and solve them;
-    \item \textit{Reliability}, i.e., the proposed system must be reliable in terms of success rate (tasks must be solved with a success rate that is reasonable for a real-world application), and safety (actions must not harm the environment, people, or the robot itself);
-    \item \textit{Computation efficiency}, i.e., the system must meet all the constraints above and run in real-time on real-world robot platforms as efficiently as possible. 
+    \item \textbf{Adaptability to new conditions}, i.e., the system must be able to easly adapt to dynamc change in system and environmental conditions (e.g, motor failure or a different ground's coefficient of friction for a quadruped robot \cite{anne2021meta_learning_fast_adaptive}), performing \textit{``intelligent" behaviors} to handle these new scenarios and solve the desired task;  
+    \item \textbf{Adaptability to new tasks}, i.e., the system must be able to easly adapt to both new variations of a known task (e.g., new objects and different initial conditions \cite{mandi2022towards_more_generalizable_one_shot}) and completely new tasks \cite{jang2022bc_z} by exploiting past experience to infer actions and solve them;
+    \item \textbf{Reliability}, i.e., the proposed system must be reliable in terms of success rate (tasks must be solved with a success rate that is reasonable for a real-world application), and safety (actions must not harm the environment, people, or the robot itself);
+    \item \textbf{Computation efficiency}, i.e., the system must meet all the constraints above and run in real-time on real-world robot platforms as efficiently as possible. 
 \end{enumerate*}
-\newline These requirements can be difficult to obtain with typical robotic programming techniques based on hand-written
+\newline These requirements, especially \textbf{(a)}-\textbf{(b)}, can be difficult to obtain with typical robot programming techniques based on hand-written
 policy, and control techniques which require a careful analysis of the process dynamics, the building of an analytic
 model, and finally, the derivation of a control law that meets certain design criteria
 \cite{hafner2011reinforcement_in_feedback_controll}. This design process is tedious, and time consuming, especially when
 \textbf{high-level perception systems} (e.g. camera, microphones, motion sensors etc.) are used to infer the state of
-the environment (e.g. the unknown position of the desired object to pick with respect to the end-effector) and/or the
+the environment (e.g. the unknown position of the desired object to pick with respect to the end-effector) and the
 intention of the human operator. \newline In contrast, very relevant results have been obtained by leveraging
 \textit{Learning Techniques}, which exploit \textbf{agent experience} or \textbf{expert demonstration}. Generally, the
 former is referred as \textit{Reinforcement Learning} (RL) \cite{sutton2018reinforcement}, while the latter is referred
 as \textit{Imitation Learning} (IL) or \textit{Learning from Demonstration} (LfD)
-\cite{argall2009robot_learning_from_demonstration}. Both the approaches aim to obtain an artificial agent, that able to
+\cite{argall2009robot_learning_from_demonstration}. Both the approaches aim to obtain an artificial agent, that is able to
 perform correctly a task or a set of tasks by following a learned policy, however the way how this goal is achieved is
 quite different. The main differences between RL and IL are related to presence/absence of a reward function, and the
 presence/absence of expert demonstrations. \newline Indeed, in RL formalism \cite{kaelbling1996reinforcement_survey},
 the learning procedure is based on a \textit{hand-designed reward function}, i.e., a measure of the quality of the
-performed action with respect to the task to be executed (e.g. the distance between the current position and the target
+performed action with respect to the task to be executed (e.g., the distance between the current position and the target
 one in a reaching task), which drives the agent to produce a sequence of actions which maximize the reward.
 While in IL formalism \cite{osa2018algorithmic}, the learning procedure is based on the minimization of a
 \textit{loss-function} (e.g. Mean-Squared Error \cite{james2013introduction_to_sl}, Hinge-loss \cite{cortes1995support},
@@ -56,16 +56,14 @@ of the expert. \newline Regarding the possibility to exploit past experience, in
 found \cite{levine202rl_tutorial}:
 \begin{itemize}
     \item \textbf{\textit{On-policy}} Reinforcement Learning (Figure \ref{fig:onpolicy}), the trained policy is the same
-    policy used to collect data, so, the only used past experience is related to the last policy rollout, which can lead to data inefficiency problems.
-    \item \textbf{\textit{Off-policy}} Reinforcement Learning (Figure \ref{fig:offpolicy}), there are two policies, the
-    behavior policy used to get experience, and the target policy, the policy to evaluate and improve. The target policy
-    can exploit past experience during training.
-    \item \textbf{\textit{Offline}} Reinforcement Learning (Figure \ref{fig:offline}), this setting is similar to the
-    classic \textit{supervised learning approach}, where the target policy is trained by exploiting a \textit{static dataset} $D$,
-    collected by an unknown policy $\pi_{\beta}$, without any further interaction with the environment. Despite strong theoretical results, which can lead to prefer offline RL over behavioral cloning \cite{kumar2021orl_vs_bc}, when these algorithms are applied in robot manipulation tasks with sparse-reward, image observation, they perform poorly with respect to classic behaviorl cloning \cite{mandlekar2022matters}.
+    policy used to collect data, and the only used past experience is related to the last policy rollout. Generally, this approach can lead to data inefficiency problems.
+    \item \textbf{\textit{Off-policy}} Reinforcement Learning (Figure \ref{fig:offpolicy}), in this setting there are two policies, the behavior policy used to collect data, and the learned target policy. The latter is improved during the training by leveraging past experience contained in the dynamic buffer $\mathcal{D}$, which is updated after each iteration by adding new samples collected through the behavior policy.
+    \item \textbf{\textit{Offline}} Reinforcement Learning (Figure \ref{fig:offline}), this setting is strictly related to the
+    classic \textit{supervised learning approach}. The target policy is trained by exploiting a \textit{static dataset} $D$,
+    collected by an unknown policy $\pi_{\beta}$. Unlike previous methods, the training procedure requires no further interaction with the environment, and despite strong theoretical results, which can lead to prefer offline RL over behavioral cloning \cite{kumar2021orl_vs_bc}, when these algorithms are applied in robot manipulation tasks with sparse-reward and high-dimensional high-level state representation (e.g., robot images), they perform poorly with respect to classic behavioral cloning \cite{mandlekar2022matters}.
 \end{itemize}
 \input{Figures/rl_methods}
-\noindent The need for both a task-specific reward function and expensive and time-consuming training procedures are the main difficulties in applying such methods for real-world application
+\noindent The need for both a task-specific reward function and expensive time-consuming training procedures are the main difficulties in applying such methods for real-world application
 \cite{hussein2017imitation_learning_survey}. \newline As opposed to RL, in IL, the starting point for all the methods
 (Figure \ref{fig:il_methods}), is a dataset $D$ containing expert demonstrations (e.g. trajectories of teleoperated
 robot, video of human performing a task). Based on the approach, the information contained in the dataset
@@ -75,11 +73,11 @@ is used in different way:
     truth}, i.e., the final learned policy mimics the same actions in the dataset.
     \item \textbf{\textit{Inverse Reinforcement Learning}} (IRL), the demonstrations are used to learn a \textit{cost
     function}, that is subsequently used by an RL algorithm.
-    \item \textbf{\textit{Generative Adversarial Imitation Learning}} (GAIL), combination of Generative Adversarial Learning and Imitation Learning, in this
-    setting the agent, which acts as generator, must produce a sequence of state transitions, such that
-    discriminator is not able to distinguish between transitions generated by the agent, and demonstrated ones.
+    \item \textbf{\textit{Generative Adversarial Imitation Learning}} (GAIL), combination of Generative Adversarial Learning and Imitation Learning. In this
+    setting the agent, which acts as generator, must produce a sequence of state transitions, such that a
+    discriminator is not able to distinguish between transitions generated by the agent, and the ones generated by the expert and contained in the dataset.
     \item \textbf{\textit{Learning from Observation}} (LfO), inspired by the fact that humans and animals are able to
-    learn by just watching a demonstrator, without knowing the underlaying performed actions (e.g. the joint position),
+    learn by just watching a demonstrator, without knowing the underlaying performed actions (e.g., the joint position),
     here, the aim of the artificial agent is to reproduce the observed behavior, starting from state-only demonstrations
     \cite{torabi2019recent_advances_lfo}.  
 \end{itemize}
@@ -97,10 +95,9 @@ the \textit{compounding error} problem. However, methods, based on this approach
 the training complexity related to IRL, by framing the IRL problem as an Adversarial Learning problem. While the GAIL based methods 
 improved both the performance and the efficiency w.r.t. IRL methods, they showed poor performance when applied in
 high-dimensional data, mainly due to the \textit{casual-confusion} problem. LfO was mainly proposed with
-the aim to find a way to exploit state-only demonstrations, that are easy to obtain, and to collect. However, since
+the aim to find a way to exploit state-only demonstrations (e.g., video of humans performing a task), that are easy to collect. However, since
 there is not any information about the true action, a way to measure the quality of prediction is needed. Moreover, the
-\textit{correspondence problem}, i.e., how to map demonstration given in human-space into the corresponding action in the robot
-space, must be solved.     
+\textit{correspondence problem}, i.e., how to map demonstrations given in a space different from the robot one into the corresponding action in the robot space, must be solved.    
 \newline Despite all the presented open-challenges, IL was successfully applied for solving complex tasks, such as
 driving a toy car \cite{codevilla2018end_to_end}, pick-and-place \cite{zhang2018deep_vr_teleoperation}, and collaborative toolbox
 assembly \cite{maeda2017probabilistic}, highlighting the high potential of such methods, which may justify an effort in

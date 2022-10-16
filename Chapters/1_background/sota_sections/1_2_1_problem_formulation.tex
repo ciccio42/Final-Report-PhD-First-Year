@@ -20,7 +20,7 @@ The policy $\pi^{L}$ can be defined with respect to different abstraction levels
     \item $S \subseteq \mathbb{R}^{n}$, is a set of states (e.g. joints position and/or image).
     \item $A \subseteq \mathbb{R}^{n}$, is a set of actions, (e.g. desired end-effector pose, desired joints torque).
     \item $R(s,a,s')$, is a \textit{reward function}, which expresses the immediate reward for executing action $a$ in state $s$, and transitioning to state $s'$.
-    \item $T(s'|s,a)$ is a \textit{transition function}, which defines the probability to reach the state $s'$, after the execution of action $a$ in state $s$. This distribution, which describe the \textit{system dynamic}, that can be given a priori or learned (Model-Based methods), or do not taken into account (Model-Free methods).
+    \item $T(s'|s,a)$ is a \textit{transition function}, which defines the probability to reach the state $s'$, after the execution of action $a$ in state $s$. This distribution, which describe the \textit{system dynamic}, can be given a priori or learned (Model-Based methods), or do not taken into account (Model-Free methods).
     \item $\gamma \in [0,1]$, is a discount factor expressing the agent's preference for immediate over future rewards.
 \end{itemize}
 With respect to the given MDP definition, the reward function plays different roles based on the used approach. Indeed, in BC methods, the reward function is not implicitly used, but a surrogate loss-function is used instead. In IRL the reward function is learned, assuming that the expert acts (near-)optimal w.r.t. some unknown reward function. In GAIL and LfO, the rule played by the reward function is different based on the specific method, as will be explained in Section \ref{sec:methods}.
