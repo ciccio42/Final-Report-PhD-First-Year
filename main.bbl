@@ -6,17 +6,16 @@
 \bibitem{panda}
 {Franka Emika}, ``Franka emika panda robot.''
 
-\bibitem{kalashnikov2018qt_opt}
-D.~Kalashnikov, A.~Irpan, P.~Pastor, J.~Ibarz, A.~Herzog, E.~Jang, D.~Quillen,
-  E.~Holly, M.~Kalakrishnan, V.~Vanhoucke, {\em et~al.}, ``Scalable deep
-  reinforcement learning for vision-based robotic manipulation,'' in {\em
-  Conference on Robot Learning}, pp.~651--673, PMLR, 2018.
-
 \bibitem{anne2021meta_learning_fast_adaptive}
 T.~Anne, J.~Wilkinson, and Z.~Li, ``Meta-learning for fast adaptive locomotion
   with uncertainties in environments and robot dynamics,'' in {\em 2021
   IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   pp.~4568--4575, IEEE, 2021.
+
+\bibitem{mandi2022towards_more_generalizable_one_shot}
+Z.~Mandi, F.~Liu, K.~Lee, and P.~Abbeel, ``Towards more generalizable one-shot
+  visual imitation learning,'' in {\em 2022 International Conference on
+  Robotics and Automation (ICRA)}, pp.~2434--2444, IEEE, 2022.
 
 \bibitem{jang2022bc_z}
 E.~Jang, A.~Irpan, M.~Khansari, D.~Kappler, F.~Ebert, C.~Lynch, S.~Levine, and
@@ -64,6 +63,17 @@ S.~Kullback and R.~A. Leibler, ``On information and sufficiency,'' {\em The
 S.~Levine, A.~Kumar, G.~Tucker, and J.~Fu, ``Offline reinforcement learning:
   Tutorial, review, and perspectives on open problems,'' {\em arXiv preprint
   arXiv:2005.01643}, 2020.
+
+\bibitem{kumar2021orl_vs_bc}
+A.~Kumar, J.~Hong, A.~Singh, and S.~Levine, ``Should i run offline
+  reinforcement learning or behavioral cloning?,'' in {\em International
+  Conference on Learning Representations}, 2021.
+
+\bibitem{mandlekar2022matters}
+A.~Mandlekar, D.~Xu, J.~Wong, S.~Nasiriany, C.~Wang, R.~Kulkarni, L.~Fei-Fei,
+  S.~Savarese, Y.~Zhu, and R.~Mart{\'\i}n-Mart{\'\i}n, ``What matters in
+  learning from offline human demonstrations for robot manipulation,'' in {\em
+  Conference on Robot Learning}, pp.~1678--1690, PMLR, 2022.
 
 \bibitem{hussein2017imitation_learning_survey}
 A.~Hussein, M.~M. Gaber, E.~Elyan, and C.~Jayne, ``Imitation learning: A survey
@@ -122,12 +132,6 @@ A.~Mandlekar, J.~Booher, M.~Spero, A.~Tung, A.~Gupta, Y.~Zhu, A.~Garg,
   with roboturk: Robotic manipulation dataset through human reasoning and
   dexterity,'' in {\em 2019 IEEE/RSJ International Conference on Intelligent
   Robots and Systems (IROS)}, pp.~1048--1055, IEEE, 2019.
-
-\bibitem{mandlekar2022matters}
-A.~Mandlekar, D.~Xu, J.~Wong, S.~Nasiriany, C.~Wang, R.~Kulkarni, L.~Fei-Fei,
-  S.~Savarese, Y.~Zhu, and R.~Mart{\'\i}n-Mart{\'\i}n, ``What matters in
-  learning from offline human demonstrations for robot manipulation,'' in {\em
-  Conference on Robot Learning}, pp.~1678--1690, PMLR, 2022.
 
 \bibitem{cyberglove}
 C.~Systems, ``Cyberforce.''
@@ -253,11 +257,6 @@ T.~Yu, P.~Abbeel, S.~Levine, and C.~Finn, ``One-shot hierarchical imitation
 Y.~Duan, M.~Andrychowicz, B.~Stadie, O.~Jonathan~Ho, J.~Schneider,
   I.~Sutskever, P.~Abbeel, and W.~Zaremba, ``One-shot imitation learning,''
   {\em Advances in neural information processing systems}, vol.~30, 2017.
-
-\bibitem{mandi2022towards_more_generalizable_one_shot}
-Z.~Mandi, F.~Liu, K.~Lee, and P.~Abbeel, ``Towards more generalizable one-shot
-  visual imitation learning,'' in {\em 2022 International Conference on
-  Robotics and Automation (ICRA)}, pp.~2434--2444, IEEE, 2022.
 
 \bibitem{dasari2021transformers_one_shot}
 S.~Dasari and A.~Gupta, ``Transformers for one-shot visual imitation,'' in {\em
@@ -493,5 +492,10 @@ M.~Zhang, S.~Vikram, L.~Smith, P.~Abbeel, M.~Johnson, and S.~Levine, ``Solar:
 D.~P. Kingma and M.~Welling, ``{Auto-Encoding Variational Bayes},'' in {\em 2nd
   International Conference on Learning Representations, {ICLR} 2014, Banff, AB,
   Canada, April 14-16, 2014, Conference Track Proceedings}, 2014.
+
+\bibitem{zhu2020robosuite}
+Y.~Zhu, J.~Wong, A.~Mandlekar, and R.~Mart{\'\i}n-Mart{\'\i}n, ``robosuite: A
+  modular simulation framework and benchmark for robot learning,'' {\em arXiv
+  preprint arXiv:2009.12293}, 2020.
 
 \end{thebibliography}

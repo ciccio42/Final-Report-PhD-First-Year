@@ -26,11 +26,11 @@ applications may be found in factors such as:
     from this automation process because of the high-cost of previous solutions, can now start to automate their
     production phases, contributing to increase the demand.
 \end{enumerate}
-In this scenario, the desired characteristics of such robotic systems are:\begin{enumerate*}[label=\textbf{(\alph*)}]
-    \item The capability to exhibit \textit{``intelligent" behaviors} during the task execution in response to dynamic
-    changes in the environmental condition (e.g. pre-grasping manipulation \cite{kalashnikov2018qt_opt}, motor failure
-    and environmental uncertainties \cite{anne2021meta_learning_fast_adaptive});
-    \item The ability to easily \textit{adapt} to new tasks \cite{jang2022bc_z}. 
+In this scenario, the desired characteristics of such robotic systems are: \begin{enumerate*}[label=\textbf{(\alph*)}]
+    \item \textit{Adaptability to new conditions}, i.e., the system must be able to easly adapt to dynamc change in system and environmental conditions (e.g, motor failure or a different ground's coefficient of friction for a quadruped robot \cite{anne2021meta_learning_fast_adaptive}), performing \textit{``intelligent" behaviors} to handle these new scenarios and solve the desired task;  
+    \item \textit{Adaptability to new tasks}, i.e., the system must be able to easly adapt to both new variations of a known task (e.g., new objects and different initial conditions \cite{mandi2022towards_more_generalizable_one_shot}), and completely new tasks \cite{jang2022bc_z} by exploiting the learned representation to infer actions and solve them;
+    \item \textit{Reliability}, i.e., the proposed system must be reliable in terms of success rate (tasks must be solved with a success rate that is reasonable for a real-world application), and safety (actions must not harm the environment, people, or the robot itself);
+    \item \textit{Computation efficiency}, i.e., the system must meet all the constraints above and run in real-time on real-world robot platforms as efficiently as possible. 
 \end{enumerate*}
 \newline These requirements can be difficult to obtain with typical robotic programming techniques based on hand-written
 policy, and control techniques which require a careful analysis of the process dynamics, the building of an analytic
@@ -56,18 +56,16 @@ of the expert. \newline Regarding the possibility to exploit past experience, in
 found \cite{levine202rl_tutorial}:
 \begin{itemize}
     \item \textbf{\textit{On-policy}} Reinforcement Learning (Figure \ref{fig:onpolicy}), the trained policy is the same
-    policy used to collect data, so, the only used past experience is related to the last policy rollout. These methods
-    require a considerable amount of interactions to be trained.
+    policy used to collect data, so, the only used past experience is related to the last policy rollout, which can lead to data inefficiency problems.
     \item \textbf{\textit{Off-policy}} Reinforcement Learning (Figure \ref{fig:offpolicy}), there are two policies, the
     behavior policy used to get experience, and the target policy, the policy to evaluate and improve. The target policy
-    can exploit past experience during training. These methods are known to be more data-efficient, although
-    they still require interaction with the environment.
+    can exploit past experience during training.
     \item \textbf{\textit{Offline}} Reinforcement Learning (Figure \ref{fig:offline}), this setting is similar to the
-    classic \textit{supervised learning approach}, where the target policy is trained via a \textit{static dataset} $D$,
-    collected by an unknown policy $\pi_{\beta}$.  
+    classic \textit{supervised learning approach}, where the target policy is trained by exploiting a \textit{static dataset} $D$,
+    collected by an unknown policy $\pi_{\beta}$, without any further interaction with the environment. Despite strong theoretical results, which can lead to prefer offline RL over behavioral cloning \cite{kumar2021orl_vs_bc}, when these algorithms are applied in robot manipulation tasks with sparse-reward, image observation, they perform poorly with respect to classic behaviorl cloning \cite{mandlekar2022matters}.
 \end{itemize}
 \input{Figures/rl_methods}
-\noindent The need for both a task-specific reward function and expensive and time-consuming training procedures are the main difficulties in applying such methods for real-world application.
+\noindent The need for both a task-specific reward function and expensive and time-consuming training procedures are the main difficulties in applying such methods for real-world application
 \cite{hussein2017imitation_learning_survey}. \newline As opposed to RL, in IL, the starting point for all the methods
 (Figure \ref{fig:il_methods}), is a dataset $D$ containing expert demonstrations (e.g. trajectories of teleoperated
 robot, video of human performing a task). Based on the approach, the information contained in the dataset
