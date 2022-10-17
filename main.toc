@@ -16,7 +16,7 @@
 \contentsline {chapter}{\numberline {2}Research Plan}{28}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Research Gaps}{28}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Proposed Research Activity}{31}{section.2.2}%
-\contentsline {paragraph}{Dataset and Task representation}{31}{section.2.2}%
+\contentsline {paragraph}{Task representation}{31}{section.2.2}%
 \contentsline {paragraph}{Methods and learning procedure}{32}{Item.51}%
 \contentsline {paragraph}{Computational efficiency and real-time constraint}{32}{Item.51}%
 \contentsline {chapter}{\numberline {3}Other Activities}{33}{chapter.3}%
