@@ -14,13 +14,12 @@
 \contentsline {paragraph}{Learning from Observation (LfO)}{20}{figure.caption.16}%
 \contentsline {subsection}{\numberline {1.2.4}Summary}{27}{subsection.1.2.4}%
 \contentsline {chapter}{\numberline {2}Research Plan}{28}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Research Gaps}{28}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Proposed Research Activity}{31}{section.2.2}%
-\contentsline {paragraph}{Task representation}{31}{section.2.2}%
-\contentsline {paragraph}{Methods and learning procedure}{32}{Item.51}%
-\contentsline {paragraph}{Computational efficiency and real-time constraint}{32}{Item.51}%
-\contentsline {chapter}{\numberline {3}Other Activities}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Attended Courses}{33}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Compulsary Courses}{33}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Additional Courses}{33}{subsection.3.1.2}%
-\contentsline {chapter}{Bibliography}{35}{subsection.3.1.2}%
+\contentsline {section}{\numberline {2.1}Research Topic}{28}{section.2.1}%
+\contentsline {paragraph}{\textit {What is the best representation of the task to facilitate the identification of critical points?}}{29}{section.2.1}%
+\contentsline {paragraph}{\textit {What is the best architecture for modeling a policy?}}{30}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Proposed Research Activity}{30}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Other Activities}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Attended Courses}{32}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Compulsary Courses}{32}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Additional Courses}{32}{subsection.3.1.2}%
+\contentsline {chapter}{Bibliography}{34}{subsection.3.1.2}%

@@ -493,6 +493,24 @@ D.~P. Kingma and M.~Welling, ``{Auto-Encoding Variational Bayes},'' in {\em 2nd
   International Conference on Learning Representations, {ICLR} 2014, Banff, AB,
   Canada, April 14-16, 2014, Conference Track Proceedings}, 2014.
 
+\bibitem{fang2020graspnet}
+H.-S. Fang, C.~Wang, M.~Gou, and C.~Lu, ``Graspnet-1billion: A large-scale
+  benchmark for general object grasping,'' in {\em Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition}, pp.~11444--11453,
+  2020.
+
+\bibitem{goyal2017something2something}
+R.~Goyal, S.~Ebrahimi~Kahou, V.~Michalski, J.~Materzynska, S.~Westphal, H.~Kim,
+  V.~Haenel, I.~Fruend, P.~Yianilos, M.~Mueller-Freitag, {\em et~al.}, ``The"
+  something something" video database for learning and evaluating visual common
+  sense,'' in {\em Proceedings of the IEEE international conference on computer
+  vision}, pp.~5842--5850, 2017.
+
+\bibitem{qi2017pointnet++}
+C.~R. Qi, L.~Yi, H.~Su, and L.~J. Guibas, ``Pointnet++: Deep hierarchical
+  feature learning on point sets in a metric space,'' {\em Advances in neural
+  information processing systems}, vol.~30, 2017.
+
 \bibitem{zhu2020robosuite}
 Y.~Zhu, J.~Wong, A.~Mandlekar, and R.~Mart{\'\i}n-Mart{\'\i}n, ``robosuite: A
   modular simulation framework and benchmark for robot learning,'' {\em arXiv
