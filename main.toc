@@ -4,23 +4,24 @@
 \contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}%
 \contentsline {section}{\numberline {1.2}State-of-the-Art}{7}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Problem Definition}{7}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Source of Demonstration}{8}{subsection.1.2.2}%
-\contentsline {paragraph}{Direct Demonstration}{8}{figure.caption.7}%
-\contentsline {paragraph}{Indirect Demonstration}{9}{figure.caption.8}%
-\contentsline {subsection}{\numberline {1.2.3}Methods}{9}{subsection.1.2.3}%
-\contentsline {paragraph}{Behavioral Cloning (BC).}{9}{subsection.1.2.3}%
-\contentsline {paragraph}{Inverse Reinforcement Learning (IRL)}{16}{Item.32}%
-\contentsline {paragraph}{Generative Adversarial Imitation Learning (GAIL)}{18}{figure.caption.14}%
-\contentsline {paragraph}{Learning from Observation (LfO)}{20}{figure.caption.16}%
-\contentsline {subsection}{\numberline {1.2.4}Summary}{27}{subsection.1.2.4}%
-\contentsline {chapter}{\numberline {2}Research Plan}{28}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Research Topic}{28}{section.2.1}%
-\contentsline {paragraph}{\textit {What is the best representation of the task to facilitate the identification of critical points?}}{29}{section.2.1}%
-\contentsline {paragraph}{\textit {What is the best architecture for modeling a policy?}}{30}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Proposed Research Activity}{30}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Preliminary Results}{32}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Other Activities}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Attended Courses}{33}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Compulsary Courses}{33}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Other Activities}{33}{section.4.2}%
-\contentsline {chapter}{Bibliography}{35}{section.4.2}%
+\contentsline {subsection}{\numberline {1.2.2}Source of Demonstration}{9}{subsection.1.2.2}%
+\contentsline {paragraph}{Direct Demonstration}{9}{figure.caption.7}%
+\contentsline {paragraph}{Indirect Demonstration}{10}{figure.caption.8}%
+\contentsline {subsection}{\numberline {1.2.3}Methods}{10}{subsection.1.2.3}%
+\contentsline {paragraph}{Behavioral Cloning (BC).}{10}{subsection.1.2.3}%
+\contentsline {paragraph}{Inverse Reinforcement Learning (IRL)}{23}{Item.32}%
+\contentsline {paragraph}{Generative Adversarial Imitation Learning (GAIL)}{25}{figure.caption.22}%
+\contentsline {paragraph}{Learning from Observation (LfO)}{28}{figure.caption.24}%
+\contentsline {subsection}{\numberline {1.2.4}Summary}{35}{subsection.1.2.4}%
+\contentsline {chapter}{\numberline {2}Research Plan}{36}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Research Topic}{36}{section.2.1}%
+\contentsline {paragraph}{\textit {Reason-then-act: How the separation between perception and action can affect the performance of an Imitation-Learning System}}{37}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Proposed Research Activity}{39}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Preliminary Results}{40}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dataset Description}{40}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Experiments Results}{41}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Other Activities}{44}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Attended Courses}{44}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Compulsary Courses}{44}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Other Activities}{45}{section.4.2}%
+\contentsline {chapter}{Bibliography}{46}{section.4.2}%

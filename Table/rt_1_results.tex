@@ -1,0 +1,23 @@
+\begin{table}[htb]
+    \centering
+    \refstepcounter{table}
+    \fontsize{8}{8}\selectfont
+    \label{table:rt1_results}
+    \caption{Results reported in \cite{brohan2022rt} by training the same model RT-1 with different dataset size}
+    \begin{tblr}{
+        width = \linewidth,
+        colspec = {Q[92]Q[110]Q[100]Q[138]Q[40]Q[165]Q[129]Q[154]},
+        cells = {c},
+        cell{1}{5} = {c=4}{0.488\linewidth},
+        hline{1,7} = {-}{0.08em},
+                hline{2} = {5-8}{},
+                hline{3} = {-}{},
+            }
+               &          &              &            & Generalization &              &             &             \\
+        Models & \% Tasks & \% Data      & Seen Tasks & All            & Unseen Tasks & Distractors & Backgrounds \\
+        RT-1   & 100      & \textbf{100} & 97         & 73             & 76           & \textbf{83} & 59          \\
+        RT-1   & 100      & \textbf{51}  & 71         & 50             & 52           & \textbf{39} & 59          \\
+        RT-1   & 100      & \textbf{37}  & 55         & 46             & 57           & \textbf{35} & 47          \\
+        RT-1   & 100      & \textbf{22}  & 59         & 29             & 14           & \textbf{31} & 41
+    \end{tblr}
+\end{table}

@@ -1,0 +1,29 @@
+\begin{table}[htb]
+    \centering
+    \caption{Distribution of tasks in large-scale dataset proposed in \cite{brohan2022rt}}
+    \label{table:rf1_dataset}
+    \fontsize{7}{7}\selectfont
+    \begin{tblr}{
+        width = \linewidth,
+        colspec = {Q[248]Q[48]Q[290]Q[352]},
+        cells = {c},
+        hline{1,12} = {-}{0.08em},
+        hline{2,10-11} = {-}{},
+            }
+        Skill                        & Count                                                             & Description                                     & Example Instruction                    \\
+        Pick Object                  & 130                                                               & Lift the object off the surface                 & pick iced tea can                      \\
+        Move Object Near Object      & 337                                                               & Move the first object near the second           & move pepsi can near rxbar blueberry    \\
+        Place Object Upright         & 8                                                                 & Place an elongated object upright               & place water bottle upright~ ~          \\
+        Knock Object Over            & 8                                                                 & Knock an elongated object over                  & knock redbull can over                 \\
+        Open Drawer                  & 3                                                                 & Open any of the cabinet drawers                 & open the top drawer                    \\
+        Close Drawer                 & 3                                                                 & Close any of the cabinet drawers                & close the middle drawer                \\
+        Place Object into Receptacle & 84                                                                & Place an object into a receptacle               & place brown chip bag into white bowl   \\
+        Pick Object from Receptacle
+        and Place on the Counter     & 162                                                               & Pick an object up from a location and then
+        place it on the counter      & pick green jalapeno chip bag from paper~bowl and place on counter                                                                                            \\
+                                     & 9                                                                 & Skills trained for realistic, long instructions & open the large glass jar of pistachios
+        pull napkin out of dispenser
+        grab scooper                                                                                                                                                                                \\
+        \textbf{Total}               & 744                                                               &                                                 &
+    \end{tblr}
+\end{table}

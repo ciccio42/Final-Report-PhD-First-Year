@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{pepper}
 {Softbank Robotics}, ``Pepper robot.''
@@ -137,7 +137,7 @@ A.~Mandlekar, J.~Booher, M.~Spero, A.~Tung, A.~Gupta, Y.~Zhu, A.~Garg,
 C.~Systems, ``Cyberforce.''
 
 \bibitem{touch}
-D.~Systems, ``Touch,'' Jun 2020.
+D.~Systems, ``Touch.''
 
 \bibitem{smith2019avid}
 L.~Smith, N.~Dhawan, M.~Zhang, P.~Abbeel, and S.~Levine, ``Avid: Learning
@@ -258,9 +258,80 @@ Y.~Duan, M.~Andrychowicz, B.~Stadie, O.~Jonathan~Ho, J.~Schneider,
   I.~Sutskever, P.~Abbeel, and W.~Zaremba, ``One-shot imitation learning,''
   {\em Advances in neural information processing systems}, vol.~30, 2017.
 
+\bibitem{james2018task_embedded}
+S.~James, M.~Bloesch, and A.~J. Davison, ``Task-embedded control networks for
+  few-shot imitation learning,'' in {\em 2nd Annual Conference on Robot
+  Learning, CoRL 2018, Z{\"{u}}rich, Switzerland, 29-31 October 2018,
+  Proceedings}, vol.~87 of {\em Proceedings of Machine Learning Research},
+  pp.~783--795, {PMLR}, 2018.
+
+\bibitem{bhutani2022attentive_one_shot}
+V.~Bhutani, A.~Majumder, M.~Vankadari, S.~Dutta, A.~Asati, and S.~Kumar,
+  ``Attentive one-shot meta-imitation learning from visual demonstration,'' in
+  {\em 2022 International Conference on Robotics and Automation (ICRA)},
+  pp.~8584--8590, 2022.
+
 \bibitem{dasari2021transformers_one_shot}
 S.~Dasari and A.~Gupta, ``Transformers for one-shot visual imitation,'' in {\em
   Conference on Robot Learning}, pp.~2071--2084, PMLR, 2021.
+
+\bibitem{stepputtis2020language}
+S.~Stepputtis, J.~Campbell, M.~Phielipp, S.~Lee, C.~Baral, and H.~Ben~Amor,
+  ``Language-conditioned imitation learning for robot manipulation tasks,''
+  {\em Advances in Neural Information Processing Systems}, vol.~33,
+  pp.~13139--13150, 2020.
+
+\bibitem{mees2022calvin}
+O.~Mees, L.~Hermann, E.~Rosete-Beas, and W.~Burgard, ``Calvin: A benchmark for
+  language-conditioned policy learning for long-horizon robot manipulation
+  tasks,'' {\em IEEE Robotics and Automation Letters (RA-L)}, vol.~7, no.~3,
+  pp.~7327--7334, 2022.
+
+\bibitem{doasIcan2022}
+B.~Ichter, A.~Brohan, Y.~Chebotar, C.~Finn, K.~Hausman, A.~Herzog, D.~Ho,
+  J.~Ibarz, A.~Irpan, E.~Jang, R.~Julian, D.~Kalashnikov, S.~Levine, Y.~Lu,
+  C.~Parada, K.~Rao, P.~Sermanet, A.~Toshev, V.~Vanhoucke, F.~Xia, T.~Xiao,
+  P.~Xu, M.~Yan, N.~Brown, M.~Ahn, O.~Cortes, N.~Sievers, C.~Tan, S.~Xu,
+  D.~Reyes, J.~Rettinghouse, J.~Quiambao, P.~Pastor, L.~Luu, K.~Lee, Y.~Kuang,
+  S.~Jesmonth, N.~J. Joshi, K.~Jeffrey, R.~J. Ruano, J.~Hsu, K.~Gopalakrishnan,
+  B.~David, A.~Zeng, and C.~K. Fu, ``Do as {I} can, not as {I} say: Grounding
+  language in robotic affordances,'' in {\em Conference on Robot Learning, CoRL
+  2022, 14-18 December 2022, Auckland, New Zealand} (K.~Liu, D.~Kulic, and
+  J.~Ichnowski, eds.), vol.~205 of {\em Proceedings of Machine Learning
+  Research}, pp.~287--318, {PMLR}, 2022.
+
+\bibitem{mees2022hulc}
+O.~Mees, L.~Hermann, and W.~Burgard, ``What matters in language conditioned
+  robotic imitation learning over unstructured data,'' {\em IEEE Robotics and
+  Automation Letters (RA-L)}, vol.~7, no.~4, pp.~11205--11212, 2022.
+
+\bibitem{brohan2022rt}
+A.~Brohan, N.~Brown, J.~Carbajal, Y.~Chebotar, J.~Dabis, C.~Finn,
+  K.~Gopalakrishnan, K.~Hausman, A.~Herzog, J.~Hsu, J.~Ibarz, B.~Ichter,
+  A.~Irpan, T.~Jackson, S.~Jesmonth, N.~J. Joshi, R.~Julian, D.~Kalashnikov,
+  Y.~Kuang, I.~Leal, K.~Lee, S.~Levine, Y.~Lu, U.~Malla, D.~Manjunath,
+  I.~Mordatch, O.~Nachum, C.~Parada, J.~Peralta, E.~Perez, K.~Pertsch,
+  J.~Quiambao, K.~Rao, M.~S. Ryoo, G.~Salazar, P.~R. Sanketi, K.~Sayed,
+  J.~Singh, S.~Sontakke, A.~Stone, C.~Tan, H.~T. Tran, V.~Vanhoucke, S.~Vega,
+  Q.~Vuong, F.~Xia, T.~Xiao, P.~Xu, S.~Xu, T.~Yu, and B.~Zitkovich, ``{RT-1:}
+  robotics transformer for real-world control at scale,'' in {\em Robotics:
+  Science and Systems XIX, Daegu, Republic of Korea, July 10-14, 2023} (K.~E.
+  Bekris, K.~Hauser, S.~L. Herbert, and J.~Yu, eds.), 2023.
+
+\bibitem{shridhar2023perceiver}
+M.~Shridhar, L.~Manuelli, and D.~Fox, ``Perceiver-actor: A multi-task
+  transformer for robotic manipulation,'' in {\em Conference on Robot
+  Learning}, pp.~785--799, PMLR, 2023.
+
+\bibitem{jiang2023vima}
+Y.~Jiang, A.~Gupta, Z.~Zhang, G.~Wang, Y.~Dou, Y.~Chen, L.~Fei-Fei,
+  A.~Anandkumar, Y.~Zhu, and L.~Fan, ``Vima: General robot manipulation with
+  multimodal prompts,'' in {\em Fortieth International Conference on Machine
+  Learning}, 2023.
+
+\bibitem{grill2003neural}
+K.~Grill-Spector, ``The neural basis of object perception,'' {\em Current
+  opinion in neurobiology}, vol.~13, no.~2, pp.~159--166, 2003.
 
 \bibitem{xu2018neural_task_programming}
 D.~Xu, S.~Nair, Y.~Zhu, J.~Gao, A.~Garg, L.~Fei-Fei, and S.~Savarese, ``Neural
@@ -492,28 +563,5 @@ M.~Zhang, S.~Vikram, L.~Smith, P.~Abbeel, M.~Johnson, and S.~Levine, ``Solar:
 D.~P. Kingma and M.~Welling, ``{Auto-Encoding Variational Bayes},'' in {\em 2nd
   International Conference on Learning Representations, {ICLR} 2014, Banff, AB,
   Canada, April 14-16, 2014, Conference Track Proceedings}, 2014.
-
-\bibitem{fang2020graspnet}
-H.-S. Fang, C.~Wang, M.~Gou, and C.~Lu, ``Graspnet-1billion: A large-scale
-  benchmark for general object grasping,'' in {\em Proceedings of the IEEE/CVF
-  Conference on Computer Vision and Pattern Recognition}, pp.~11444--11453,
-  2020.
-
-\bibitem{goyal2017something2something}
-R.~Goyal, S.~Ebrahimi~Kahou, V.~Michalski, J.~Materzynska, S.~Westphal, H.~Kim,
-  V.~Haenel, I.~Fruend, P.~Yianilos, M.~Mueller-Freitag, {\em et~al.}, ``The"
-  something something" video database for learning and evaluating visual common
-  sense,'' in {\em Proceedings of the IEEE international conference on computer
-  vision}, pp.~5842--5850, 2017.
-
-\bibitem{qi2017pointnet++}
-C.~R. Qi, L.~Yi, H.~Su, and L.~J. Guibas, ``Pointnet++: Deep hierarchical
-  feature learning on point sets in a metric space,'' {\em Advances in neural
-  information processing systems}, vol.~30, 2017.
-
-\bibitem{zhu2020robosuite}
-Y.~Zhu, J.~Wong, A.~Mandlekar, and R.~Mart{\'\i}n-Mart{\'\i}n, ``robosuite: A
-  modular simulation framework and benchmark for robot learning,'' {\em arXiv
-  preprint arXiv:2009.12293}, 2020.
 
 \end{thebibliography}

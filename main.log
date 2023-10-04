@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  1 OCT 2023 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  5 OCT 2023 01:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,6 +775,97 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedLeftParindent=\skip97
 \RaggedRightParindent=\skip98
 \JustifyingParindent=\skip99
+) (c:/texlive/2022/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2022-03-01 v2022A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count374
+\l__tblr_c_int=\count375
+\l__tblr_r_int=\count376
+\l__tblr_d_dim=\dimen349
+\l__tblr_h_dim=\dimen350
+\l__tblr_o_dim=\dimen351
+\l__tblr_p_dim=\dimen352
+\l__tblr_q_dim=\dimen353
+\l__tblr_r_dim=\dimen354
+\l__tblr_s_dim=\dimen355
+\l__tblr_t_dim=\dimen356
+\l__tblr_v_dim=\dimen357
+\l__tblr_w_dim=\dimen358
+\l__tblr_a_box=\box86
+\l__tblr_b_box=\box87
+\l__tblr_c_box=\box88
+\l__tblr_d_box=\box89
+\g__tblr_table_count_int=\count377
+\c@rownum=\count378
+\c@colnum=\count379
+\c@rowcount=\count380
+\c@colcount=\count381
+\abovesep=\dimen359
+\belowsep=\dimen360
+\leftsep=\dimen361
+\rightsep=\dimen362
+\g_tblr_level_int=\count382
+\g__tblr_data_row_key_count_int=\count383
+\g__tblr_data_column_key_count_int=\count384
+\g__tblr_data_cell_key_count_int=\count385
+\g__tblr_array_int=\count386
+\l__tblr_key_count_int=\count387
+\l__tblr_key_quotient_int=\count388
+\l__tblr_key_quotient_two_int=\count389
+\l__tblr_key_remainder_int=\count390
+\g__tblr_data_str_value_count_int=\count391
+\rulewidth=\dimen363
+\l__tblr_strut_ht_box=\box90
+\l__tblr_strut_dp_box=\box91
+\g__tblr_cell_wd_dim=\dimen364
+\g__tblr_cell_ht_dim=\dimen365
+\g__tblr_cell_head_dim=\dimen366
+\g__tblr_cell_foot_dim=\dimen367
+\l__column_target_dim=\dimen368
+\l__tblr_caption_box=\box92
+\l__tblr_caption_left_box=\box93
+\l__tblr_row_head_box=\box94
+\l__tblr_row_foot_box=\box95
+\l__tblr_row_head_foot_dim=\dimen369
+\tablewidth=\dimen370
+\l__tblr_table_firsthead_box=\box96
+\l__tblr_table_middlehead_box=\box97
+\l__tblr_table_lasthead_box=\box98
+\l__tblr_table_firstfoot_box=\box99
+\l__tblr_table_middlefoot_box=\box100
+\l__tblr_table_lastfoot_box=\box101
+\l__tblr_remain_height_dim=\dimen371
+\l__tblr_long_from_int=\count392
+\l__tblr_long_to_int=\count393
+\l__tblr_curr_i_int=\count394
+\l__tblr_prev_i_int=\count395
+\l__tblr_table_page_int=\count396
+\l__tblr_table_head_box=\box102
+\l__tblr_table_foot_box=\box103
+\l__tblr_table_head_foot_dim=\dimen372
+\l__tblr_table_head_body_foot_dim=\dimen373
+\l__tblr_table_box=\box104
+\l__tblr_table_hlines_box=\box105
+\l__tblr_hline_box=\box106
+\l__tblr_row_box=\box107
+\l__tblr_col_o_wd_dim=\dimen374
+\l__tblr_col_b_wd_dim=\dimen375
+\l__tblr_hline_leftskip_dim=\dimen376
+\l__tblr_hline_rightskip_dim=\dimen377
+\l__tblr_row_ht_dim=\dimen378
+\l__tblr_row_dp_dim=\dimen379
+\l__tblr_row_abovesep_dim=\dimen380
+\l__tblr_row_belowsep_dim=\dimen381
+\l__tblr_row_vlines_box=\box108
+\l__tblr_vline_box=\box109
+\l__tblr_cell_box=\box110
+\l__row_upper_dim=\dimen382
+\l__row_lower_dim=\dimen383
+\l__row_vpace_dim=\dimen384
+\l__tblr_vline_aboveskip_dim=\dimen385
+\l__tblr_vline_belowskip_dim=\dimen386
+\l__tblr_cell_wd_dim=\dimen387
+\l__tblr_cell_ht_dim=\dimen388
+\l__tblr_diag_box=\box111
 ) (c:/texlive/2022/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks47
@@ -783,28 +874,28 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks50
 \SOUL@token=\toks51
 \SOUL@spaceskip=\skip100
-\SOUL@ttwidth=\dimen349
-\SOUL@uldp=\dimen350
-\SOUL@ulht=\dimen351
+\SOUL@ttwidth=\dimen389
+\SOUL@uldp=\dimen390
+\SOUL@ulht=\dimen391
 ) (c:/texlive/2022/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
 \@float@every@algorithm=\toks52
-\c@algorithm=\count374
+\c@algorithm=\count397
 ) (c:/texlive/2022/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
  (c:/texlive/2022/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count375
-\c@ALG@rem=\count376
-\c@ALG@nested=\count377
+\c@ALG@line=\count398
+\c@ALG@rem=\count399
+\c@ALG@nested=\count400
 \ALG@tlm=\skip101
 \ALG@thistlm=\skip102
-\c@ALG@Lnr=\count378
-\c@ALG@blocknr=\count379
-\c@ALG@storecount=\count380
-\c@ALG@tmpcounter=\count381
+\c@ALG@Lnr=\count401
+\c@ALG@blocknr=\count402
+\c@ALG@storecount=\count403
+\c@ALG@tmpcounter=\count404
 \ALG@tmplength=\skip103
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -816,15 +907,15 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \minrowclearance=\skip104
 ) (c:/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box86
+\ttl@box=\box112
 \beforetitleunit=\skip105
 \aftertitleunit=\skip106
-\ttl@plus=\dimen352
-\ttl@minus=\dimen353
+\ttl@plus=\dimen392
+\ttl@minus=\dimen393
 \ttl@toksa=\toks54
-\titlewidth=\dimen354
-\titlewidthlast=\dimen355
-\titlewidthfirst=\dimen356
+\titlewidth=\dimen394
+\titlewidthlast=\dimen395
+\titlewidthfirst=\dimen396
 ) (c:/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks55
@@ -836,30 +927,32 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip108
 \thm@headsep=\skip109
 \dth@everypar=\toks60
+) (c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
 )
-\c@prop=\count382
+\c@prop=\count405
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-Package hyperref Info: Link coloring OFF on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+Package hyperref Info: Link coloring OFF on input line 110.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -867,23 +960,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count383
+\c@section@level=\count406
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 110.
+LaTeX Info: Redefining \pageref on input line 110.
+LaTeX Info: Redefining \nameref on input line 110.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count384
-\scratchdimen=\dimen357
-\scratchbox=\box87
-\nofMPsegments=\count385
-\nofMParguments=\count386
+\scratchcounter=\count407
+\scratchdimen=\dimen397
+\scratchbox=\box113
+\nofMPsegments=\count408
+\nofMParguments=\count409
 \everyMPshowfont=\toks61
-\MPscratchCnt=\count387
-\MPscratchDim=\dimen358
-\MPnumerator=\count388
-\makeMPintoPDFobject=\count389
+\MPscratchCnt=\count410
+\MPscratchDim=\dimen398
+\MPnumerator=\count411
+\makeMPintoPDFobject=\count412
 \everyMPtoPDFconversion=\toks62
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -892,9 +985,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 108.
+Package chemgreek Info: Activating mapping `default' on line 110.
 
-\c@lstlisting=\count390
+\c@lstlisting=\count413
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -942,7 +1035,9 @@ Package picture Warning: Package `pict2e' is loaded after `picture'.
 (picture)                Load package `picture' afterwards to get full support
 (picture)                of its additional syntax with length specifications.
 
-(./Chapters/title_page/title_page.tex
+(c:/texlive/2022/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 vv2022D Select colors with proper color contrast
+) (./Chapters/title_page/title_page.tex
 <Figures/logo.png, id=7, 180.07275pt x 135.50626pt>
 File: Figures/logo.png Graphic file (type png)
 <use Figures/logo.png>
@@ -965,25 +1060,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 \newpage
+l.120 \newpage
                [1
 
-] (./Chapters/0_overview/0_overview.tex
-
-LaTeX Warning: Reference `sec:research_gaps' on page 2 undefined on input line 10.
-
-) (./Chapters/1_background/1_background.tex [2
+] (./Chapters/0_overview/0_overview.tex) (./Chapters/1_background/1_background.tex [2
 
 
 ]
 Chapter 1.
 (./Chapters/1_background/1_1_Introduction.tex (./Figures/industrial_robots_examples.tex
-<Figures/images/welding.jpg, id=74, 963.6pt x 642.14906pt>
+<Figures/images/welding.jpg, id=82, 963.6pt x 642.14906pt>
 File: Figures/images/welding.jpg Graphic file (type jpg)
 <use Figures/images/welding.jpg>
 Package pdftex.def Info: Figures/images/welding.jpg  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 127.9866pt.
-<Figures/images/loading.jpg, id=75, 577.40718pt x 324.46219pt>
+<Figures/images/loading.jpg, id=83, 577.40718pt x 324.46219pt>
 File: Figures/images/loading.jpg Graphic file (type jpg)
 <use Figures/images/loading.jpg>
 Package pdftex.def Info: Figures/images/loading.jpg  used on input line 17.
@@ -991,182 +1082,310 @@ Package pdftex.def Info: Figures/images/loading.jpg  used on input line 17.
 ) [3
 
  <./Figures/images/welding.jpg> <./Figures/images/loading.jpg>] [4] (./Figures/rl_methods.tex
-<Figures/images/RL_methods/onpolicy.jpg, id=128, 189.5883pt x 126.4725pt>
+<Figures/images/RL_methods/onpolicy.jpg, id=127, 189.5883pt x 126.4725pt>
 File: Figures/images/RL_methods/onpolicy.jpg Graphic file (type jpg)
 <use Figures/images/RL_methods/onpolicy.jpg>
 Package pdftex.def Info: Figures/images/RL_methods/onpolicy.jpg  used on input line 5.
 (pdftex.def)             Requested size: 106.69783pt x 71.17726pt.
-<Figures/images/RL_methods/offpolicy.jpg, id=129, 188.6247pt x 125.7498pt>
+<Figures/images/RL_methods/offpolicy.jpg, id=128, 188.6247pt x 125.7498pt>
 File: Figures/images/RL_methods/offpolicy.jpg Graphic file (type jpg)
 <use Figures/images/RL_methods/offpolicy.jpg>
 Package pdftex.def Info: Figures/images/RL_methods/offpolicy.jpg  used on input line 11.
 (pdftex.def)             Requested size: 106.69783pt x 71.13318pt.
-<Figures/images/RL_methods/offline.jpg, id=130, 306.4248pt x 143.8173pt>
+<Figures/images/RL_methods/offline.jpg, id=129, 306.4248pt x 143.8173pt>
 File: Figures/images/RL_methods/offline.jpg Graphic file (type jpg)
 <use Figures/images/RL_methods/offline.jpg>
 Package pdftex.def Info: Figures/images/RL_methods/offline.jpg  used on input line 17.
 (pdftex.def)             Requested size: 149.37958pt x 70.109pt.
-) (./Figures/il_taxonomy_and_main_components.tex
-<Figures/images/il_taxonomy.png, id=136, 783.92876pt x 472.76625pt>
+) [5 <./Figures/images/RL_methods/onpolicy.jpg> <./Figures/images/RL_methods/offpolicy.jpg> <./Figures/images/RL_methods/offline.jpg>] (./Figures/il_taxonomy_and_main_components.tex
+<Figures/images/il_taxonomy.png, id=153, 783.92876pt x 472.76625pt>
 File: Figures/images/il_taxonomy.png Graphic file (type png)
 <use Figures/images/il_taxonomy.png>
 Package pdftex.def Info: Figures/images/il_taxonomy.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 231.65027pt.
-) [5 <./Figures/images/RL_methods/onpolicy.jpg> <./Figures/images/RL_methods/offpolicy.jpg> <./Figures/images/RL_methods/offline.jpg>]) (./Chapters/1_background/1_2_sota.tex (./Chapters/1_background/sota_sections/1_2_1_problem_formulation.tex [6 <./Figures/images/il_taxonomy.png>] [7]) (./Chapters/1_background/sota_sections/1_2_2_source_of_demonstration.tex (./Figures/direct_demonstration.tex
-<Figures/images/direct_demonstration/kinesthetic.jpg, id=190, 731.73375pt x 548.80031pt>
+) [6 <./Figures/images/il_taxonomy.png>]) (./Chapters/1_background/1_2_sota.tex (./Chapters/1_background/sota_sections/1_2_1_problem_formulation.tex [7]) (./Chapters/1_background/sota_sections/1_2_2_source_of_demonstration.tex [8] (./Figures/direct_demonstration.tex
+<Figures/images/direct_demonstration/kinesthetic.jpg, id=202, 731.73375pt x 548.80031pt>
 File: Figures/images/direct_demonstration/kinesthetic.jpg Graphic file (type jpg)
 <use Figures/images/direct_demonstration/kinesthetic.jpg>
 Package pdftex.def Info: Figures/images/direct_demonstration/kinesthetic.jpg  used on input line 4.
 (pdftex.def)             Requested size: 192.0548pt x 144.04129pt.
-<Figures/images/direct_demonstration/teleoperation.jpg, id=193, 734.745pt x 472.01344pt>
+<Figures/images/direct_demonstration/teleoperation.jpg, id=205, 734.745pt x 472.01344pt>
 File: Figures/images/direct_demonstration/teleoperation.jpg Graphic file (type jpg)
 <use Figures/images/direct_demonstration/teleoperation.jpg>
 Package pdftex.def Info: Figures/images/direct_demonstration/teleoperation.jpg  used on input line 10.
 (pdftex.def)             Requested size: 213.39568pt x 137.08925pt.
 ) (./Figures/roboturk.tex
-<Figures/images/indirect_demonstration/roboturk.jpg, id=204, 1048.66782pt x 417.05812pt>
+<Figures/images/indirect_demonstration/roboturk.jpg, id=216, 1048.66782pt x 417.05812pt>
 File: Figures/images/indirect_demonstration/roboturk.jpg Graphic file (type jpg)
 <use Figures/images/indirect_demonstration/roboturk.jpg>
 Package pdftex.def Info: Figures/images/indirect_demonstration/roboturk.jpg  used on input line 3.
 (pdftex.def)             Requested size: 341.43437pt x 135.79047pt.
- [8 <./Figures/images/direct_demonstration/kinesthetic.jpg> <./Figures/images/direct_demonstration/teleoperation.jpg>])) (./Chapters/1_background/sota_sections/1_2_3_methods.tex (./Chapters/1_background/sota_sections/bc.tex (./Algorithm/algorithm_bc.tex
+ [9 <./Figures/images/direct_demonstration/kinesthetic.jpg> <./Figures/images/direct_demonstration/teleoperation.jpg>])) (./Chapters/1_background/sota_sections/1_2_3_methods.tex (./Chapters/1_background/sota_sections/bc.tex (./Algorithm/algorithm_bc.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 2.
-) [9 <./Figures/images/indirect_demonstration/roboturk.jpg>] (./Formula/dmp.tex) (./Algorithm/dagger.tex) [10] [11] (./Figures/deep_visual_bc.tex
-<Figures/images/deep_imitation_bc/deep_imitation_bc.jpg, id=297, 1001.24063pt x 255.20343pt>
+) [10 <./Figures/images/indirect_demonstration/roboturk.jpg>] (./Formula/dmp.tex) (./Algorithm/dagger.tex) [11] [12] (./Figures/deep_visual_bc.tex
+<Figures/images/deep_imitation_bc/deep_imitation_bc.jpg, id=308, 1001.24063pt x 255.20343pt>
 File: Figures/images/deep_imitation_bc/deep_imitation_bc.jpg Graphic file (type jpg)
 <use Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>
 Package pdftex.def Info: Figures/images/deep_imitation_bc/deep_imitation_bc.jpg  used on input line 3.
 (pdftex.def)             Requested size: 341.43437pt x 87.02892pt.
-) (./Table/deep_bc_teleoperation_results.tex) (./Algorithm/maml.tex) (./Formula/daml.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12 <./Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>]) (./Figures/daml.tex
-<Figures/images/daml/tasks.jpg, id=332, 1028.34187pt x 168.63pt>
+) (./Table/deep_bc_teleoperation_results.tex) (./Algorithm/maml.tex) (./Formula/daml.tex [13] [14 <./Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>]) (./Figures/daml.tex
+<Figures/images/daml/tasks.jpg, id=349, 1028.34187pt x 168.63pt>
 File: Figures/images/daml/tasks.jpg Graphic file (type jpg)
 <use Figures/images/daml/tasks.jpg>
 Package pdftex.def Info: Figures/images/daml/tasks.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 69.98785pt.
-)
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./Figures/bc-z.tex
-<Figures/images/bc_z/bc-z-network.jpg, id=342, 1206.75844pt x 375.65344pt>
+) [15 <./Figures/images/daml/tasks.jpg>] (./Figures/task_embedded.tex
+<Figures/images/task_embedded/task_embedded.png, id=379, 508.90125pt x 121.95563pt>
+File: Figures/images/task_embedded/task_embedded.png Graphic file (type png)
+<use Figures/images/task_embedded/task_embedded.png>
+Package pdftex.def Info: Figures/images/task_embedded/task_embedded.png  used on input line 3.
+(pdftex.def)             Requested size: 298.75264pt x 71.59775pt.
+) (./Figures/mosaic.tex
+<Figures/images/mosaic/mosaic.jpg, id=390, 1006.51031pt x 342.5297pt>
+File: Figures/images/mosaic/mosaic.jpg Graphic file (type jpg)
+<use Figures/images/mosaic/mosaic.jpg>
+Package pdftex.def Info: Figures/images/mosaic/mosaic.jpg  used on input line 3.
+(pdftex.def)             Requested size: 384.1096pt x 130.71664pt.
+ [16 <./Figures/images/task_embedded/task_embedded.png>]
+<Figures/images/mosaic/mosaic_tasks.png, id=410, 740.7675pt x 570.63188pt>
+File: Figures/images/mosaic/mosaic_tasks.png Graphic file (type png)
+<use Figures/images/mosaic/mosaic_tasks.png>
+Package pdftex.def Info: Figures/images/mosaic/mosaic_tasks.png  used on input line 10.
+(pdftex.def)             Requested size: 384.1096pt x 295.89441pt.
+) (./Table/mosaic_results.tex) (./Figures/language_conditioned.tex
+<Figures/images/language_conditioned/architecture.png, id=423, 922.94812pt x 228.10219pt>
+File: Figures/images/language_conditioned/architecture.png Graphic file (type png)
+<use Figures/images/language_conditioned/architecture.png>
+Package pdftex.def Info: Figures/images/language_conditioned/architecture.png  used on input line 3.
+(pdftex.def)             Requested size: 384.1096pt x 94.92863pt.
+ [17 <./Figures/images/mosaic/mosaic.jpg>] [18 <./Figures/images/mosaic/mosaic_tasks.png>]
+<Figures/images/language_conditioned/objects.png, id=438, 916.92563pt x 192.72pt>
+File: Figures/images/language_conditioned/objects.png Graphic file (type png)
+<use Figures/images/language_conditioned/objects.png>
+Package pdftex.def Info: Figures/images/language_conditioned/objects.png  used on input line 10.
+(pdftex.def)             Requested size: 384.1096pt x 80.73305pt.
+) (./Figures/bc-z.tex
+<Figures/images/bc_z/bc-z-network.jpg, id=444, 1206.75844pt x 375.65344pt>
 File: Figures/images/bc_z/bc-z-network.jpg Graphic file (type jpg)
 <use Figures/images/bc_z/bc-z-network.jpg>
 Package pdftex.def Info: Figures/images/bc_z/bc-z-network.jpg  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 119.56956pt.
-) (./Table/mosaic_results.tex) [13] [14 <./Figures/images/daml/tasks.jpg> <./Figures/images/bc_z/bc-z-network.jpg>] [15]) (./Chapters/1_background/sota_sections/irl.tex (./Algorithm/irl_general_procedure.tex) (./Algorithm/guided_cost_learning_algorithm.tex) (./Figures/model-based-irl.tex
-<Figures/images/model_based_irl/model_based_irl.jpg, id=413, 1220.30907pt x 264.23718pt>
+) (./Figures/rt1_model.tex
+<Figures/images/rt_1/dataset_image.png, id=454, 654.94687pt x 176.15813pt>
+File: Figures/images/rt_1/dataset_image.png Graphic file (type png)
+<use Figures/images/rt_1/dataset_image.png>
+Package pdftex.def Info: Figures/images/rt_1/dataset_image.png  used on input line 4.
+(pdftex.def)             Requested size: 192.0548pt x 51.65439pt.
+<Figures/images/rt_1/model.png, id=455, 778.40813pt x 199.49532pt>
+File: Figures/images/rt_1/model.png Graphic file (type png)
+<use Figures/images/rt_1/model.png>
+Package pdftex.def Info: Figures/images/rt_1/model.png  used on input line 10.
+(pdftex.def)             Requested size: 213.39568pt x 54.68938pt.
+
+Underfull \hbox (badness 4582) in paragraph at lines 11--11
+[]\OT1/cmr/m/it/10 (b) |RT-1 Language-Conditioned Trans-former
+ []
+
+[19 <./Figures/images/language_conditioned/architecture.png> <./Figures/images/language_conditioned/objects.png>]) (./Table/rt_1_dataset.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+
+Overfull \hbox (2.05382pt too wide) in paragraph at lines 28--28
+ [][]\OT1/cmr/m/n/7 Count[] 
+ []
+
+
+Overfull \hbox (2.05382pt too wide) in paragraph at lines 28--28
+ [][]\OT1/cmr/m/n/7 Count[] 
+ []
+
+> Step: build the whole table.
+
+Overfull \hbox (2.05382pt too wide) in paragraph at lines 28--28
+ [][]\OT1/cmr/m/n/7 Count[] 
+ []
+
+
+Overfull \hbox (2.05382pt too wide) in paragraph at lines 28--28
+ [][]\OT1/cmr/m/n/7 Count[] 
+ []
+
+) (./Table/rt_1_results.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [20 <./Figures/images/bc_z/bc-z-network.jpg> <./Figures/images/rt_1/dataset_image.png> <./Figures/images/rt_1/model.png>] [21]) (./Chapters/1_background/sota_sections/irl.tex [22] (./Algorithm/irl_general_procedure.tex) (./Algorithm/guided_cost_learning_algorithm.tex) (./Figures/model-based-irl.tex
+<Figures/images/model_based_irl/model_based_irl.jpg, id=548, 1220.30907pt x 264.23718pt>
 File: Figures/images/model_based_irl/model_based_irl.jpg Graphic file (type jpg)
 <use Figures/images/model_based_irl/model_based_irl.jpg>
 Package pdftex.def Info: Figures/images/model_based_irl/model_based_irl.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 92.41585pt.
-)) (./Chapters/1_background/sota_sections/gail.tex [16] [17] (./Formula/gail.tex [18 <./Figures/images/model_based_irl/model_based_irl.jpg>]) (./Algorithm/algorithm_gail.tex) (./Figures/trail_results.tex
-<Figures/images/trail/trail_results.jpg, id=486, 1097.60063pt x 140.77594pt>
+)) (./Chapters/1_background/sota_sections/gail.tex [23] [24] (./Formula/gail.tex [25 <./Figures/images/model_based_irl/model_based_irl.jpg>]) (./Algorithm/algorithm_gail.tex) (./Figures/trail_results.tex
+<Figures/images/trail/trail_results.jpg, id=614, 1097.60063pt x 140.77594pt>
 File: Figures/images/trail/trail_results.jpg Graphic file (type jpg)
 <use Figures/images/trail/trail_results.jpg>
 Package pdftex.def Info: Figures/images/trail/trail_results.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 54.73912pt.
- [19]) (./Formula/vmail.tex) (./Figures/vmail.tex
-<Figures/images/vmail/control-tasks.jpg, id=514, 808.52063pt x 156.585pt>
+ [26]) (./Formula/vmail.tex) (./Figures/vmail.tex
+<Figures/images/vmail/control-tasks.jpg, id=642, 808.52063pt x 156.585pt>
 File: Figures/images/vmail/control-tasks.jpg Graphic file (type jpg)
 <use Figures/images/vmail/control-tasks.jpg>
 Package pdftex.def Info: Figures/images/vmail/control-tasks.jpg  used on input line 3.
 (pdftex.def)             Requested size: 320.0935pt x 61.99255pt.
 )) (./Chapters/1_background/sota_sections/lfo.tex (./Figures/embodiment_mismatch.tex
-<Figures/images/embodiment_mismatch/embo.png, id=517, 1225.57875pt x 219.82124pt>
+<Figures/images/embodiment_mismatch/embo.png, id=645, 1225.57875pt x 219.82124pt>
 File: Figures/images/embodiment_mismatch/embo.png Graphic file (type png)
 <use Figures/images/embodiment_mismatch/embo.png>
 Package pdftex.def Info: Figures/images/embodiment_mismatch/embo.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 68.89186pt.
-) [20 <./Figures/images/trail/trail_results.jpg>] (./Figures/xirl.tex
-<Figures/images/xirl/xirl.jpg, id=545, 656.4525pt x 398.23781pt>
+) (./Figures/xirl.tex
+<Figures/images/xirl/xirl.jpg, id=659, 656.4525pt x 398.23781pt>
 File: Figures/images/xirl/xirl.jpg Graphic file (type jpg)
 <use Figures/images/xirl/xirl.jpg>
 Package pdftex.def Info: Figures/images/xirl/xirl.jpg  used on input line 3.
 (pdftex.def)             Requested size: 213.39568pt x 129.45613pt.
 ) (./Figures/different_viewpoint.tex
-<Figures/images/view_point_mismatch/time-contrastive-network.jpg, id=555, 674.52pt x 524.71031pt>
+<Figures/images/view_point_mismatch/time-contrastive-network.jpg, id=669, 674.52pt x 524.71031pt>
 File: Figures/images/view_point_mismatch/time-contrastive-network.jpg Graphic file (type jpg)
 <use Figures/images/view_point_mismatch/time-contrastive-network.jpg>
 Package pdftex.def Info: Figures/images/view_point_mismatch/time-contrastive-network.jpg  used on input line 5.
 (pdftex.def)             Requested size: 213.39568pt x 165.9972pt.
-<Figures/images/view_point_mismatch/context-translation-model.jpg, id=558, 458.46281pt x 316.18124pt>
+<Figures/images/view_point_mismatch/context-translation-model.jpg, id=672, 458.46281pt x 316.18124pt>
 File: Figures/images/view_point_mismatch/context-translation-model.jpg Graphic file (type jpg)
 <use Figures/images/view_point_mismatch/context-translation-model.jpg>
 Package pdftex.def Info: Figures/images/view_point_mismatch/context-translation-model.jpg  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 132.45267pt.
-) [21 <./Figures/images/vmail/control-tasks.jpg> <./Figures/images/embodiment_mismatch/embo.png>] (./Algorithm/gaifo.tex) (./Figures/gaifo_results.tex
-<Figures/images/gaifo_results/gaifo_results.jpg, id=602, 916.92563pt x 233.37187pt>
+) [27 <./Figures/images/trail/trail_results.jpg>] [28 <./Figures/images/vmail/control-tasks.jpg> <./Figures/images/embodiment_mismatch/embo.png>] (./Algorithm/gaifo.tex) (./Figures/gaifo_results.tex
+<Figures/images/gaifo_results/gaifo_results.jpg, id=728, 916.92563pt x 233.37187pt>
 File: Figures/images/gaifo_results/gaifo_results.jpg Graphic file (type jpg)
 <use Figures/images/gaifo_results/gaifo_results.jpg>
 Package pdftex.def Info: Figures/images/gaifo_results/gaifo_results.jpg  used on input line 5.
 (pdftex.def)             Requested size: 298.75264pt x 76.03725pt.
-<Figures/images/gaifo_results/gaifo_results_visual.jpg, id=603, 916.92563pt x 233.37187pt>
+<Figures/images/gaifo_results/gaifo_results_visual.jpg, id=729, 916.92563pt x 233.37187pt>
 File: Figures/images/gaifo_results/gaifo_results_visual.jpg Graphic file (type jpg)
 <use Figures/images/gaifo_results/gaifo_results_visual.jpg>
 Package pdftex.def Info: Figures/images/gaifo_results/gaifo_results_visual.jpg  used on input line 12.
 (pdftex.def)             Requested size: 298.75264pt x 76.03725pt.
- [22 <./Figures/images/xirl/xirl.jpg>] [23 <./Figures/images/view_point_mismatch/time-contrastive-network.jpg> <./Figures/images/view_point_mismatch/context-translation-model.jpg>]) (./Figures/bco.tex
-<Figures/images/bco/bco.jpg, id=636, 509.65407pt x 251.43938pt>
+ [29 <./Figures/images/xirl/xirl.jpg>] [30 <./Figures/images/view_point_mismatch/time-contrastive-network.jpg> <./Figures/images/view_point_mismatch/context-translation-model.jpg>]) (./Figures/bco.tex
+<Figures/images/bco/bco.jpg, id=760, 509.65407pt x 251.43938pt>
 File: Figures/images/bco/bco.jpg Graphic file (type jpg)
 <use Figures/images/bco/bco.jpg>
 Package pdftex.def Info: Figures/images/bco/bco.jpg  used on input line 3.
 (pdftex.def)             Requested size: 256.07741pt x 126.34091pt.
-) (./Formula/lqr_setting.tex [24 <./Figures/images/gaifo_results/gaifo_results.jpg> <./Figures/images/gaifo_results/gaifo_results_visual.jpg>] [25 <./Figures/images/bco/bco.jpg>]) (./Formula/dealio_discriminator.tex) (./Figures/dealio_performance.tex
-<Figures/images/dealio/dealio_performed_task.jpg, id=677, 721.19438pt x 211.54031pt>
+) (./Formula/lqr_setting.tex [31] [32 <./Figures/images/gaifo_results/gaifo_results.jpg> <./Figures/images/gaifo_results/gaifo_results_visual.jpg>]) (./Formula/dealio_discriminator.tex [33 <./Figures/images/bco/bco.jpg>]) (./Figures/dealio_performance.tex
+<Figures/images/dealio/dealio_performed_task.jpg, id=810, 721.19438pt x 211.54031pt>
 File: Figures/images/dealio/dealio_performed_task.jpg Graphic file (type jpg)
 <use Figures/images/dealio/dealio_performed_task.jpg>
 Package pdftex.def Info: Figures/images/dealio/dealio_performed_task.jpg  used on input line 5.
 (pdftex.def)             Requested size: 256.07741pt x 75.11185pt.
-<Figures/images/dealio/dealio_performance.jpg, id=680, 1088.56688pt x 258.9675pt>
+<Figures/images/dealio/dealio_performance.jpg, id=813, 1088.56688pt x 258.9675pt>
 File: Figures/images/dealio/dealio_performance.jpg Graphic file (type jpg)
 <use Figures/images/dealio/dealio_performance.jpg>
 Package pdftex.def Info: Figures/images/dealio/dealio_performance.jpg  used on input line 12.
 (pdftex.def)             Requested size: 341.43437pt x 81.2235pt.
 )
-Overfull \hbox (1.26286pt too wide) in paragraph at lines 18--42
+Overfull \hbox (1.26286pt too wide) in paragraph at lines 18--41
  \OT1/cmr/m/n/10.95 Ex-per-i-ments per-formed in sim-u-la-tion with low-dimensional state space have shown promis-
  []
 
-)) (./Chapters/1_background/sota_sections/1_2_4_summary.tex [26 <./Figures/images/dealio/dealio_performed_task.jpg> <./Figures/images/dealio/dealio_performance.jpg>]))) (./Chapters/2_research_plan/2_research_plan.tex [27]
+)) (./Chapters/1_background/sota_sections/1_2_4_summary.tex))) [34 <./Figures/images/dealio/dealio_performed_task.jpg> <./Figures/images/dealio/dealio_performance.jpg>] (./Chapters/2_research_plan/2_research_plan.tex [35]
 Chapter 2.
-(./Chapters/2_research_plan/2_1_research_topic.tex [28
+(./Chapters/2_research_plan/2_1_research_topic.tex [36
 
-] [29]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex)) [30] (./Chapters/3_preliminary_results/3_preliminary_results.tex [31]
+] [37] [38]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex)) (./Chapters/3_preliminary_results/3_preliminary_results.tex [39]
 Chapter 3.
-) (./Chapters/4_other_activities/4_Other_activities.tex [32
+(./Chapters/3_preliminary_results/3_1_dataset_description.tex (./Table/dataset_table.tex
+> Step: init table outer spec.
+> Step: parse table options.
+> Step: split table.
+> Step: init table inner spec.
+> Step: parse table inner spec.
+> Step: execute table commands.
+> Step: calculate cell and line sizes.
+> Step: build the whole table.
+) [40
 
-]
+] (./Figures/dataset_examples.tex
+<Figures/images/pick_place/task_1.png, id=915, 361.35pt x 200.75pt>
+File: Figures/images/pick_place/task_1.png Graphic file (type png)
+<use Figures/images/pick_place/task_1.png>
+Package pdftex.def Info: Figures/images/pick_place/task_1.png  used on input line 5.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+<Figures/images/pick_place/task_2.png, id=916, 361.35pt x 200.75pt>
+File: Figures/images/pick_place/task_2.png Graphic file (type png)
+<use Figures/images/pick_place/task_2.png>
+Package pdftex.def Info: Figures/images/pick_place/task_2.png  used on input line 12.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+<Figures/images/pick_place/task_3.png, id=917, 361.35pt x 200.75pt>
+File: Figures/images/pick_place/task_3.png Graphic file (type png)
+<use Figures/images/pick_place/task_3.png>
+Package pdftex.def Info: Figures/images/pick_place/task_3.png  used on input line 19.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+<Figures/images/pick_place/task_4.png, id=918, 361.35pt x 200.75pt>
+File: Figures/images/pick_place/task_4.png Graphic file (type png)
+<use Figures/images/pick_place/task_4.png>
+Package pdftex.def Info: Figures/images/pick_place/task_4.png  used on input line 26.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+<Figures/images/nut_assembly/task_1.png, id=919, 361.35pt x 200.75pt>
+File: Figures/images/nut_assembly/task_1.png Graphic file (type png)
+<use Figures/images/nut_assembly/task_1.png>
+Package pdftex.def Info: Figures/images/nut_assembly/task_1.png  used on input line 38.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+<Figures/images/nut_assembly/task_2.png, id=920, 361.35pt x 200.75pt>
+File: Figures/images/nut_assembly/task_2.png Graphic file (type png)
+<use Figures/images/nut_assembly/task_2.png>
+Package pdftex.def Info: Figures/images/nut_assembly/task_2.png  used on input line 45.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+<Figures/images/nut_assembly/task_3.png, id=921, 361.35pt x 200.75pt>
+File: Figures/images/nut_assembly/task_3.png Graphic file (type png)
+<use Figures/images/nut_assembly/task_3.png>
+Package pdftex.def Info: Figures/images/nut_assembly/task_3.png  used on input line 52.
+(pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
+) (./Figures/dataset_distribution.tex
+<Figures/images/dataset_distribution/pick_place_variation_0.png, id=923, 1156.32pt x 650.43pt>
+File: Figures/images/dataset_distribution/pick_place_variation_0.png Graphic file (type png)
+<use Figures/images/dataset_distribution/pick_place_variation_0.png>
+Package pdftex.def Info: Figures/images/dataset_distribution/pick_place_variation_0.png  used on input line 5.
+(pdftex.def)             Requested size: 384.1096pt x 216.0618pt.
+<Figures/images/dataset_distribution/nut_assembly_variation_0.png, id=924, 1156.32pt x 650.43pt>
+File: Figures/images/dataset_distribution/nut_assembly_variation_0.png Graphic file (type png)
+<use Figures/images/dataset_distribution/nut_assembly_variation_0.png>
+Package pdftex.def Info: Figures/images/dataset_distribution/nut_assembly_variation_0.png  used on input line 12.
+(pdftex.def)             Requested size: 384.1096pt x 216.0618pt.
+)) (./Chapters/3_preliminary_results/3_2_method_results.tex)) (./Chapters/4_other_activities/4_Other_activities.tex [41] [42 <./Figures/images/pick_place/task_1.png (PNG copy)> <./Figures/images/pick_place/task_2.png (PNG copy)> <./Figures/images/pick_place/task_3.png (PNG copy)> <./Figures/images/pick_place/task_4.png (PNG copy)> <./Figures/images/nut_assembly/task_1.png (PNG copy)> <./Figures/images/nut_assembly/task_2.png (PNG copy)> <./Figures/images/nut_assembly/task_3.png (PNG copy)>] [43 <./Figures/images/dataset_distribution/pick_place_variation_0.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0.png>]
 Chapter 4.
-(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [33
+(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [44
 
-])) [34] (./main.bbl [35
+])) [45] (./main.bbl [46
 
 
-] [36] [37] [38] [39] [40] [41]) [42] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+] [47] [48] [49] [50] [51] [52] [53] [54]) [55] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 30236 strings out of 478268
- 562608 string characters out of 5850344
- 887348 words of memory out of 5000000
- 47446 multiletter control sequences out of 15000+600000
- 485457 words of font info for 85 fonts, out of 8000000 for 9000
+ 32922 strings out of 478268
+ 634440 string characters out of 5850344
+ 982112 words of memory out of 5000000
+ 50031 multiletter control sequences out of 15000+600000
+ 489810 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,94p,3681b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,109p,3681b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
-{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (43 pages, 3266456 bytes).
+{c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (56 pages, 6112644 bytes).
 PDF statistics:
- 1044 PDF objects out of 1200 (max. 8388607)
- 888 compressed objects within 9 object streams
- 250 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1229 PDF objects out of 1440 (max. 8388607)
+ 1016 compressed objects within 11 object streams
+ 288 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 
