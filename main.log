@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  5 OCT 2023 01:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  5 OCT 2023 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1302,7 +1302,13 @@ Overfull \hbox (1.26286pt too wide) in paragraph at lines 18--41
 Chapter 2.
 (./Chapters/2_research_plan/2_1_research_topic.tex [36
 
-] [37] [38]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex)) (./Chapters/3_preliminary_results/3_preliminary_results.tex [39]
+] [37] [38]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex (./Figures/film_attention_mechanism.tex
+<Figures/images/film/film_attention.png, id=898, 1212.02812pt x 447.17062pt>
+File: Figures/images/film/film_attention.png Graphic file (type png)
+<use Figures/images/film/film_attention.png>
+Package pdftex.def Info: Figures/images/film/film_attention.png  used on input line 3.
+(pdftex.def)             Requested size: 384.1096pt x 141.71239pt.
+) [39] [40 <./Figures/images/film/film_attention.png>])) (./Chapters/3_preliminary_results/3_preliminary_results.tex [41]
 Chapter 3.
 (./Chapters/3_preliminary_results/3_1_dataset_description.tex (./Table/dataset_table.tex
 > Step: init table outer spec.
@@ -1313,68 +1319,68 @@ Chapter 3.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [40
+) [42
 
 ] (./Figures/dataset_examples.tex
-<Figures/images/pick_place/task_1.png, id=915, 361.35pt x 200.75pt>
+<Figures/images/pick_place/task_1.png, id=945, 361.35pt x 200.75pt>
 File: Figures/images/pick_place/task_1.png Graphic file (type png)
 <use Figures/images/pick_place/task_1.png>
 Package pdftex.def Info: Figures/images/pick_place/task_1.png  used on input line 5.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
-<Figures/images/pick_place/task_2.png, id=916, 361.35pt x 200.75pt>
+<Figures/images/pick_place/task_2.png, id=946, 361.35pt x 200.75pt>
 File: Figures/images/pick_place/task_2.png Graphic file (type png)
 <use Figures/images/pick_place/task_2.png>
 Package pdftex.def Info: Figures/images/pick_place/task_2.png  used on input line 12.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
-<Figures/images/pick_place/task_3.png, id=917, 361.35pt x 200.75pt>
+<Figures/images/pick_place/task_3.png, id=947, 361.35pt x 200.75pt>
 File: Figures/images/pick_place/task_3.png Graphic file (type png)
 <use Figures/images/pick_place/task_3.png>
 Package pdftex.def Info: Figures/images/pick_place/task_3.png  used on input line 19.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
-<Figures/images/pick_place/task_4.png, id=918, 361.35pt x 200.75pt>
+<Figures/images/pick_place/task_4.png, id=948, 361.35pt x 200.75pt>
 File: Figures/images/pick_place/task_4.png Graphic file (type png)
 <use Figures/images/pick_place/task_4.png>
 Package pdftex.def Info: Figures/images/pick_place/task_4.png  used on input line 26.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
-<Figures/images/nut_assembly/task_1.png, id=919, 361.35pt x 200.75pt>
+<Figures/images/nut_assembly/task_1.png, id=949, 361.35pt x 200.75pt>
 File: Figures/images/nut_assembly/task_1.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_1.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_1.png  used on input line 38.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
-<Figures/images/nut_assembly/task_2.png, id=920, 361.35pt x 200.75pt>
+<Figures/images/nut_assembly/task_2.png, id=950, 361.35pt x 200.75pt>
 File: Figures/images/nut_assembly/task_2.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_2.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_2.png  used on input line 45.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
-<Figures/images/nut_assembly/task_3.png, id=921, 361.35pt x 200.75pt>
+<Figures/images/nut_assembly/task_3.png, id=951, 361.35pt x 200.75pt>
 File: Figures/images/nut_assembly/task_3.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_3.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_3.png  used on input line 52.
 (pdftex.def)             Requested size: 170.71393pt x 94.83955pt.
 ) (./Figures/dataset_distribution.tex
-<Figures/images/dataset_distribution/pick_place_variation_0.png, id=923, 1156.32pt x 650.43pt>
+<Figures/images/dataset_distribution/pick_place_variation_0.png, id=953, 1156.32pt x 650.43pt>
 File: Figures/images/dataset_distribution/pick_place_variation_0.png Graphic file (type png)
 <use Figures/images/dataset_distribution/pick_place_variation_0.png>
 Package pdftex.def Info: Figures/images/dataset_distribution/pick_place_variation_0.png  used on input line 5.
 (pdftex.def)             Requested size: 384.1096pt x 216.0618pt.
-<Figures/images/dataset_distribution/nut_assembly_variation_0.png, id=924, 1156.32pt x 650.43pt>
+<Figures/images/dataset_distribution/nut_assembly_variation_0.png, id=954, 1156.32pt x 650.43pt>
 File: Figures/images/dataset_distribution/nut_assembly_variation_0.png Graphic file (type png)
 <use Figures/images/dataset_distribution/nut_assembly_variation_0.png>
 Package pdftex.def Info: Figures/images/dataset_distribution/nut_assembly_variation_0.png  used on input line 12.
 (pdftex.def)             Requested size: 384.1096pt x 216.0618pt.
-)) (./Chapters/3_preliminary_results/3_2_method_results.tex)) (./Chapters/4_other_activities/4_Other_activities.tex [41] [42 <./Figures/images/pick_place/task_1.png (PNG copy)> <./Figures/images/pick_place/task_2.png (PNG copy)> <./Figures/images/pick_place/task_3.png (PNG copy)> <./Figures/images/pick_place/task_4.png (PNG copy)> <./Figures/images/nut_assembly/task_1.png (PNG copy)> <./Figures/images/nut_assembly/task_2.png (PNG copy)> <./Figures/images/nut_assembly/task_3.png (PNG copy)>] [43 <./Figures/images/dataset_distribution/pick_place_variation_0.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0.png>]
+)) (./Chapters/3_preliminary_results/3_2_method_results.tex)) (./Chapters/4_other_activities/4_Other_activities.tex [43] [44 <./Figures/images/pick_place/task_1.png (PNG copy)> <./Figures/images/pick_place/task_2.png (PNG copy)> <./Figures/images/pick_place/task_3.png (PNG copy)> <./Figures/images/pick_place/task_4.png (PNG copy)> <./Figures/images/nut_assembly/task_1.png (PNG copy)> <./Figures/images/nut_assembly/task_2.png (PNG copy)> <./Figures/images/nut_assembly/task_3.png (PNG copy)>] [45 <./Figures/images/dataset_distribution/pick_place_variation_0.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0.png>]
 Chapter 4.
-(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [44
+(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [46
 
-])) [45] (./main.bbl [46
+])) [47] (./main.bbl [48
 
 
-] [47] [48] [49] [50] [51] [52] [53] [54]) [55] (./main.aux) ) 
+] [49] [50] [51] [52] [53] [54] [55] [56] [57]) [58] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 32922 strings out of 478268
- 634440 string characters out of 5850344
- 982112 words of memory out of 5000000
- 50031 multiletter control sequences out of 15000+600000
+ 32952 strings out of 478268
+ 635163 string characters out of 5850344
+ 982520 words of memory out of 5000000
+ 50047 multiletter control sequences out of 15000+600000
  489810 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,109p,3681b,1109s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1382,10 +1388,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (56 pages, 6112644 bytes).
+Output written on main.pdf (59 pages, 6404619 bytes).
 PDF statistics:
- 1229 PDF objects out of 1440 (max. 8388607)
- 1016 compressed objects within 11 object streams
- 288 named destinations out of 1000 (max. 500000)
- 370 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1265 PDF objects out of 1440 (max. 8388607)
+ 1047 compressed objects within 11 object streams
+ 297 named destinations out of 1000 (max. 500000)
+ 375 words of extra memory for PDF output out of 10000 (max. 10000000)
 

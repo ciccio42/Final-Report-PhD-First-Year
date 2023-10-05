@@ -564,4 +564,30 @@ D.~P. Kingma and M.~Welling, ``{Auto-Encoding Variational Bayes},'' in {\em 2nd
   International Conference on Learning Representations, {ICLR} 2014, Banff, AB,
   Canada, April 14-16, 2014, Conference Track Proceedings}, 2014.
 
+\bibitem{park2021object}
+J.~Park, Y.~Seo, C.~Liu, L.~Zhao, T.~Qin, J.~Shin, and T.-Y. Liu,
+  ``Object-aware regularization for addressing causal confusion in imitation
+  learning,'' {\em Advances in Neural Information Processing Systems}, vol.~34,
+  pp.~3029--3042, 2021.
+
+\bibitem{belkhale2023plato}
+S.~Belkhale and D.~Sadigh, ``Plato: Predicting latent affordances through
+  object-centric play,'' in {\em Conference on Robot Learning}, pp.~1424--1434,
+  PMLR, 2023.
+
+\bibitem{zhu2023viola}
+Y.~Zhu, A.~Joshi, P.~Stone, and Y.~Zhu, ``Viola: Object-centric imitation
+  learning for vision-based robot manipulation,'' in {\em Conference on Robot
+  Learning}, pp.~1199--1210, PMLR, 2023.
+
+\bibitem{he2017mask}
+K.~He, G.~Gkioxari, P.~Doll{\'a}r, and R.~Girshick, ``Mask r-cnn,'' in {\em
+  Proceedings of the IEEE international conference on computer vision},
+  pp.~2961--2969, 2017.
+
+\bibitem{perez2018film}
+E.~Perez, F.~Strub, H.~De~Vries, V.~Dumoulin, and A.~Courville, ``Film: Visual
+  reasoning with a general conditioning layer,'' in {\em Proceedings of the
+  AAAI conference on artificial intelligence}, vol.~32, 2018.
+
 \end{thebibliography}
