@@ -1,0 +1,18 @@
+\subsection{Object Oriented Multi-Task Learning from Demonstration}
+\label{sec:obj_oriented_multi_task_lfd}
+As discussed in Section \ref{sec:baseline_definition}, the system is capable of generating valid trajectories but struggles to select the correct object. To test the hypothesis that enhancing the control module with low-level information, such as the target object's position, would simplify the control task and lead to improved performance, we trained a model similar to the one proposed in \cite{mandi2022towards_more_generalizable_one_shot}, but giving in input to the control module also the information about the target-object position, rapresented by the bounding box coordinates.
+Consequently the novel system can be defined as a \textit{Conditioned-Policy} $\pi^{L}(a_{t} | o_{t}, d_{task}, bb_{t})$ that generates the current action $a_{t}$ based on 3 inputs: \begin{enumerate*}[label=(\arabic*)]
+    \item The current observation $o_{t}$;
+    \item The task description $d_{task}$;
+    \item The target-object bounding box $bb_{t}$.
+\end{enumerate*}
+\newline Table \ref{table:performance_with_bounding_box}, reportes the results obtained on the two tasks pick-place and nut-assembly, comparing the results obtained in Section \ref{sec:baseline_definition}, with two different conditions:
+\begin{enumerate*}[label=(\arabic*)]
+    \item The control module receives in input the ground truth bounding box;
+    \item The control module receives in input the bounding box predicted with the module designed in Section \ref{sec:cond_target_obj_detector}.
+\end{enumerate*}
+\newline Table \ref{table:performance_with_bounding_box} reports the results obtained by adding the low-level bounding-box information to the control module.
+\input{Table/performance_with_bb.tex}
+As it can be noted, we obtain a relevant improvement in both the reaching-rate, since the robot is always able to reach the target object identified by the predicted bounding-box. Proving that, learn to reach a target object starting from a low-level information (e.g., bounding-box) is easier to learn to reach the same target starting from an high-level information (e.g., command and current observation). We obtain also a relevant improvement in success-rate for pick-place task. Whith the system that shows novel error distributions reported in Table \ref{table:baseline_with_bb_error_cases}.
+\input{Table/baseline_plus_ctod.tex}
+\newline \textbf{TO COMPLETE WITH LAST CONSIDERATIONS}

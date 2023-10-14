@@ -1,0 +1,18 @@
+\begin{table}[bth!]
+    \centering
+    \caption{Conditioned Target Object Detector prediction distribution}
+    \fontsize{10pt}{10pt}
+    \selectfont
+    \label{table:ctdo_prediction_distribution}
+    \begin{tblr}{
+        width = \linewidth,
+        colspec = {Q[185]Q[73]Q[162]Q[177]Q[162]Q[177]},
+        cells = {c},
+        hlines,
+        hline{1,4} = {-}{0.08em},
+            }
+        {\textbf{Task } \\\textbf{(\#Frames)}} & \textbf{TP} & {\textbf{FP }\\\textbf{pre-picking}} & {\textbf{FP }\\\textbf{post-picking}} & {\textbf{FN }\\\textbf{pre-picking}} & {\textbf{FN }\\\textbf{post-picking}} \\
+        {Pick-Place     \\(11229)}                & 9718        & 625                                  & 812                                   & 74                                   & 0                                     \\
+        {Nut-Assembly   \\(5643)}                & 5187        & 186                                  & 80                                    & 10                                   & 0
+    \end{tblr}
+\end{table}

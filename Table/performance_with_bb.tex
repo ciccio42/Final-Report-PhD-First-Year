@@ -1,0 +1,22 @@
+\begin{table}[htb]
+    \centering
+    \fontsize{11pt}{11pt}
+    \selectfont
+    \caption{Performance comparison on pick-place and nut-assembly tasks, adding the information about the target object position}
+    \label{table:performance_with_bounding_box}
+    \resizebox{\linewidth}{!}{%
+        \begin{tabular}{>{\centering\hspace{0pt}}m{0.192\linewidth}>{\centering\hspace{0pt}}m{0.35\linewidth}>{\centering\hspace{0pt}}m{0.142\linewidth}>{\centering\hspace{0pt}}m{0.115\linewidth}>{\centering\arraybackslash\hspace{0pt}}m{0.131\linewidth}}
+            \hline
+            \textbf{Task}                             & \textbf{Setup}             & \begin{tabular}[c]{@{}c@{}}\textbf{Reaching} \\\textbf{Rate }\\{[}\%]\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Picking}\\\textbf{Rate }\\{[}\%]\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Success}\\\textbf{Rate}\\{[}\%]\end{tabular} \\
+            \hline
+            \multirow{3}{*}{\Centering{}Pick-Place}   & Baseline                   & 66.8                                                                                                     & 64.3                                                                                                   & 58.7                                                                                                  \\
+                                                      & Baseline with GT bb        & 100                                                                                                      & 96.5                                                                                                   & 76.8                                                                                                  \\
+                                                      & Baseline with predicted bb & \textbf{97.5}                                                                                            & \textbf{92.5}                                                                                          & \textbf{78.1}                                                                                         \\
+            \hline
+            \multirow{3}{*}{\Centering{}Nut-Assembly} & Baseline                   & 40.0                                                                                                     & 38.8                                                                                                   & 36.6                                                                                                  \\
+                                                      & Baseline with GT bb        & -                                                                                                        & -                                                                                                      & -                                                                                                     \\
+                                                      & Baseline with predicted bb & -                                                                                                        & -                                                                                                      & -                                                                                                     \\
+            \hline
+        \end{tabular}
+    }
+\end{table}

@@ -590,4 +590,19 @@ E.~Perez, F.~Strub, H.~De~Vries, V.~Dumoulin, and A.~Courville, ``Film: Visual
   reasoning with a general conditioning layer,'' in {\em Proceedings of the
   AAAI conference on artificial intelligence}, vol.~32, 2018.
 
+\bibitem{resnet}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' in {\em 2016 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pp.~770--778, 2016.
+
+\bibitem{resnet21}
+D.~Tran, H.~Wang, L.~Torresani, J.~Ray, Y.~LeCun, and M.~Paluri, ``A closer
+  look at spatiotemporal convolutions for action recognition,'' in {\em
+  Proceedings of the IEEE conference on Computer Vision and Pattern
+  Recognition}, pp.~6450--6459, 2018.
+
+\bibitem{fastrcnn}
+R.~Girshick, ``Fast r-cnn,'' in {\em 2015 IEEE International Conference on
+  Computer Vision (ICCV)}, pp.~1440--1448, 2015.
+
 \end{thebibliography}
