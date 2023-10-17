@@ -2,15 +2,15 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {1.1}{\ignorespaces Statistics of Training set, and Test Success rate \cite {zhang2018deep_vr_teleoperation}\relax }}{12}{table.caption.10}%
 \contentsline {table}{\numberline {1.2}{\ignorespaces Results obtained in single-task and multi-task one-shot imitation learning \cite {mandi2022towards_more_generalizable_one_shot}.\relax }}{17}{table.caption.15}%
-\contentsline {table}{\numberline {1.3}{\ignorespaces Distribution of tasks in large-scale dataset proposed in \cite {brohan2022rt}\relax }}{18}{table.caption.20}%
+\contentsline {table}{\numberline {1.3}{\ignorespaces Distribution of tasks in large-scale dataset proposed in \cite {brohan2022rt}\relax }}{19}{table.caption.20}%
 \contentsline {table}{\numberline {1.5}{\ignorespaces Results reported in \cite {brohan2022rt} by training the same model RT-1 with different dataset size\relax }}{19}{table.caption.21}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Reference dataset's cardinality\relax }}{37}{table.caption.32}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Baseline performance\relax }}{40}{table.caption.37}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Relevant error cases in pick-place task (\ref {table:baseline_pick_place}) and nut-assembly task (\ref {table:baseline_nut_assembly})\relax }}{41}{table.caption.38}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Conditioned-Target Object Detector performance\relax }}{42}{table.caption.41}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Conditioned Target Object Detector prediction distribution\relax }}{42}{table.caption.42}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Performance comparison on pick-place and nut-assembly tasks, adding the information about the target object position\relax }}{43}{table.caption.44}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Relevant error cases in pick-place task (\ref {table:baseline_with_bb_pp}) and nut-assembly task (\ref {table:baseline_with_bb_na})\relax }}{44}{table.caption.45}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Reference dataset's cardinality\relax }}{38}{table.caption.32}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Baseline performance\relax }}{41}{table.caption.37}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Relevant error cases in pick-place task (\ref {table:baseline_pick_place}) and nut-assembly task (\ref {table:baseline_nut_assembly})\relax }}{42}{table.caption.38}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Conditioned-Target Object Detector performance\relax }}{43}{table.caption.41}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Conditioned Target Object Detector prediction distribution\relax }}{43}{table.caption.42}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Performance comparison on pick-place and nut-assembly tasks, adding the information about the target object position\relax }}{44}{table.caption.44}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Relevant error cases in pick-place task (\ref {table:baseline_with_bb_pp}) and nut-assembly task (\ref {table:baseline_with_bb_na})\relax }}{45}{table.caption.45}%
 \addvspace {10\p@ }

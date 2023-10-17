@@ -7,9 +7,10 @@ Imitation Learning aims to obtain an agent that can replicate the behavior demon
               \item A state-action sequence, i.e., $\boldsymbol{\tau}_{i} = [s_{0}, a_{0}, \dots, s_{T}, a_{T}]$, when it is assumed to have access to the ground-truth action performed by the expert.
               \item A state sequence, i.e., $\boldsymbol{\tau}_{i} = [s_{0}, \dots, s_{T}]$, when it is assumed to not have access to the ground-truth action.
           \end{itemize}
-    \item $\boldsymbol{c}_{i}$ is the \textit{context-vector}, it contains task-related information, e.g. the initial state of the system $s_{0}$, the position of the target object, or a representation of the task to be executed (e.g., natural language description of the task or video demonstrations).
+    \item $c_{i}$ is the \textit{context-vector}, it contains task-related information, e.g. the initial state of the system $s_{0}$, the position of the target object, or a representation of the task to be executed (e.g., natural language description of the task or video demonstrations).
 \end{itemize}
 The state $s_{i}$ can be represented by combination of images representing the robot's workspace and robot's proprioceptive information such as joints position, velocities and torques. While the ground truth action can be obtained by teleoperation or kinesthetic teaching (Section \ref{sec:source_of_demonstration}).
+\newline The policy $\pi^{L}$ can be defined in two distinct ways. In one case, it is described as a deterministic function, meaning that it directly determines the action as follows: $a_{t} = \pi^{L}(s_{t}, c_{i})$. In the other case, it takes on a probabilistic definition, where it represents a probability distribution from which to sample the desired action: $a_{t} \sim \pi^{L}(s_{t}, c_{i})$.
 \newline The policy $\pi^{L}$ can be defined with respect to different abstraction levels \cite{fang2019survey,osa2018algorithmic}:
 \begin{enumerate*}[label=(\textbf{\alph*})]
     \item \textit{Symbolic Characterization}, the policy maps states, and context to a sequence of options, i.e., $\pi: s_{t}, \textbf{c} \rightarrow [o_1, \dots, o_T]$, where each option is a sequence of actions. With this representation, complex tasks can be decomposed into a sequence of simple movements. However, it is hard to achieve an accurate task segmentation and motion ordering;

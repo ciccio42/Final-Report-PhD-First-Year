@@ -8,27 +8,27 @@
 \contentsline {paragraph}{Direct Demonstration}{8}{figure.caption.7}%
 \contentsline {paragraph}{Indirect Demonstration}{9}{figure.caption.8}%
 \contentsline {subsection}{\numberline {1.2.3}Methods}{9}{subsection.1.2.3}%
-\contentsline {paragraph}{Behavioral Cloning (BC).}{9}{subsection.1.2.3}%
+\contentsline {paragraph}{Behavioral Cloning (BC).}{10}{subsection.1.2.3}%
 \contentsline {paragraph}{Inverse Reinforcement Learning (IRL)}{21}{Item.32}%
 \contentsline {paragraph}{Generative Adversarial Imitation Learning (GAIL)}{23}{figure.caption.22}%
 \contentsline {paragraph}{Learning from Observation (LfO)}{25}{figure.caption.24}%
-\contentsline {subsection}{\numberline {1.2.4}Summary}{30}{subsection.1.2.4}%
-\contentsline {chapter}{\numberline {2}Research Plan}{32}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Research Topic}{32}{section.2.1}%
-\contentsline {paragraph}{\textit {Reason-then-act: How the separation between perception and action can affect the performance of an Imitation-Learning System}}{33}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Proposed Research Activity}{35}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Preliminary Results}{37}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Dataset Description}{37}{section.3.1}%
-\contentsline {paragraph}{Simulated Dataset}{37}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Experiments Results}{40}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Baseline Definition}{40}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Conditioned-Target Object Detector}{41}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Object Oriented Multi-Task Learning from Demonstration}{43}{subsection.3.2.3}%
-\contentsline {chapter}{\numberline {4}Other Activities}{45}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Attended Courses}{45}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Compulsary Courses}{45}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Other Activities}{45}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Mandatory requirements}{46}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}International Conference as presenting author and Paper as corresponding author}{46}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Period Abroad}{46}{subsection.4.3.2}%
-\contentsline {chapter}{Bibliography}{47}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {1.2.4}Summary}{31}{subsection.1.2.4}%
+\contentsline {chapter}{\numberline {2}Research Plan}{33}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Research Topic}{33}{section.2.1}%
+\contentsline {paragraph}{\textit {Reason-then-act: How the separation between perception and action can affect the performance of an Imitation-Learning System}}{34}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Proposed Research Activity}{36}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Preliminary Results}{38}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Dataset Description}{38}{section.3.1}%
+\contentsline {paragraph}{Simulated Dataset}{38}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Experiments Results}{41}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Baseline Definition}{41}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Conditioned-Target Object Detector}{42}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Object Oriented Multi-Task Learning from Demonstration}{44}{subsection.3.2.3}%
+\contentsline {chapter}{\numberline {4}Other Activities}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Attended Courses}{46}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Compulsary Courses}{46}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Other Activities}{46}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Mandatory requirements}{47}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}International Conference as presenting author and Paper as corresponding author}{47}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Period Abroad}{47}{subsection.4.3.2}%
+\contentsline {chapter}{Bibliography}{48}{subsection.4.3.2}%
