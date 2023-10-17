@@ -1,35 +1,36 @@
 \babel@toc {american}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Industrial Robots: example of applications\relax }}{4}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Graphical Representation of Reinforcement Learning Methods \cite {levine202rl_tutorial}\relax }}{6}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Imitation Learning: Taxonomy and main components\relax }}{7}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Examples of Direct Demonstration\relax }}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces System diagram of Roboturk \cite {mandlekar2018roboturk}\relax }}{11}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Architecture proposed in \cite {zhang2018deep_vr_teleoperation}\relax }}{15}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Tasks performed in \cite {yu2018daml}. (Top row) Human demonstration, (Bottom row) robot demonstration. (Left) Placing task, (Middle) pushing task, (Right) pick-and-place task.\relax }}{16}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Architecture proposed in \cite {james2018task_embedded}\relax }}{17}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces MOSAIC architecture \cite {mandi2022towards_more_generalizable_one_shot}\relax }}{18}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces MOSAIC \cite {mandi2022towards_more_generalizable_one_shot} proposed tasks\relax }}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Architecture proposed in \cite {stepputtis2020language}\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {1.12}{\ignorespaces Set of object used in \cite {stepputtis2020language} (left), sample of task execution (right)\relax }}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Architecture proposed in \cite {jang2022bc_z}\relax }}{21}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.14}{\ignorespaces Household scenarios proposed in \cite {brohan2022rt} (Figure \ref {fig:rt_1_dataset}), architecture proposed in \cite {brohan2022rt} (Figure \ref {fig:rt_1_model})\relax }}{21}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.15}{\ignorespaces Architecture proposed in \cite {das2021model_based_irl_from_vd}\relax }}{26}{figure.caption.22}%
-\contentsline {figure}{\numberline {1.16}{\ignorespaces Experimental results on tasks without and with spurious features \cite {zolna2021task_relevant_ail}\relax }}{28}{figure.caption.23}%
-\contentsline {figure}{\numberline {1.17}{\ignorespaces Control tasks solved in \cite {rafailov2021visual_ail}. From left to right: cheetah run, walker walk, car racing, claw rotate, baoding balls\relax }}{29}{figure.caption.24}%
-\contentsline {figure}{\numberline {1.18}{\ignorespaces Representation of embodiment mismatch problem. (Left) The source domain represented by a video of human performing a task. (Right) The target domain, represented by the robot that executes the observed task.\relax }}{29}{figure.caption.25}%
-\contentsline {figure}{\numberline {1.19}{\ignorespaces Temporal-Cycle Consistency representation, used to learn an embodiment-agnostic encoder in \cite {zakka2022xirl}\relax }}{30}{figure.caption.26}%
-\contentsline {figure}{\numberline {1.20}{\ignorespaces Examples of how the mismatch between demonstrator viewpoint and learner viewpoint can be handled.\relax }}{31}{figure.caption.27}%
-\contentsline {figure}{\numberline {1.21}{\ignorespaces Experimental results reported in \cite {torabi2018gaifo}.\relax }}{33}{figure.caption.28}%
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Representation of the learning procedure proposed by \cite {torabi2018bco}\relax }}{34}{figure.caption.29}%
-\contentsline {figure}{\numberline {1.23}{\ignorespaces DEAILO: (\ref {fig:dealio_task}) Control Tasks, (\ref {fig:dealio_performance}) Performance Level\relax }}{35}{figure.caption.30}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Industrial Robots: example of applications\relax }}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Graphical Representation of Reinforcement Learning Methods \cite {levine202rl_tutorial}\relax }}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Imitation Learning: Taxonomy and main components\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Examples of Direct Demonstration\relax }}{8}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces System diagram of Roboturk \cite {mandlekar2018roboturk}\relax }}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Architecture proposed in \cite {zhang2018deep_vr_teleoperation}\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Tasks performed in \cite {yu2018daml}. (Top row) Human demonstration, (Bottom row) robot demonstration. (Left) Placing task, (Middle) pushing task, (Right) pick-and-place task.\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Architecture proposed in \cite {james2018task_embedded}\relax }}{14}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces MOSAIC architecture \cite {mandi2022towards_more_generalizable_one_shot}\relax }}{15}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces MOSAIC \cite {mandi2022towards_more_generalizable_one_shot} proposed tasks\relax }}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Architecture proposed in \cite {stepputtis2020language}\relax }}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Set of object used in \cite {stepputtis2020language} (left), sample of task execution (right)\relax }}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Architecture proposed in \cite {jang2022bc_z}\relax }}{18}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Household scenarios proposed in \cite {brohan2022rt} (Figure \ref {fig:rt_1_dataset}), architecture proposed in \cite {brohan2022rt} (Figure \ref {fig:rt_1_model})\relax }}{18}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.15}{\ignorespaces Architecture proposed in \cite {das2021model_based_irl_from_vd}\relax }}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.16}{\ignorespaces Experimental results on tasks without and with spurious features \cite {zolna2021task_relevant_ail}\relax }}{24}{figure.caption.23}%
+\contentsline {figure}{\numberline {1.17}{\ignorespaces Control tasks solved in \cite {rafailov2021visual_ail}. From left to right: cheetah run, walker walk, car racing, claw rotate, baoding balls\relax }}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.18}{\ignorespaces Representation of embodiment mismatch problem. (Left) The source domain represented by a video of human performing a task. (Right) The target domain, represented by the robot that executes the observed task.\relax }}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {1.19}{\ignorespaces Temporal-Cycle Consistency representation, used to learn an embodiment-agnostic encoder in \cite {zakka2022xirl}\relax }}{26}{figure.caption.26}%
+\contentsline {figure}{\numberline {1.20}{\ignorespaces Examples of how the mismatch between demonstrator viewpoint and learner viewpoint can be handled.\relax }}{27}{figure.caption.27}%
+\contentsline {figure}{\numberline {1.21}{\ignorespaces Experimental results reported in \cite {torabi2018gaifo}.\relax }}{28}{figure.caption.28}%
+\contentsline {figure}{\numberline {1.22}{\ignorespaces Representation of the learning procedure proposed by \cite {torabi2018bco}\relax }}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {1.23}{\ignorespaces DEAILO: (\ref {fig:dealio_task}) Control Tasks, (\ref {fig:dealio_performance}) Performance Level\relax }}{31}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Vision Question and Answering task}, starting from a an image and a text, the method is able to generate an answer by focusing on specific part of the image based on the question.\relax }}{41}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Vision Question and Answering task}, starting from a an image and a text, the method is able to generate an answer by focusing on specific part of the image based on the question.\relax }}{36}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of variations for the Pick and Place task. The same set of variations is repeated for each block\relax }}{45}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of variations for the Nut-Assembly. The same set of variations is repeated for each nut\relax }}{45}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Trajectory Distribution along the y axis for the first variation of Pick-Place (\ref {fig:pick_place_first_variation}) and Nut-Assembly (\ref {fig:nut_assembly_first_variation}) task\relax }}{45}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Example of error where the robot complete the task but with a wrong object\relax }}{47}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Proposed architecture for solving the Conditioned-Target Object Detector\relax }}{47}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Example of predictions during trajectory execution\relax }}{49}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of variations for the Pick and Place task. The same set of variations is repeated for each block. Left the agent UR5e, Right the demonstrator Panda\relax }}{38}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of variations for the Nut-Assembly. The same set of variations is repeated for each nut. Left the agent UR5e, Right the demonstrator Panda\relax }}{39}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Trajectory Distribution along the y axis for the first variation of Pick-Place (\ref {fig:pick_place_first_variation}) and Nut-Assembly (\ref {fig:nut_assembly_first_variation}) task\relax }}{39}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Frames of pick-place task from different cameras\relax }}{39}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Example of error where the robot complete the task but with a wrong object\relax }}{40}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Proposed architecture for solving the Conditioned-Target Object Detector\relax }}{41}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Example of predictions during trajectory execution\relax }}{43}{figure.caption.43}%
 \addvspace {10\p@ }

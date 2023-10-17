@@ -1,10 +1,10 @@
 \subsection{Object Oriented Multi-Task Learning from Demonstration}
 \label{sec:obj_oriented_multi_task_lfd}
 As discussed in Section \ref{sec:baseline_definition}, the system is capable of generating valid trajectories but struggles to select the correct object. To test the hypothesis that enhancing the control module with low-level information, such as the target object's position, would simplify the control task and lead to improved performance, we trained a model similar to the one proposed in \cite{mandi2022towards_more_generalizable_one_shot}, but giving in input to the control module also the information about the target-object position, rapresented by the bounding box coordinates.
-Consequently the novel system can be defined as a \textit{Conditioned-Policy} $\pi^{L}(a_{t} | o_{t}, d_{task}, bb_{t})$ that generates the current action $a_{t}$ based on 3 inputs: \begin{enumerate*}[label=(\arabic*)]
-    \item The current observation $o_{t}$;
-    \item The task description $d_{task}$;
-    \item The target-object bounding box $bb_{t}$.
+Consequently the novel system can be defined as a \textit{Conditioned-Policy} $\pi^{L}_{\theta}(a_{t} | s_{t}, c_{m_{i}}, bb_{t}^{target})$ that generates the current action $a_{t}$ based on 3 inputs: \begin{enumerate*}[label=(\arabic*)]
+    \item The current observation $s_{t}$;
+    \item The task description $c_{m_{i}}$;
+    \item The target-object bounding box $bb_{t}^{target}$.
 \end{enumerate*}
 \newline Table \ref{table:performance_with_bounding_box}, reportes the results obtained on the two tasks pick-place and nut-assembly, comparing the results obtained in Section \ref{sec:baseline_definition}, with two different conditions:
 \begin{enumerate*}[label=(\arabic*)]
