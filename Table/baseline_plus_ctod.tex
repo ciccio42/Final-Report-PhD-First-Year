@@ -1,9 +1,9 @@
-\begin{table}[bth!]
+\begin{table}[htb!]
     \caption{Relevant error cases in pick-place task (\ref{table:baseline_with_bb_pp}) and nut-assembly task (\ref{table:baseline_with_bb_na})}
     \label{table:baseline_with_bb_error_cases}
+    \fontsize{7pt}{7pt}\selectfont
     \begin{subtable}[h]{0.45\textwidth}
         \centering
-        \fontsize{9pt}{9pt}
         \selectfont
         \caption{Relevant error cases in pick-place task}
         \label{table:baseline_with_bb_pp}
@@ -14,17 +14,19 @@
                 hline{1,5} = {-}{0.08em},
                     }
                 \textbf{Error case} & \textbf{\#Occurrences} \\
-                Wrong bin           & 17                     \\
+                \textbf{Wrong bin}  & \textbf{17 }           \\
                 Fail to pick        & 9                      \\
                 Other               & 8
             \end{tblr}
         }
     \end{subtable}
+    \vspace{10px}
     \hfill
     \begin{subtable}[h]{0.45\textwidth}
         \centering
         \caption{Relevant error cases in nut-assembly task}
         \label{table:baseline_with_bb_na}
+        \fontsize{7pt}{7pt}\selectfont
         \resizebox{\linewidth}{!}{%
             \begin{tblr}{
                 cells = {c},
@@ -32,9 +34,9 @@
                 hline{1,5} = {-}{0.08em},
                     }
                 \textbf{Error case} & \textbf{\#Occurrences} \\
-                -                   & -                      \\
-                -                   & -                      \\
-                -                   & -
+                {\textbf{Wrong object}                       \\\textbf{correct peg}} & \textbf{30}            \\
+                {Wrong object                                \\wrong peg}                     & 22                     \\
+                {Correct object                              \\wrong peg}                  & 11
             \end{tblr}
         }
     \end{subtable}

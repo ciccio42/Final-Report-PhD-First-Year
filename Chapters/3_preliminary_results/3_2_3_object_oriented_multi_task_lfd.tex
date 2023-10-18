@@ -1,18 +1,24 @@
 \subsection{Object Oriented Multi-Task Learning from Demonstration}
 \label{sec:obj_oriented_multi_task_lfd}
 As discussed in Section \ref{sec:baseline_definition}, the system is capable of generating valid trajectories but struggles to select the correct object. To test the hypothesis that enhancing the control module with low-level information, such as the target object's position, would simplify the control task and lead to improved performance, we trained a model similar to the one proposed in \cite{mandi2022towards_more_generalizable_one_shot}, but giving in input to the control module also the information about the target-object position, rapresented by the bounding box coordinates.
-Consequently the novel system can be defined as a \textit{Conditioned-Policy} $\pi^{L}_{\theta}(a_{t} | s_{t}, c_{m_{i}}, bb_{t}^{target})$ that generates the current action $a_{t}$ based on 3 inputs: \begin{enumerate*}[label=(\arabic*)]
-    \item The current observation $s_{t}$;
-    \item The task description $c_{m_{i}}$;
-    \item The target-object bounding box $bb_{t}^{target}$.
+Consequently the novel system can be defined as a Conditioned-Policy $\pi^{L}_{\theta}(a_{t} | s_{t}, c_{m_{i}}, bb_{t}^{target})$ that generates the current action $a_{t}$ based on 3 inputs: \begin{enumerate*}[label=(\arabic*)]
+    \item The current agent observation $s_{t} \in \mathbb{R}^{H \times W \times 3}$;
+    \item The task command $c_{m_{i}} \in \mathbb{R}^{4 \times H \times W \times 3}$;
+    \item The target-object bounding box $bb_{t}^{target} \in \mathbb{N}^{4}$.
 \end{enumerate*}
-\newline Table \ref{table:performance_with_bounding_box}, reportes the results obtained on the two tasks pick-place and nut-assembly, comparing the results obtained in Section \ref{sec:baseline_definition}, with two different conditions:
+\newline Table \ref{table:performance_with_bounding_box} provides a clear comparison between the outcomes achieved using the baseline approach and those achieved with our proposed method. We specifically applied two different variations for the analysis:
 \begin{enumerate*}[label=(\arabic*)]
-    \item The control module receives in input the ground truth bounding box;
+    \item The control module receives in input the Ground Truth (GT) bounding box;
     \item The control module receives in input the bounding box predicted with the module designed in Section \ref{sec:cond_target_obj_detector}.
 \end{enumerate*}
 \newline Table \ref{table:performance_with_bounding_box} reports the results obtained by adding the low-level bounding-box information to the control module.
 \input{Table/performance_with_bb.tex}
-As it can be noted, we obtain a relevant improvement in both the reaching-rate, since the robot is always able to reach the target object identified by the predicted bounding-box. Proving that, learn to reach a target object starting from a low-level information (e.g., bounding-box) is easier to learn to reach the same target starting from an high-level information (e.g., command and current observation). We obtain also a relevant improvement in success-rate for pick-place task. Whith the system that shows novel error distributions reported in Table \ref{table:baseline_with_bb_error_cases}.
+From these results we can draw the following preliminary conclusions: \begin{enumerate*}[label=(\arabic*)]
+    \item Incorporating bounding-box information proves to be beneficial for system performance. When the control module is provided with ground-truth data as input, it results in a consistent ability of the system to reach the target object and effectively accomplish the task. This enhancement is reflected in improved success rates for both the pick-place and nut-assembly tasks;
+    \item While the introduction of the Conditioned-Target Object Detector module shows promising aspects, notably the substantial 19.4\% increase in success rate for the pick-place task, it also brings to light limitations tied to what is termed "error propagation". In other words, errors originating from an upstream module can influence subsequent modules in the system. This limitation becomes evident in the nut-assembly task, where there is a notable decline in performance. In this scenario, the prediction module encounters difficulties in accurately identifying the correct object, particularly during the initial frame. As a consequence, the robot ends up choosing the wrong object, as reported in Table \ref{table:baseline_with_bb_na} and illustrated in Figure \ref{fig:nut_assembly_error}. It's important to emphasize that we did not observe this phenomenon in Section \ref{sec:cond_target_obj_detector}. \hl{In that case, the module initially generated a false-positive prediction in the first frame. However, once the robot made its first movement toward the correct object, the subsequent predictions were accurate. This observation suggests the potential existence of a correlation between the position of the robot's arm and the predicted bounding box.}
+\end{enumerate*}
+\change{Possibile spiegazione dei risultati ottenuti}
 \input{Table/baseline_plus_ctod.tex}
-\newline \textbf{TO COMPLETE WITH LAST CONSIDERATIONS}
+\input{Figures/nut_assembly_error.tex}
+
+In conclusion, the proposed approach has initiated the validation of the hypothesis that dividing the Decision-Making Process into two stages, with explicit handling of a task associated with the Command-Analysis stage, could potentially yield a more robust system. However, there are several areas where improvements are needed, particularly concerning the Conditioned-Target Object Detector. Enhancements should focus on improving the initial frame predictions to minimize object confusion and the potential correlation with the position of the robot's arm. These improvements can be achieved through the application of appropriate data augmentation techniques, such as introducing bounding boxes that do not encompass any objects and categorizing them as ``no-target", or by adding random patches within the robot's arm region. Furthermore, following this validation in a simulated environment, our next step is to extend the modules to a real-world controlled setting, leveraging the framework described and detailed in Section \ref{sec:dataset_description}.

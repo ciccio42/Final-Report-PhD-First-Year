@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  17 OCT 2023 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  18 OCT 2023 16:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,30 +943,178 @@ Package: amsthm 2020/05/29 v2.20.6
 \dth@everypar=\toks62
 ) (c:/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count407
+\l__lipsum_a_int=\count408
+\l__lipsum_b_int=\count409
+ (c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (c:/texlive/2022/texmf-dist/tex/latex/xargs/xargs.sty
+Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
+\xargs@max=\count410
+\xargs@toksa=\toks63
+\xargs@toksb=\toks64
+) (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (c:/texlive/2022/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box113
 )
-\c@prop=\count407
+\tc@llx=\dimen397
+\tc@lly=\dimen398
+\tc@urx=\dimen399
+\tc@ury=\dimen400
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (c:/texlive/2022/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen401
+\adjbox@Height=\dimen402
+\adjbox@Depth=\dimen403
+\adjbox@Totalheight=\dimen404
+\adjbox@pwidth=\dimen405
+\adjbox@pheight=\dimen406
+\adjbox@pdepth=\dimen407
+\adjbox@ptotalheight=\dimen408
+ (c:/texlive/2022/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count411
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)) (c:/texlive/2022/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count412
+) (c:/texlive/2022/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+ (c:/texlive/2022/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count413
+Package zref Info: New property: abspage on input line 66.
+) (c:/texlive/2022/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip110
+\c@mdf@globalstyle@cnt=\count414
+\mdf@skipabove@length=\skip111
+\mdf@skipbelow@length=\skip112
+\mdf@leftmargin@length=\skip113
+\mdf@rightmargin@length=\skip114
+\mdf@innerleftmargin@length=\skip115
+\mdf@innerrightmargin@length=\skip116
+\mdf@innertopmargin@length=\skip117
+\mdf@innerbottommargin@length=\skip118
+\mdf@splittopskip@length=\skip119
+\mdf@splitbottomskip@length=\skip120
+\mdf@outermargin@length=\skip121
+\mdf@innermargin@length=\skip122
+\mdf@linewidth@length=\skip123
+\mdf@innerlinewidth@length=\skip124
+\mdf@middlelinewidth@length=\skip125
+\mdf@outerlinewidth@length=\skip126
+\mdf@roundcorner@length=\skip127
+\mdf@footenotedistance@length=\skip128
+\mdf@userdefinedwidth@length=\skip129
+\mdf@needspace@length=\skip130
+\mdf@frametitleaboveskip@length=\skip131
+\mdf@frametitlebelowskip@length=\skip132
+\mdf@frametitlerulewidth@length=\skip133
+\mdf@frametitleleftmargin@length=\skip134
+\mdf@frametitlerightmargin@length=\skip135
+\mdf@shadowsize@length=\skip136
+\mdf@extratopheight@length=\skip137
+\mdf@subtitleabovelinewidth@length=\skip138
+\mdf@subtitlebelowlinewidth@length=\skip139
+\mdf@subtitleaboveskip@length=\skip140
+\mdf@subtitlebelowskip@length=\skip141
+\mdf@subtitleinneraboveskip@length=\skip142
+\mdf@subtitleinnerbelowskip@length=\skip143
+\mdf@subsubtitleabovelinewidth@length=\skip144
+\mdf@subsubtitlebelowlinewidth@length=\skip145
+\mdf@subsubtitleaboveskip@length=\skip146
+\mdf@subsubtitlebelowskip@length=\skip147
+\mdf@subsubtitleinneraboveskip@length=\skip148
+\mdf@subsubtitleinnerbelowskip@length=\skip149
+ (c:/texlive/2022/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box114
+\mdf@footnotebox=\box115
+\mdf@splitbox@one=\box116
+\mdf@splitbox@two=\box117
+\mdf@splitbox@save=\box118
+\mdfsplitboxwidth=\skip150
+\mdfsplitboxtotalwidth=\skip151
+\mdfsplitboxheight=\skip152
+\mdfsplitboxdepth=\skip153
+\mdfsplitboxtotalheight=\skip154
+\mdfframetitleboxwidth=\skip155
+\mdfframetitleboxtotalwidth=\skip156
+\mdfframetitleboxheight=\skip157
+\mdfframetitleboxdepth=\skip158
+\mdfframetitleboxtotalheight=\skip159
+\mdffootnoteboxwidth=\skip160
+\mdffootnoteboxtotalwidth=\skip161
+\mdffootnoteboxheight=\skip162
+\mdffootnoteboxdepth=\skip163
+\mdffootnoteboxtotalheight=\skip164
+\mdftotallinewidth=\skip165
+\mdfboundingboxwidth=\skip166
+\mdfboundingboxtotalwidth=\skip167
+\mdfboundingboxheight=\skip168
+\mdfboundingboxdepth=\skip169
+\mdfboundingboxtotalheight=\skip170
+\mdf@freevspace@length=\skip171
+\mdf@horizontalwidthofbox@length=\skip172
+\mdf@verticalmarginwhole@length=\skip173
+\mdf@horizontalspaceofbox=\skip174
+\mdfsubtitleheight=\skip175
+\mdfsubsubtitleheight=\skip176
+\c@mdfcountframes=\count415
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count416
+\c@mdf@env@i=\count417
+\c@mdf@env@ii=\count418
+\c@mdf@zref@counter=\count419
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (c:/texlive/2022/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count420
+)
+\c@prop=\count421
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-Package hyperref Info: Link coloring OFF on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+Package hyperref Info: Link coloring OFF on input line 122.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -974,24 +1122,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count408
+\c@section@level=\count422
 )
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
+LaTeX Info: Redefining \ref on input line 122.
+LaTeX Info: Redefining \pageref on input line 122.
+LaTeX Info: Redefining \nameref on input line 122.
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count409
-\scratchdimen=\dimen397
-\scratchbox=\box113
-\nofMPsegments=\count410
-\nofMParguments=\count411
-\everyMPshowfont=\toks63
-\MPscratchCnt=\count412
-\MPscratchDim=\dimen398
-\MPnumerator=\count413
-\makeMPintoPDFobject=\count414
-\everyMPtoPDFconversion=\toks64
+\scratchcounter=\count423
+\scratchdimen=\dimen409
+\scratchbox=\box119
+\nofMPsegments=\count424
+\nofMParguments=\count425
+\everyMPshowfont=\toks65
+\MPscratchCnt=\count426
+\MPscratchDim=\dimen410
+\MPnumerator=\count427
+\makeMPintoPDFobject=\count428
+\everyMPtoPDFconversion=\toks66
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -999,12 +1147,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 111.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 122.
 
 
-Package chemgreek Info: Activating mapping `default' on line 111.
+Package chemgreek Info: Activating mapping `default' on line 122.
 
-\c@lstlisting=\count415
+\c@lstlisting=\count429
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1076,10 +1224,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \newpage
+l.132 \newpage
                [1
 
-] (./Chapters/0_overview/0_overview.tex) (./Chapters/1_background/1_background.tex [2
+]
+Package marginnote Info: Using workaround for absolute page number on input line 132.
+ (./Chapters/0_overview/0_overview.tex) (./Chapters/1_background/1_background.tex [2
 
 
 ]
@@ -1325,15 +1475,41 @@ Overfull \hbox (1.26286pt too wide) in paragraph at lines 18--41
 
 )) (./Chapters/1_background/sota_sections/1_2_4_summary.tex [30 <./Figures/images/bco/bco.jpg>]))) [31 <./Figures/images/dealio/dealio_performed_task.jpg> <./Figures/images/dealio/dealio_performance.jpg>] (./Chapters/2_research_plan/2_research_plan.tex [32]
 Chapter 2.
-(./Chapters/2_research_plan/2_1_research_topic.tex [33
+(./Chapters/2_research_plan/2_1_research_topic.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 3.
+ [33
 
-] [34]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex [35] (./Figures/film_attention_mechanism.tex
-<Figures/images/film/film_attention.png, id=909, 1212.02812pt x 447.17062pt>
+] [34]
+
+LaTeX Warning: Marginpar on page 35 moved.
+
+
+Overfull \hbox (12.849pt too wide) in paragraph at lines 27--27
+[][][]\OT1/cmr/m/n/10 Osservazioni 
+ []
+
+
+Overfull \hbox (12.849pt too wide) in paragraph at lines 27--27
+[][][]\OT1/cmr/m/n/10 Osservazioni 
+ []
+
+) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex [35] (./Figures/film_attention_mechanism.tex
+<Figures/images/film/film_attention.png, id=918, 1212.02812pt x 447.17062pt>
 File: Figures/images/film/film_attention.png Graphic file (type png)
 <use Figures/images/film/film_attention.png>
 Package pdftex.def Info: Figures/images/film/film_attention.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 141.71239pt.
-) [36])) (./Chapters/3_preliminary_results/3_preliminary_results.tex [37 <./Figures/images/film/film_attention.png>]
+) [36]
+Overfull \hbox (6.73787pt too wide) in paragraph at lines 8--8
+[][][]\OT1/cmr/m/n/10 Definizione 
+ []
+
+
+Overfull \hbox (6.73787pt too wide) in paragraph at lines 8--8
+[][][]\OT1/cmr/m/n/10 Definizione 
+ []
+
+)) [37 <./Figures/images/film/film_attention.png>] (./Chapters/3_preliminary_results/3_preliminary_results.tex [38]
 Chapter 3.
 (./Chapters/3_preliminary_results/3_1_dataset_description.tex (./Table/dataset_table.tex
 > Step: init table outer spec.
@@ -1344,77 +1520,77 @@ Chapter 3.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [38
+) [39
 
 ] (./Figures/dataset_examples.tex
-<Figures/images/pick_place/task_1.png, id=959, 307.90031pt x 119.69719pt>
+<Figures/images/pick_place/task_1.png, id=974, 307.90031pt x 119.69719pt>
 File: Figures/images/pick_place/task_1.png Graphic file (type png)
 <use Figures/images/pick_place/task_1.png>
 Package pdftex.def Info: Figures/images/pick_place/task_1.png  used on input line 5.
 (pdftex.def)             Requested size: 128.0387pt x 49.77568pt.
-<Figures/images/pick_place/task_2.png, id=960, 307.90031pt x 120.45pt>
+<Figures/images/pick_place/task_2.png, id=975, 307.90031pt x 120.45pt>
 File: Figures/images/pick_place/task_2.png Graphic file (type png)
 <use Figures/images/pick_place/task_2.png>
 Package pdftex.def Info: Figures/images/pick_place/task_2.png  used on input line 12.
 (pdftex.def)             Requested size: 128.0387pt x 50.08873pt.
-<Figures/images/pick_place/task_3.png, id=961, 308.65312pt x 120.45pt>
+<Figures/images/pick_place/task_3.png, id=976, 308.65312pt x 120.45pt>
 File: Figures/images/pick_place/task_3.png Graphic file (type png)
 <use Figures/images/pick_place/task_3.png>
 Package pdftex.def Info: Figures/images/pick_place/task_3.png  used on input line 19.
 (pdftex.def)             Requested size: 128.0387pt x 49.96742pt.
-<Figures/images/pick_place/task_4.png, id=962, 307.90031pt x 119.69719pt>
+<Figures/images/pick_place/task_4.png, id=977, 307.90031pt x 119.69719pt>
 File: Figures/images/pick_place/task_4.png Graphic file (type png)
 <use Figures/images/pick_place/task_4.png>
 Package pdftex.def Info: Figures/images/pick_place/task_4.png  used on input line 26.
 (pdftex.def)             Requested size: 128.0387pt x 49.77568pt.
-<Figures/images/nut_assembly/task_1.png, id=963, 237.13594pt x 109.91063pt>
+<Figures/images/nut_assembly/task_1.png, id=978, 237.13594pt x 109.91063pt>
 File: Figures/images/nut_assembly/task_1.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_1.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_1.png  used on input line 38.
 (pdftex.def)             Requested size: 128.0387pt x 59.34749pt.
-<Figures/images/nut_assembly/task_2.png, id=964, 236.38312pt x 110.66344pt>
+<Figures/images/nut_assembly/task_2.png, id=979, 236.38312pt x 110.66344pt>
 File: Figures/images/nut_assembly/task_2.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_2.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_2.png  used on input line 45.
 (pdftex.def)             Requested size: 128.0387pt x 59.9431pt.
-<Figures/images/nut_assembly/task_3.png, id=965, 237.13594pt x 111.41624pt>
+<Figures/images/nut_assembly/task_3.png, id=980, 237.13594pt x 111.41624pt>
 File: Figures/images/nut_assembly/task_3.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_3.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_3.png  used on input line 52.
 (pdftex.def)             Requested size: 128.0387pt x 60.16046pt.
 ) (./Figures/dataset_distribution.tex
-<Figures/images/dataset_distribution/pick_place_variation_0_y.png, id=966, 1077.5457pt x 180.675pt>
+<Figures/images/dataset_distribution/pick_place_variation_0_y.png, id=981, 1077.5457pt x 180.675pt>
 File: Figures/images/dataset_distribution/pick_place_variation_0_y.png Graphic file (type png)
 <use Figures/images/dataset_distribution/pick_place_variation_0_y.png>
 Package pdftex.def Info: Figures/images/dataset_distribution/pick_place_variation_0_y.png  used on input line 5.
 (pdftex.def)             Requested size: 384.1096pt x 64.40335pt.
-<Figures/images/dataset_distribution/nut_assembly_variation_0_y.png, id=967, 1077.5457pt x 187.1793pt>
+<Figures/images/dataset_distribution/nut_assembly_variation_0_y.png, id=982, 1077.5457pt x 187.1793pt>
 File: Figures/images/dataset_distribution/nut_assembly_variation_0_y.png Graphic file (type png)
 <use Figures/images/dataset_distribution/nut_assembly_variation_0_y.png>
 Package pdftex.def Info: Figures/images/dataset_distribution/nut_assembly_variation_0_y.png  used on input line 12.
 (pdftex.def)             Requested size: 384.1096pt x 66.72188pt.
 ) (./Figures/real_dataset.tex
-<Figures/images/dataset_real_robot/frontal_camera.png, id=977, 713.66624pt x 98.61844pt>
+<Figures/images/dataset_real_robot/frontal_camera.png, id=992, 713.66624pt x 98.61844pt>
 File: Figures/images/dataset_real_robot/frontal_camera.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/frontal_camera.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/frontal_camera.png  used on input line 5.
 (pdftex.def)             Requested size: 192.0548pt x 26.53854pt.
-<Figures/images/dataset_real_robot/lateral_left.png, id=978, 709.90219pt x 95.6072pt>
+<Figures/images/dataset_real_robot/lateral_left.png, id=993, 709.90219pt x 95.6072pt>
 File: Figures/images/dataset_real_robot/lateral_left.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/lateral_left.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/lateral_left.png  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 25.86534pt.
-<Figures/images/dataset_real_robot/lateral_right.png, id=979, 710.655pt x 99.37125pt>
+<Figures/images/dataset_real_robot/lateral_right.png, id=994, 710.655pt x 99.37125pt>
 File: Figures/images/dataset_real_robot/lateral_right.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/lateral_right.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/lateral_right.png  used on input line 17.
 (pdftex.def)             Requested size: 192.0548pt x 26.85484pt.
-<Figures/images/dataset_real_robot/gripper_camera.png, id=980, 712.16063pt x 97.11281pt>
+<Figures/images/dataset_real_robot/gripper_camera.png, id=995, 712.16063pt x 97.11281pt>
 File: Figures/images/dataset_real_robot/gripper_camera.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/gripper_camera.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/gripper_camera.png  used on input line 23.
 (pdftex.def)             Requested size: 192.0548pt x 26.1882pt.
- [39 <./Figures/images/pick_place/task_1.png> <./Figures/images/pick_place/task_2.png> <./Figures/images/pick_place/task_3.png> <./Figures/images/pick_place/task_4.png>])) (./Chapters/3_preliminary_results/3_2_method_results.tex [40 <./Figures/images/nut_assembly/task_1.png> <./Figures/images/nut_assembly/task_2.png> <./Figures/images/nut_assembly/task_3.png> <./Figures/images/dataset_distribution/pick_place_variation_0_y.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0_y.png> <./Figures/images/dataset_real_robot/frontal_camera.png> <./Figures/images/dataset_real_robot/lateral_left.png> <./Figures/images/dataset_real_robot/lateral_right.png> <./Figures/images/dataset_real_robot/gripper_camera.png>] (./Chapters/3_preliminary_results/3_2_1_baseline_definition.tex (./Table/baseline_performance.tex
+ [40 <./Figures/images/pick_place/task_1.png> <./Figures/images/pick_place/task_2.png> <./Figures/images/pick_place/task_3.png> <./Figures/images/pick_place/task_4.png>])) (./Chapters/3_preliminary_results/3_2_method_results.tex [41 <./Figures/images/nut_assembly/task_1.png> <./Figures/images/nut_assembly/task_2.png> <./Figures/images/nut_assembly/task_3.png> <./Figures/images/dataset_distribution/pick_place_variation_0_y.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0_y.png> <./Figures/images/dataset_real_robot/frontal_camera.png> <./Figures/images/dataset_real_robot/lateral_left.png> <./Figures/images/dataset_real_robot/lateral_right.png> <./Figures/images/dataset_real_robot/gripper_camera.png>] (./Chapters/3_preliminary_results/3_2_1_baseline_definition.tex (./Table/baseline_performance.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
 
 
@@ -1434,18 +1610,18 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 17.
 
 ) (./Table/baseline_error_cases.tex) (./Figures/baseline_pick_place_error.tex
-<Figures/images/baseline_pick_place_error/pick_place_trj.png, id=1025, 853.68938pt x 149.05687pt>
+<Figures/images/baseline_pick_place_error/pick_place_trj.png, id=1041, 853.68938pt x 149.05687pt>
 File: Figures/images/baseline_pick_place_error/pick_place_trj.png Graphic file (type png)
 <use Figures/images/baseline_pick_place_error/pick_place_trj.png>
 Package pdftex.def Info: Figures/images/baseline_pick_place_error/pick_place_trj.png  used on input line 3.
 (pdftex.def)             Requested size: 256.07741pt x 44.71284pt.
-)) (./Chapters/3_preliminary_results/3_2_2_cond_target_obj_detector.tex (./Figures/ctod.tex
-<Figures/images/ctod/ctod.png, id=1031, 458.9145pt x 162.6075pt>
+)) [42] (./Chapters/3_preliminary_results/3_2_2_cond_target_obj_detector.tex (./Figures/ctod.tex
+<Figures/images/ctod/ctod.png, id=1058, 458.9145pt x 162.6075pt>
 File: Figures/images/ctod/ctod.png Graphic file (type png)
 <use Figures/images/ctod/ctod.png>
 Package pdftex.def Info: Figures/images/ctod/ctod.png  used on input line 3.
 (pdftex.def)             Requested size: 341.43437pt x 120.98021pt.
-) (./Table/ctod_performance.tex) [41 <./Figures/images/baseline_pick_place_error/pick_place_trj.png>] [42 <./Figures/images/ctod/ctod.png>] (./Table/object_detector_error_cases.tex
+) (./Table/ctod_performance.tex) [43 <./Figures/images/baseline_pick_place_error/pick_place_trj.png> <./Figures/images/ctod/ctod.png>] (./Table/object_detector_error_cases.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1455,7 +1631,7 @@ Package pdftex.def Info: Figures/images/ctod/ctod.png  used on input line 3.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 ) (./Figures/ctod_trajectory_example.tex
-<Figures/images/object_detector/example_prediction.png, id=1060, 1269.24188pt x 191.21437pt>
+<Figures/images/object_detector/example_prediction.png, id=1076, 1269.24188pt x 191.21437pt>
 File: Figures/images/object_detector/example_prediction.png Graphic file (type png)
 <use Figures/images/object_detector/example_prediction.png>
 Package pdftex.def Info: Figures/images/object_detector/example_prediction.png  used on input line 3.
@@ -1477,25 +1653,31 @@ Package pdftex.def Info: Figures/images/object_detector/example_prediction.png  
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-)))) [43] (./Chapters/4_other_activities/4_Other_activities.tex [44 <./Figures/images/object_detector/example_prediction.png>] [45]
+) (./Figures/nut_assembly_error.tex
+<Figures/images/nut_assembly_error/nut_assembly_error.png, id=1089, 463.7325pt x 100.87688pt>
+File: Figures/images/nut_assembly_error/nut_assembly_error.png Graphic file (type png)
+<use Figures/images/nut_assembly_error/nut_assembly_error.png>
+Package pdftex.def Info: Figures/images/nut_assembly_error/nut_assembly_error.png  used on input line 3.
+(pdftex.def)             Requested size: 384.1096pt x 83.55846pt.
+) [44 <./Figures/images/object_detector/example_prediction.png>] [45]))) (./Chapters/4_other_activities/4_Other_activities.tex [46 <./Figures/images/nut_assembly_error/nut_assembly_error.png>]
 Chapter 4.
-(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [46
+(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [47
 
-]) (./Chapters/4_other_activities/4_3_Mandatory_Activity.tex)) [47] (./main.bbl [48
+]) (./Chapters/4_other_activities/4_3_Mandatory_Activity.tex)) [48] (./main.bbl [49
 
 
-] [49] [50] [51] [52] [53] [54] [55]) [56] (./main.lof [57
+] [50] [51] [52] [53] [54] [55] [56]) [57] (./main.lof [58
 
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [58] (./main.lot)
+ [59] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [59
+ [60
 
 ] (./main.aux)
 
@@ -1504,21 +1686,21 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 33747 strings out of 478268
- 654212 string characters out of 5850344
- 1009569 words of memory out of 5000000
- 50720 multiletter control sequences out of 15000+600000
+ 36534 strings out of 478268
+ 709058 string characters out of 5850344
+ 1182233 words of memory out of 5000000
+ 53427 multiletter control sequences out of 15000+600000
  497189 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,20n,117p,3681b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,20n,117p,3681b,1112s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (60 pages, 9813990 bytes).
+Output written on main.pdf (61 pages, 9980972 bytes).
 PDF statistics:
- 1521 PDF objects out of 1728 (max. 8388607)
- 1269 compressed objects within 13 object streams
- 336 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1552 PDF objects out of 1728 (max. 8388607)
+ 1297 compressed objects within 13 object streams
+ 353 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
