@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  18 OCT 2023 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  20 OCT 2023 09:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1235,12 +1235,12 @@ Package marginnote Info: Using workaround for absolute page number on input line
 ]
 Chapter 1.
 (./Chapters/1_background/1_1_Introduction.tex (./Figures/industrial_robots_examples.tex
-<Figures/images/welding.jpg, id=95, 963.6pt x 642.14906pt>
+<Figures/images/welding.jpg, id=96, 963.6pt x 642.14906pt>
 File: Figures/images/welding.jpg Graphic file (type jpg)
 <use Figures/images/welding.jpg>
 Package pdftex.def Info: Figures/images/welding.jpg  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 127.9866pt.
-<Figures/images/loading.jpg, id=96, 577.40718pt x 324.46219pt>
+<Figures/images/loading.jpg, id=97, 577.40718pt x 324.46219pt>
 File: Figures/images/loading.jpg Graphic file (type jpg)
 <use Figures/images/loading.jpg>
 Package pdftex.def Info: Figures/images/loading.jpg  used on input line 17.
@@ -1248,23 +1248,23 @@ Package pdftex.def Info: Figures/images/loading.jpg  used on input line 17.
 ) [3
 
  <./Figures/images/welding.jpg> <./Figures/images/loading.jpg>] [4] (./Figures/rl_methods.tex
-<Figures/images/RL_methods/onpolicy.jpg, id=149, 189.5883pt x 126.4725pt>
+<Figures/images/RL_methods/onpolicy.jpg, id=150, 189.5883pt x 126.4725pt>
 File: Figures/images/RL_methods/onpolicy.jpg Graphic file (type jpg)
 <use Figures/images/RL_methods/onpolicy.jpg>
 Package pdftex.def Info: Figures/images/RL_methods/onpolicy.jpg  used on input line 5.
 (pdftex.def)             Requested size: 106.69783pt x 71.17726pt.
-<Figures/images/RL_methods/offpolicy.jpg, id=150, 188.6247pt x 125.7498pt>
+<Figures/images/RL_methods/offpolicy.jpg, id=151, 188.6247pt x 125.7498pt>
 File: Figures/images/RL_methods/offpolicy.jpg Graphic file (type jpg)
 <use Figures/images/RL_methods/offpolicy.jpg>
 Package pdftex.def Info: Figures/images/RL_methods/offpolicy.jpg  used on input line 11.
 (pdftex.def)             Requested size: 106.69783pt x 71.13318pt.
-<Figures/images/RL_methods/offline.jpg, id=151, 306.4248pt x 143.8173pt>
+<Figures/images/RL_methods/offline.jpg, id=152, 306.4248pt x 143.8173pt>
 File: Figures/images/RL_methods/offline.jpg Graphic file (type jpg)
 <use Figures/images/RL_methods/offline.jpg>
 Package pdftex.def Info: Figures/images/RL_methods/offline.jpg  used on input line 17.
 (pdftex.def)             Requested size: 149.37958pt x 70.109pt.
 ) (./Figures/il_taxonomy_and_main_components.tex
-<Figures/images/il_taxonomy.png, id=157, 783.92876pt x 472.76625pt>
+<Figures/images/il_taxonomy.png, id=158, 783.92876pt x 472.76625pt>
 File: Figures/images/il_taxonomy.png Graphic file (type png)
 <use Figures/images/il_taxonomy.png>
 Package pdftex.def Info: Figures/images/il_taxonomy.png  used on input line 3.
@@ -1275,18 +1275,18 @@ Overfull \hbox (4.4667pt too wide) in paragraph at lines 12--22
  []
 
 [7]) (./Chapters/1_background/sota_sections/1_2_2_source_of_demonstration.tex (./Figures/direct_demonstration.tex
-<Figures/images/direct_demonstration/kinesthetic.jpg, id=211, 731.73375pt x 548.80031pt>
+<Figures/images/direct_demonstration/kinesthetic.jpg, id=212, 731.73375pt x 548.80031pt>
 File: Figures/images/direct_demonstration/kinesthetic.jpg Graphic file (type jpg)
 <use Figures/images/direct_demonstration/kinesthetic.jpg>
 Package pdftex.def Info: Figures/images/direct_demonstration/kinesthetic.jpg  used on input line 4.
 (pdftex.def)             Requested size: 192.0548pt x 144.04129pt.
-<Figures/images/direct_demonstration/teleoperation.jpg, id=214, 734.745pt x 472.01344pt>
+<Figures/images/direct_demonstration/teleoperation.jpg, id=215, 734.745pt x 472.01344pt>
 File: Figures/images/direct_demonstration/teleoperation.jpg Graphic file (type jpg)
 <use Figures/images/direct_demonstration/teleoperation.jpg>
 Package pdftex.def Info: Figures/images/direct_demonstration/teleoperation.jpg  used on input line 10.
 (pdftex.def)             Requested size: 213.39568pt x 137.08925pt.
 ) (./Figures/roboturk.tex
-<Figures/images/indirect_demonstration/roboturk.jpg, id=225, 1048.66782pt x 417.05812pt>
+<Figures/images/indirect_demonstration/roboturk.jpg, id=226, 1048.66782pt x 417.05812pt>
 File: Figures/images/indirect_demonstration/roboturk.jpg Graphic file (type jpg)
 <use Figures/images/indirect_demonstration/roboturk.jpg>
 Package pdftex.def Info: Figures/images/indirect_demonstration/roboturk.jpg  used on input line 3.
@@ -1294,13 +1294,13 @@ Package pdftex.def Info: Figures/images/indirect_demonstration/roboturk.jpg  use
  [8 <./Figures/images/direct_demonstration/kinesthetic.jpg> <./Figures/images/direct_demonstration/teleoperation.jpg>])) (./Chapters/1_background/sota_sections/1_2_3_methods.tex (./Chapters/1_background/sota_sections/bc.tex [9 <./Figures/images/indirect_demonstration/roboturk.jpg>] (./Algorithm/algorithm_bc.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 2.
 ) (./Formula/dmp.tex) (./Algorithm/dagger.tex) [10] [11] (./Figures/deep_visual_bc.tex
-<Figures/images/deep_imitation_bc/deep_imitation_bc.jpg, id=317, 1001.24063pt x 255.20343pt>
+<Figures/images/deep_imitation_bc/deep_imitation_bc.jpg, id=318, 1001.24063pt x 255.20343pt>
 File: Figures/images/deep_imitation_bc/deep_imitation_bc.jpg Graphic file (type jpg)
 <use Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>
 Package pdftex.def Info: Figures/images/deep_imitation_bc/deep_imitation_bc.jpg  used on input line 3.
 (pdftex.def)             Requested size: 341.43437pt x 87.02892pt.
 ) (./Table/deep_bc_teleoperation_results.tex) (./Algorithm/maml.tex) (./Formula/daml.tex [12 <./Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>]) (./Figures/daml.tex
-<Figures/images/daml/tasks.jpg, id=348, 1028.34187pt x 168.63pt>
+<Figures/images/daml/tasks.jpg, id=349, 1028.34187pt x 168.63pt>
 File: Figures/images/daml/tasks.jpg Graphic file (type jpg)
 <use Figures/images/daml/tasks.jpg>
 Package pdftex.def Info: Figures/images/daml/tasks.jpg  used on input line 3.
@@ -1310,48 +1310,48 @@ Package pdftex.def Info: Figures/images/daml/tasks.jpg  used on input line 3.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] (./Formula/loss_functions.tex) (./Figures/task_embedded.tex
-<Figures/images/task_embedded/task_embedded.png, id=385, 508.90125pt x 121.95563pt>
+<Figures/images/task_embedded/task_embedded.png, id=386, 508.90125pt x 121.95563pt>
 File: Figures/images/task_embedded/task_embedded.png Graphic file (type png)
 <use Figures/images/task_embedded/task_embedded.png>
 Package pdftex.def Info: Figures/images/task_embedded/task_embedded.png  used on input line 3.
 (pdftex.def)             Requested size: 298.75264pt x 71.59775pt.
 ) (./Figures/mosaic.tex
-<Figures/images/mosaic/mosaic.jpg, id=396, 1006.51031pt x 342.5297pt>
+<Figures/images/mosaic/mosaic.jpg, id=397, 1006.51031pt x 342.5297pt>
 File: Figures/images/mosaic/mosaic.jpg Graphic file (type jpg)
 <use Figures/images/mosaic/mosaic.jpg>
 Package pdftex.def Info: Figures/images/mosaic/mosaic.jpg  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 130.71664pt.
  [14 <./Figures/images/daml/tasks.jpg>] [15 <./Figures/images/task_embedded/task_embedded.png>]
-<Figures/images/mosaic/mosaic_tasks.png, id=426, 740.7675pt x 570.63188pt>
+<Figures/images/mosaic/mosaic_tasks.png, id=427, 740.7675pt x 570.63188pt>
 File: Figures/images/mosaic/mosaic_tasks.png Graphic file (type png)
 <use Figures/images/mosaic/mosaic_tasks.png>
 Package pdftex.def Info: Figures/images/mosaic/mosaic_tasks.png  used on input line 10.
 (pdftex.def)             Requested size: 384.1096pt x 295.89441pt.
 ) (./Table/mosaic_results.tex) (./Figures/language_conditioned.tex
-<Figures/images/language_conditioned/architecture.png, id=439, 922.94812pt x 228.10219pt>
+<Figures/images/language_conditioned/architecture.png, id=440, 922.94812pt x 228.10219pt>
 File: Figures/images/language_conditioned/architecture.png Graphic file (type png)
 <use Figures/images/language_conditioned/architecture.png>
 Package pdftex.def Info: Figures/images/language_conditioned/architecture.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 94.92863pt.
  [16 <./Figures/images/mosaic/mosaic.jpg> <./Figures/images/mosaic/mosaic_tasks.png>]
-<Figures/images/language_conditioned/objects.png, id=447, 916.92563pt x 192.72pt>
+<Figures/images/language_conditioned/objects.png, id=448, 916.92563pt x 192.72pt>
 File: Figures/images/language_conditioned/objects.png Graphic file (type png)
 <use Figures/images/language_conditioned/objects.png>
 Package pdftex.def Info: Figures/images/language_conditioned/objects.png  used on input line 10.
 (pdftex.def)             Requested size: 384.1096pt x 80.73305pt.
 ) (./Figures/bc-z.tex
-<Figures/images/bc_z/bc-z-network.jpg, id=453, 1206.75844pt x 375.65344pt>
+<Figures/images/bc_z/bc-z-network.jpg, id=454, 1206.75844pt x 375.65344pt>
 File: Figures/images/bc_z/bc-z-network.jpg Graphic file (type jpg)
 <use Figures/images/bc_z/bc-z-network.jpg>
 Package pdftex.def Info: Figures/images/bc_z/bc-z-network.jpg  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 119.56956pt.
 ) (./Figures/rt1_model.tex
-<Figures/images/rt_1/dataset_image.png, id=463, 654.94687pt x 176.15813pt>
+<Figures/images/rt_1/dataset_image.png, id=464, 654.94687pt x 176.15813pt>
 File: Figures/images/rt_1/dataset_image.png Graphic file (type png)
 <use Figures/images/rt_1/dataset_image.png>
 Package pdftex.def Info: Figures/images/rt_1/dataset_image.png  used on input line 4.
 (pdftex.def)             Requested size: 192.0548pt x 51.65439pt.
-<Figures/images/rt_1/model.png, id=464, 778.40813pt x 199.49532pt>
+<Figures/images/rt_1/model.png, id=465, 778.40813pt x 199.49532pt>
 File: Figures/images/rt_1/model.png Graphic file (type png)
 <use Figures/images/rt_1/model.png>
 Package pdftex.def Info: Figures/images/rt_1/model.png  used on input line 10.
@@ -1400,70 +1400,70 @@ Overfull \hbox (2.05382pt too wide) in paragraph at lines 28--28
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 ) [18 <./Figures/images/language_conditioned/objects.png> <./Figures/images/bc_z/bc-z-network.jpg>] [19 <./Figures/images/rt_1/dataset_image.png> <./Figures/images/rt_1/model.png>] [20]) (./Chapters/1_background/sota_sections/irl.tex (./Algorithm/irl_general_procedure.tex) (./Algorithm/guided_cost_learning_algorithm.tex) (./Figures/model-based-irl.tex
-<Figures/images/model_based_irl/model_based_irl.jpg, id=559, 1220.30907pt x 264.23718pt>
+<Figures/images/model_based_irl/model_based_irl.jpg, id=560, 1220.30907pt x 264.23718pt>
 File: Figures/images/model_based_irl/model_based_irl.jpg Graphic file (type jpg)
 <use Figures/images/model_based_irl/model_based_irl.jpg>
 Package pdftex.def Info: Figures/images/model_based_irl/model_based_irl.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 92.41585pt.
 )) (./Chapters/1_background/sota_sections/gail.tex [21] [22] (./Formula/gail.tex) (./Algorithm/algorithm_gail.tex) (./Figures/trail_results.tex
-<Figures/images/trail/trail_results.jpg, id=615, 1097.60063pt x 140.77594pt>
+<Figures/images/trail/trail_results.jpg, id=616, 1097.60063pt x 140.77594pt>
 File: Figures/images/trail/trail_results.jpg Graphic file (type jpg)
 <use Figures/images/trail/trail_results.jpg>
 Package pdftex.def Info: Figures/images/trail/trail_results.jpg  used on input line 3.
 (pdftex.def)             Requested size: 426.79135pt x 54.73912pt.
  [23 <./Figures/images/model_based_irl/model_based_irl.jpg>]) (./Formula/vmail.tex [24 <./Figures/images/trail/trail_results.jpg>]) (./Figures/vmail.tex
-<Figures/images/vmail/control-tasks.jpg, id=656, 808.52063pt x 156.585pt>
+<Figures/images/vmail/control-tasks.jpg, id=657, 808.52063pt x 156.585pt>
 File: Figures/images/vmail/control-tasks.jpg Graphic file (type jpg)
 <use Figures/images/vmail/control-tasks.jpg>
 Package pdftex.def Info: Figures/images/vmail/control-tasks.jpg  used on input line 3.
 (pdftex.def)             Requested size: 320.0935pt x 61.99255pt.
 )) (./Chapters/1_background/sota_sections/lfo.tex (./Figures/embodiment_mismatch.tex
-<Figures/images/embodiment_mismatch/embo.png, id=659, 1225.57875pt x 219.82124pt>
+<Figures/images/embodiment_mismatch/embo.png, id=660, 1225.57875pt x 219.82124pt>
 File: Figures/images/embodiment_mismatch/embo.png Graphic file (type png)
 <use Figures/images/embodiment_mismatch/embo.png>
 Package pdftex.def Info: Figures/images/embodiment_mismatch/embo.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 68.89186pt.
 ) (./Figures/xirl.tex
-<Figures/images/xirl/xirl.jpg, id=673, 656.4525pt x 398.23781pt>
+<Figures/images/xirl/xirl.jpg, id=674, 656.4525pt x 398.23781pt>
 File: Figures/images/xirl/xirl.jpg Graphic file (type jpg)
 <use Figures/images/xirl/xirl.jpg>
 Package pdftex.def Info: Figures/images/xirl/xirl.jpg  used on input line 3.
 (pdftex.def)             Requested size: 213.39568pt x 129.45613pt.
 ) (./Figures/different_viewpoint.tex
-<Figures/images/view_point_mismatch/time-contrastive-network.jpg, id=683, 674.52pt x 524.71031pt>
+<Figures/images/view_point_mismatch/time-contrastive-network.jpg, id=684, 674.52pt x 524.71031pt>
 File: Figures/images/view_point_mismatch/time-contrastive-network.jpg Graphic file (type jpg)
 <use Figures/images/view_point_mismatch/time-contrastive-network.jpg>
 Package pdftex.def Info: Figures/images/view_point_mismatch/time-contrastive-network.jpg  used on input line 5.
 (pdftex.def)             Requested size: 213.39568pt x 165.9972pt.
-<Figures/images/view_point_mismatch/context-translation-model.jpg, id=686, 458.46281pt x 316.18124pt>
+<Figures/images/view_point_mismatch/context-translation-model.jpg, id=687, 458.46281pt x 316.18124pt>
 File: Figures/images/view_point_mismatch/context-translation-model.jpg Graphic file (type jpg)
 <use Figures/images/view_point_mismatch/context-translation-model.jpg>
 Package pdftex.def Info: Figures/images/view_point_mismatch/context-translation-model.jpg  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 132.45267pt.
 ) [25 <./Figures/images/vmail/control-tasks.jpg>] [26 <./Figures/images/embodiment_mismatch/embo.png> <./Figures/images/xirl/xirl.jpg>] (./Algorithm/gaifo.tex) (./Figures/gaifo_results.tex
-<Figures/images/gaifo_results/gaifo_results.jpg, id=742, 916.92563pt x 233.37187pt>
+<Figures/images/gaifo_results/gaifo_results.jpg, id=743, 916.92563pt x 233.37187pt>
 File: Figures/images/gaifo_results/gaifo_results.jpg Graphic file (type jpg)
 <use Figures/images/gaifo_results/gaifo_results.jpg>
 Package pdftex.def Info: Figures/images/gaifo_results/gaifo_results.jpg  used on input line 5.
 (pdftex.def)             Requested size: 298.75264pt x 76.03725pt.
-<Figures/images/gaifo_results/gaifo_results_visual.jpg, id=743, 916.92563pt x 233.37187pt>
+<Figures/images/gaifo_results/gaifo_results_visual.jpg, id=744, 916.92563pt x 233.37187pt>
 File: Figures/images/gaifo_results/gaifo_results_visual.jpg Graphic file (type jpg)
 <use Figures/images/gaifo_results/gaifo_results_visual.jpg>
 Package pdftex.def Info: Figures/images/gaifo_results/gaifo_results_visual.jpg  used on input line 12.
 (pdftex.def)             Requested size: 298.75264pt x 76.03725pt.
  [27 <./Figures/images/view_point_mismatch/time-contrastive-network.jpg> <./Figures/images/view_point_mismatch/context-translation-model.jpg>]) (./Figures/bco.tex
-<Figures/images/bco/bco.jpg, id=764, 509.65407pt x 251.43938pt>
+<Figures/images/bco/bco.jpg, id=765, 509.65407pt x 251.43938pt>
 File: Figures/images/bco/bco.jpg Graphic file (type jpg)
 <use Figures/images/bco/bco.jpg>
 Package pdftex.def Info: Figures/images/bco/bco.jpg  used on input line 3.
 (pdftex.def)             Requested size: 256.07741pt x 126.34091pt.
 ) (./Formula/lqr_setting.tex [28] [29 <./Figures/images/gaifo_results/gaifo_results.jpg> <./Figures/images/gaifo_results/gaifo_results_visual.jpg>]) (./Formula/dealio_discriminator.tex) (./Figures/dealio_performance.tex
-<Figures/images/dealio/dealio_performed_task.jpg, id=808, 721.19438pt x 211.54031pt>
+<Figures/images/dealio/dealio_performed_task.jpg, id=809, 721.19438pt x 211.54031pt>
 File: Figures/images/dealio/dealio_performed_task.jpg Graphic file (type jpg)
 <use Figures/images/dealio/dealio_performed_task.jpg>
 Package pdftex.def Info: Figures/images/dealio/dealio_performed_task.jpg  used on input line 5.
 (pdftex.def)             Requested size: 256.07741pt x 75.11185pt.
-<Figures/images/dealio/dealio_performance.jpg, id=811, 1088.56688pt x 258.9675pt>
+<Figures/images/dealio/dealio_performance.jpg, id=812, 1088.56688pt x 258.9675pt>
 File: Figures/images/dealio/dealio_performance.jpg Graphic file (type jpg)
 <use Figures/images/dealio/dealio_performance.jpg>
 Package pdftex.def Info: Figures/images/dealio/dealio_performance.jpg  used on input line 12.
@@ -1475,41 +1475,15 @@ Overfull \hbox (1.26286pt too wide) in paragraph at lines 18--41
 
 )) (./Chapters/1_background/sota_sections/1_2_4_summary.tex [30 <./Figures/images/bco/bco.jpg>]))) [31 <./Figures/images/dealio/dealio_performed_task.jpg> <./Figures/images/dealio/dealio_performance.jpg>] (./Chapters/2_research_plan/2_research_plan.tex [32]
 Chapter 2.
-(./Chapters/2_research_plan/2_1_research_topic.tex
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 3.
- [33
+(./Chapters/2_research_plan/2_1_research_topic.tex [33
 
-] [34]
-
-LaTeX Warning: Marginpar on page 35 moved.
-
-
-Overfull \hbox (12.849pt too wide) in paragraph at lines 27--27
-[][][]\OT1/cmr/m/n/10 Osservazioni 
- []
-
-
-Overfull \hbox (12.849pt too wide) in paragraph at lines 27--27
-[][][]\OT1/cmr/m/n/10 Osservazioni 
- []
-
-) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex [35] (./Figures/film_attention_mechanism.tex
-<Figures/images/film/film_attention.png, id=918, 1212.02812pt x 447.17062pt>
+] [34]) (./Chapters/2_research_plan/2_2_proposed_research_activity.tex [35] (./Figures/film_attention_mechanism.tex
+<Figures/images/film/film_attention.png, id=910, 1212.02812pt x 447.17062pt>
 File: Figures/images/film/film_attention.png Graphic file (type png)
 <use Figures/images/film/film_attention.png>
 Package pdftex.def Info: Figures/images/film/film_attention.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 141.71239pt.
-) [36]
-Overfull \hbox (6.73787pt too wide) in paragraph at lines 8--8
-[][][]\OT1/cmr/m/n/10 Definizione 
- []
-
-
-Overfull \hbox (6.73787pt too wide) in paragraph at lines 8--8
-[][][]\OT1/cmr/m/n/10 Definizione 
- []
-
-)) [37 <./Figures/images/film/film_attention.png>] (./Chapters/3_preliminary_results/3_preliminary_results.tex [38]
+) [36])) (./Chapters/3_preliminary_results/3_preliminary_results.tex [37 <./Figures/images/film/film_attention.png>]
 Chapter 3.
 (./Chapters/3_preliminary_results/3_1_dataset_description.tex (./Table/dataset_table.tex
 > Step: init table outer spec.
@@ -1520,77 +1494,77 @@ Chapter 3.
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [39
+) [38
 
 ] (./Figures/dataset_examples.tex
-<Figures/images/pick_place/task_1.png, id=974, 307.90031pt x 119.69719pt>
+<Figures/images/pick_place/task_1.png, id=960, 307.90031pt x 119.69719pt>
 File: Figures/images/pick_place/task_1.png Graphic file (type png)
 <use Figures/images/pick_place/task_1.png>
 Package pdftex.def Info: Figures/images/pick_place/task_1.png  used on input line 5.
 (pdftex.def)             Requested size: 128.0387pt x 49.77568pt.
-<Figures/images/pick_place/task_2.png, id=975, 307.90031pt x 120.45pt>
+<Figures/images/pick_place/task_2.png, id=961, 307.90031pt x 120.45pt>
 File: Figures/images/pick_place/task_2.png Graphic file (type png)
 <use Figures/images/pick_place/task_2.png>
 Package pdftex.def Info: Figures/images/pick_place/task_2.png  used on input line 12.
 (pdftex.def)             Requested size: 128.0387pt x 50.08873pt.
-<Figures/images/pick_place/task_3.png, id=976, 308.65312pt x 120.45pt>
+<Figures/images/pick_place/task_3.png, id=962, 308.65312pt x 120.45pt>
 File: Figures/images/pick_place/task_3.png Graphic file (type png)
 <use Figures/images/pick_place/task_3.png>
 Package pdftex.def Info: Figures/images/pick_place/task_3.png  used on input line 19.
 (pdftex.def)             Requested size: 128.0387pt x 49.96742pt.
-<Figures/images/pick_place/task_4.png, id=977, 307.90031pt x 119.69719pt>
+<Figures/images/pick_place/task_4.png, id=963, 307.90031pt x 119.69719pt>
 File: Figures/images/pick_place/task_4.png Graphic file (type png)
 <use Figures/images/pick_place/task_4.png>
 Package pdftex.def Info: Figures/images/pick_place/task_4.png  used on input line 26.
 (pdftex.def)             Requested size: 128.0387pt x 49.77568pt.
-<Figures/images/nut_assembly/task_1.png, id=978, 237.13594pt x 109.91063pt>
+<Figures/images/nut_assembly/task_1.png, id=964, 237.13594pt x 109.91063pt>
 File: Figures/images/nut_assembly/task_1.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_1.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_1.png  used on input line 38.
 (pdftex.def)             Requested size: 128.0387pt x 59.34749pt.
-<Figures/images/nut_assembly/task_2.png, id=979, 236.38312pt x 110.66344pt>
+<Figures/images/nut_assembly/task_2.png, id=965, 236.38312pt x 110.66344pt>
 File: Figures/images/nut_assembly/task_2.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_2.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_2.png  used on input line 45.
 (pdftex.def)             Requested size: 128.0387pt x 59.9431pt.
-<Figures/images/nut_assembly/task_3.png, id=980, 237.13594pt x 111.41624pt>
+<Figures/images/nut_assembly/task_3.png, id=966, 237.13594pt x 111.41624pt>
 File: Figures/images/nut_assembly/task_3.png Graphic file (type png)
 <use Figures/images/nut_assembly/task_3.png>
 Package pdftex.def Info: Figures/images/nut_assembly/task_3.png  used on input line 52.
 (pdftex.def)             Requested size: 128.0387pt x 60.16046pt.
 ) (./Figures/dataset_distribution.tex
-<Figures/images/dataset_distribution/pick_place_variation_0_y.png, id=981, 1077.5457pt x 180.675pt>
+<Figures/images/dataset_distribution/pick_place_variation_0_y.png, id=967, 1077.5457pt x 180.675pt>
 File: Figures/images/dataset_distribution/pick_place_variation_0_y.png Graphic file (type png)
 <use Figures/images/dataset_distribution/pick_place_variation_0_y.png>
 Package pdftex.def Info: Figures/images/dataset_distribution/pick_place_variation_0_y.png  used on input line 5.
 (pdftex.def)             Requested size: 384.1096pt x 64.40335pt.
-<Figures/images/dataset_distribution/nut_assembly_variation_0_y.png, id=982, 1077.5457pt x 187.1793pt>
+<Figures/images/dataset_distribution/nut_assembly_variation_0_y.png, id=968, 1077.5457pt x 187.1793pt>
 File: Figures/images/dataset_distribution/nut_assembly_variation_0_y.png Graphic file (type png)
 <use Figures/images/dataset_distribution/nut_assembly_variation_0_y.png>
 Package pdftex.def Info: Figures/images/dataset_distribution/nut_assembly_variation_0_y.png  used on input line 12.
 (pdftex.def)             Requested size: 384.1096pt x 66.72188pt.
 ) (./Figures/real_dataset.tex
-<Figures/images/dataset_real_robot/frontal_camera.png, id=992, 713.66624pt x 98.61844pt>
+<Figures/images/dataset_real_robot/frontal_camera.png, id=978, 713.66624pt x 98.61844pt>
 File: Figures/images/dataset_real_robot/frontal_camera.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/frontal_camera.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/frontal_camera.png  used on input line 5.
 (pdftex.def)             Requested size: 192.0548pt x 26.53854pt.
-<Figures/images/dataset_real_robot/lateral_left.png, id=993, 709.90219pt x 95.6072pt>
+<Figures/images/dataset_real_robot/lateral_left.png, id=979, 709.90219pt x 95.6072pt>
 File: Figures/images/dataset_real_robot/lateral_left.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/lateral_left.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/lateral_left.png  used on input line 11.
 (pdftex.def)             Requested size: 192.0548pt x 25.86534pt.
-<Figures/images/dataset_real_robot/lateral_right.png, id=994, 710.655pt x 99.37125pt>
+<Figures/images/dataset_real_robot/lateral_right.png, id=980, 710.655pt x 99.37125pt>
 File: Figures/images/dataset_real_robot/lateral_right.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/lateral_right.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/lateral_right.png  used on input line 17.
 (pdftex.def)             Requested size: 192.0548pt x 26.85484pt.
-<Figures/images/dataset_real_robot/gripper_camera.png, id=995, 712.16063pt x 97.11281pt>
+<Figures/images/dataset_real_robot/gripper_camera.png, id=981, 712.16063pt x 97.11281pt>
 File: Figures/images/dataset_real_robot/gripper_camera.png Graphic file (type png)
 <use Figures/images/dataset_real_robot/gripper_camera.png>
 Package pdftex.def Info: Figures/images/dataset_real_robot/gripper_camera.png  used on input line 23.
 (pdftex.def)             Requested size: 192.0548pt x 26.1882pt.
- [40 <./Figures/images/pick_place/task_1.png> <./Figures/images/pick_place/task_2.png> <./Figures/images/pick_place/task_3.png> <./Figures/images/pick_place/task_4.png>])) (./Chapters/3_preliminary_results/3_2_method_results.tex [41 <./Figures/images/nut_assembly/task_1.png> <./Figures/images/nut_assembly/task_2.png> <./Figures/images/nut_assembly/task_3.png> <./Figures/images/dataset_distribution/pick_place_variation_0_y.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0_y.png> <./Figures/images/dataset_real_robot/frontal_camera.png> <./Figures/images/dataset_real_robot/lateral_left.png> <./Figures/images/dataset_real_robot/lateral_right.png> <./Figures/images/dataset_real_robot/gripper_camera.png>] (./Chapters/3_preliminary_results/3_2_1_baseline_definition.tex (./Table/baseline_performance.tex
+ [39 <./Figures/images/pick_place/task_1.png> <./Figures/images/pick_place/task_2.png> <./Figures/images/pick_place/task_3.png> <./Figures/images/pick_place/task_4.png>])) (./Chapters/3_preliminary_results/3_2_method_results.tex [40 <./Figures/images/nut_assembly/task_1.png> <./Figures/images/nut_assembly/task_2.png> <./Figures/images/nut_assembly/task_3.png> <./Figures/images/dataset_distribution/pick_place_variation_0_y.png> <./Figures/images/dataset_distribution/nut_assembly_variation_0_y.png> <./Figures/images/dataset_real_robot/frontal_camera.png> <./Figures/images/dataset_real_robot/lateral_left.png> <./Figures/images/dataset_real_robot/lateral_right.png> <./Figures/images/dataset_real_robot/gripper_camera.png>] (./Chapters/3_preliminary_results/3_2_1_baseline_definition.tex (./Table/baseline_performance.tex
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 17.
 
 
@@ -1610,18 +1584,18 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
 (Font)              size <5> substituted on input line 17.
 
 ) (./Table/baseline_error_cases.tex) (./Figures/baseline_pick_place_error.tex
-<Figures/images/baseline_pick_place_error/pick_place_trj.png, id=1041, 853.68938pt x 149.05687pt>
+<Figures/images/baseline_pick_place_error/pick_place_trj.png, id=1026, 853.68938pt x 149.05687pt>
 File: Figures/images/baseline_pick_place_error/pick_place_trj.png Graphic file (type png)
 <use Figures/images/baseline_pick_place_error/pick_place_trj.png>
 Package pdftex.def Info: Figures/images/baseline_pick_place_error/pick_place_trj.png  used on input line 3.
 (pdftex.def)             Requested size: 256.07741pt x 44.71284pt.
-)) [42] (./Chapters/3_preliminary_results/3_2_2_cond_target_obj_detector.tex (./Figures/ctod.tex
-<Figures/images/ctod/ctod.png, id=1058, 458.9145pt x 162.6075pt>
+)) [41] (./Chapters/3_preliminary_results/3_2_2_cond_target_obj_detector.tex (./Figures/ctod.tex
+<Figures/images/ctod/ctod.png, id=1043, 458.9145pt x 162.6075pt>
 File: Figures/images/ctod/ctod.png Graphic file (type png)
 <use Figures/images/ctod/ctod.png>
 Package pdftex.def Info: Figures/images/ctod/ctod.png  used on input line 3.
 (pdftex.def)             Requested size: 341.43437pt x 120.98021pt.
-) (./Table/ctod_performance.tex) [43 <./Figures/images/baseline_pick_place_error/pick_place_trj.png> <./Figures/images/ctod/ctod.png>] (./Table/object_detector_error_cases.tex
+) (./Table/ctod_performance.tex) [42 <./Figures/images/baseline_pick_place_error/pick_place_trj.png> <./Figures/images/ctod/ctod.png>] (./Table/object_detector_error_cases.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1631,7 +1605,7 @@ Package pdftex.def Info: Figures/images/ctod/ctod.png  used on input line 3.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 ) (./Figures/ctod_trajectory_example.tex
-<Figures/images/object_detector/example_prediction.png, id=1076, 1269.24188pt x 191.21437pt>
+<Figures/images/object_detector/example_prediction.png, id=1062, 1269.24188pt x 191.21437pt>
 File: Figures/images/object_detector/example_prediction.png Graphic file (type png)
 <use Figures/images/object_detector/example_prediction.png>
 Package pdftex.def Info: Figures/images/object_detector/example_prediction.png  used on input line 3.
@@ -1654,30 +1628,30 @@ Package pdftex.def Info: Figures/images/object_detector/example_prediction.png  
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
 ) (./Figures/nut_assembly_error.tex
-<Figures/images/nut_assembly_error/nut_assembly_error.png, id=1089, 463.7325pt x 100.87688pt>
+<Figures/images/nut_assembly_error/nut_assembly_error.png, id=1075, 463.7325pt x 100.87688pt>
 File: Figures/images/nut_assembly_error/nut_assembly_error.png Graphic file (type png)
 <use Figures/images/nut_assembly_error/nut_assembly_error.png>
 Package pdftex.def Info: Figures/images/nut_assembly_error/nut_assembly_error.png  used on input line 3.
 (pdftex.def)             Requested size: 384.1096pt x 83.55846pt.
-) [44 <./Figures/images/object_detector/example_prediction.png>] [45]))) (./Chapters/4_other_activities/4_Other_activities.tex [46 <./Figures/images/nut_assembly_error/nut_assembly_error.png>]
+) [43 <./Figures/images/object_detector/example_prediction.png>] [44]))) (./Chapters/4_other_activities/4_Other_activities.tex [45 <./Figures/images/nut_assembly_error/nut_assembly_error.png>]
 Chapter 4.
-(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [47
+(./Chapters/4_other_activities/4_1_Attended_Courses.tex (./Chapters/4_other_activities/4_1_1_Compulsary_courses.tex) (./Chapters/4_other_activities/4_1_2_Additional_Courses.tex)) (./Chapters/4_other_activities/4_2_Other_Activities.tex [46
 
-]) (./Chapters/4_other_activities/4_3_Mandatory_Activity.tex)) [48] (./main.bbl [49
+]) (./Chapters/4_other_activities/4_3_Mandatory_Activity.tex)) [47] (./main.bbl [48
 
 
-] [50] [51] [52] [53] [54] [55] [56]) [57] (./main.lof [58
+] [49] [50] [51] [52] [53] [54] [55]) [56] (./main.lof [57
 
 
 ])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [59] (./main.lot)
+ [58] (./main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [60
+ [59
 
 ] (./main.aux)
 
@@ -1686,10 +1660,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 36534 strings out of 478268
- 709058 string characters out of 5850344
- 1182233 words of memory out of 5000000
- 53427 multiletter control sequences out of 15000+600000
+ 36310 strings out of 478268
+ 704026 string characters out of 5850344
+ 1163432 words of memory out of 5000000
+ 53214 multiletter control sequences out of 15000+600000
  497189 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,20n,117p,3681b,1112s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1697,10 +1671,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (61 pages, 9980972 bytes).
+Output written on main.pdf (60 pages, 9961322 bytes).
 PDF statistics:
- 1552 PDF objects out of 1728 (max. 8388607)
- 1297 compressed objects within 13 object streams
- 353 named destinations out of 1000 (max. 500000)
+ 1535 PDF objects out of 1728 (max. 8388607)
+ 1281 compressed objects within 13 object streams
+ 342 named destinations out of 1000 (max. 500000)
  463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
