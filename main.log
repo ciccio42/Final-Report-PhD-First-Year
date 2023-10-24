@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  20 OCT 2023 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.24)  21 OCT 2023 11:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,13 +1294,13 @@ Package pdftex.def Info: Figures/images/indirect_demonstration/roboturk.jpg  use
  [8 <./Figures/images/direct_demonstration/kinesthetic.jpg> <./Figures/images/direct_demonstration/teleoperation.jpg>])) (./Chapters/1_background/sota_sections/1_2_3_methods.tex (./Chapters/1_background/sota_sections/bc.tex [9 <./Figures/images/indirect_demonstration/roboturk.jpg>] (./Algorithm/algorithm_bc.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 2.
 ) (./Formula/dmp.tex) (./Algorithm/dagger.tex) [10] [11] (./Figures/deep_visual_bc.tex
-<Figures/images/deep_imitation_bc/deep_imitation_bc.jpg, id=318, 1001.24063pt x 255.20343pt>
+<Figures/images/deep_imitation_bc/deep_imitation_bc.jpg, id=317, 1001.24063pt x 255.20343pt>
 File: Figures/images/deep_imitation_bc/deep_imitation_bc.jpg Graphic file (type jpg)
 <use Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>
 Package pdftex.def Info: Figures/images/deep_imitation_bc/deep_imitation_bc.jpg  used on input line 3.
 (pdftex.def)             Requested size: 341.43437pt x 87.02892pt.
 ) (./Table/deep_bc_teleoperation_results.tex) (./Algorithm/maml.tex) (./Formula/daml.tex [12 <./Figures/images/deep_imitation_bc/deep_imitation_bc.jpg>]) (./Figures/daml.tex
-<Figures/images/daml/tasks.jpg, id=349, 1028.34187pt x 168.63pt>
+<Figures/images/daml/tasks.jpg, id=348, 1028.34187pt x 168.63pt>
 File: Figures/images/daml/tasks.jpg Graphic file (type jpg)
 <use Figures/images/daml/tasks.jpg>
 Package pdftex.def Info: Figures/images/daml/tasks.jpg  used on input line 3.
@@ -1671,7 +1671,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{https://corsi.unisa.it/ingegneria-dell-informazione/didattica/guida-dello-studente} has been referenced but does not exist, replaced by a fixed one
 
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (60 pages, 9961316 bytes).
+Output written on main.pdf (60 pages, 9960974 bytes).
 PDF statistics:
  1535 PDF objects out of 1728 (max. 8388607)
  1281 compressed objects within 13 object streams
